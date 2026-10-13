@@ -1,0 +1,92 @@
+{
+  "brand_name": "آموزشگاه سینمایی و بازیگری آنک",
+  "site_language": "fa",
+  "site_direction": "rtl",
+  "market": "کرج، استان البرز، ایران (پل ارتباطی تهران و قم)",
+  "company_source_file": "input/companydata.txt",
+  "total_keyword_lines": 150,
+  "total_distinct_keywords": 150,
+  "source_duplicates": [],
+  "silos": [
+    {
+      "silo_id": "SILO_00",
+      "silo_name": "ناوبری، برند و لوکیشن",
+      "topic": "Brand, Institutional & Location Navigational – آدرس و کجاست",
+      "master_hub_slug": "/",
+      "keyword_file": "output/silos/silo_00_keywords.txt",
+      "keyword_count": 7,
+      "inclusion_logic": "شامل کلمات کلیدی حاوی آدرس، ادرس، و کجاست که قصد مسیریابی و یافتن مکان آموزشگاه را دارند؛ صرفاً ناوبری/لوکیشن بدون اشاره به رشته تخصصی جز فن بیان/بازیگری/خوشنویسی/موسیقی به عنوان نمونه مکان.",
+      "exclusion_logic": "حذف کلمات آموزشی تخصصی بدون قصد مکان‌محور؛ کلمات تخصصی به سیلوهای موضوعی خود منتقل شدند."
+    },
+    {
+      "silo_id": "SILO_01",
+      "silo_name": "بازیگری بزرگسال و تئاتر",
+      "topic": "Acting & Theater – Adult (بازیگری بزرگسال، نمایش خلاق، تست بازیگری)",
+      "master_hub_slug": "/bazi-gari/",
+      "keyword_file": "output/silos/silo_01_keywords.txt",
+      "keyword_count": 15,
+      "inclusion_logic": "کلمات حاوی بازیگری/نمایش خلاق/تست بازیگری بدون پسوند کودک/نوجوان؛ شامل انواع قیمت، شهریه، هزینه، بهترین، فردیس و کلماتی که وظیفه بزرگسال را نشان می‌دهند.",
+      "exclusion_logic": "حذف موارد کودک/نوجوان که به سیلوی جداگانه کودکان منتقل شد؛ حذف موارد فن بیان/موسیقی/عکاسی."
+    },
+    {
+      "silo_id": "SILO_02",
+      "silo_name": "بازیگری کودک و نوجوان",
+      "topic": "Kids & Teens Acting (بازیگری کودک، نوجوان، نمایش خلاق کودکان)",
+      "master_hub_slug": "/bazi-gari-koodak-nojavan/",
+      "keyword_file": "output/silos/silo_02_keywords.txt",
+      "keyword_count": 7,
+      "inclusion_logic": "کلمات بازیگری/نمایش خلاق که به صراحت کودک، کودکان، نوجوانان را ذکر می‌کنند؛ والد به عنوان تصمیم‌گیرنده.",
+      "exclusion_logic": "حذف بازیگری بزرگسال و سایر رشته‌ها."
+    },
+    {
+      "silo_id": "SILO_03",
+      "silo_name": "فن بیان، گویندگی و دوبله",
+      "topic": "Voice & Elocution – فن بیان، سخنوری، گویندگی، دوبله، دوبلوری، مجری‌گری",
+      "master_hub_slug": "/fan-bayan-goyandegi/",
+      "keyword_file": "output/silos/silo_03_keywords.txt",
+      "keyword_count": 41,
+      "inclusion_logic": "تمام کلمات حاوی فن بیان، سخنوری، گویندگی، دوبله/دوبلاژ/دوبلوری، مجری‌گری؛ شامل قیمت/بهترین/حضوری/فردیس/کودک/نوجوان مرتبط با همین مهارت‌ها.",
+      "exclusion_logic": "حذف بازیگری، موسیقی، عکاسی، خوشنویسی."
+    },
+    {
+      "silo_id": "SILO_04",
+      "silo_name": "عکاسی، فیلم‌برداری، تدوین و گریم",
+      "topic": "Photography, Videography, Editing & Makeup (عکاسی، فیلم‌برداری، تدوین، ادیت، گریم سینمایی)",
+      "master_hub_slug": "/akkasi-film-tadvin-greem/",
+      "keyword_file": "output/silos/silo_04_keywords.txt",
+      "keyword_count": 29,
+      "inclusion_logic": "کلمات عکاسی (حرفه‌ای، با موبایل)، فیلم‌برداری، تدوین/ادیت، و گریم/میکاپ سینمایی که در دپارتمان عکاسی و سینمایی شرکت تعریف شده‌اند.",
+      "exclusion_logic": "حذف موسیقی، بازیگری، فن بیان، خوشنویسی، کارگردانی مستقل."
+    },
+    {
+      "silo_id": "SILO_05",
+      "silo_name": "کارگردانی و فیلمنامه‌نویسی",
+      "topic": "Directing & Screenwriting (کارگردانی، فیلمنامه‌نویسی)",
+      "master_hub_slug": "/kargardani-filmenameh/",
+      "keyword_file": "output/silos/silo_05_keywords.txt",
+      "keyword_count": 3,
+      "inclusion_logic": "کلمات حاوی کارگردانی و فیلمنامه‌نویسی.",
+      "exclusion_logic": "حذف تدوین/عکاسی که گرچه مرتبط اما وظیفه متفاوت دارند؛ حجم کم اما موضوع مستقل."
+    },
+    {
+      "silo_id": "SILO_06",
+      "silo_name": "موسیقی و آواز",
+      "topic": "Music & Singing (موسیقی، آواز سنتی/پاپ/بانوان/کودکان، ویولن، تئوری)",
+      "master_hub_slug": "/musighi-avaz/",
+      "keyword_file": "output/silos/silo_06_keywords.txt",
+      "keyword_count": 31,
+      "inclusion_logic": "کلمات موسیقی و آواز شامل سنتی، پاپ، بانوان، کودکان، گروهی، ویولن، تئوری؛ شامل بهترین/قیمت/شهریه/فردیس مرتبط.",
+      "exclusion_logic": "حذف خوشنویسی/نقاشی که گرچه هنرهای زیبا هستند اما کاربر و تصمیم متفاوت دارد."
+    },
+    {
+      "silo_id": "SILO_07",
+      "silo_name": "خوشنویسی، طراحی و نقاشی",
+      "topic": "Calligraphy, Design & Painting (خوشنویسی با خودکار، خط، خطاطی، طراحی و نقاشی)",
+      "master_hub_slug": "/khosnevisi-naghashi-tarahi/",
+      "keyword_file": "output/silos/silo_07_keywords.txt",
+      "keyword_count": 17,
+      "inclusion_logic": "کلمات خوشنویسی (با خودکار، کودکان، فردیس)، خط، خطاطی، طراحی و نقاشی.",
+      "exclusion_logic": "حذف موسیقی/آواز که به سیلوی جداگانه موسیقی منتقل شد."
+    }
+  ]
+}
