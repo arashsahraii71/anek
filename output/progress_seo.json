@@ -1,0 +1,25 @@
+{
+  "mode": "AUTO",
+  "current_phase": "PHASE_4",
+  "silos_done": [
+    "SILO_00",
+    "SILO_01",
+    "SILO_02",
+    "SILO_03",
+    "SILO_04",
+    "SILO_05",
+    "SILO_06",
+    "SILO_07"
+  ],
+  "dossiers_done": [
+    "home",
+    "bazi-gari",
+    "bazi-gari-koodak-nojavan",
+    "fan-bayan-goyandegi",
+    "akkasi-film-tadvin-greem",
+    "kargardani-filmenameh",
+    "musighi-avaz",
+    "khosnevisi-naghashi-tarahi"
+  ],
+  "last_completed_unit": "khosnevisi-naghashi-tarahi"
+}
