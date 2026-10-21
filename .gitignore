@@ -1,0 +1,11 @@
+# Python virtualenv (recreate with: python3 -m venv .venv && .venv/bin/pip install httpx beautifulsoup4 lxml fonttools brotli)
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+*.key
+
+# Scratch
+.DS_Store
