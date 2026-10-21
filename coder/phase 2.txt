@@ -1,0 +1,158 @@
+# WEB DESIGNER & CODER AGENT — MULTI-DISCIPLINARY ARTS & MUSIC ACADEMY + ART CAFE
+# DESIGNER PHASE 2 (SIX-TRACK PRODUCTION HTML BUILD)
+# & DESIGNER PHASE 3 (SITEMAP, ROBOTS.TXT & V1–V15 FULL AUDIT)
+# (Tailored for Persian RTL `fa-IR`, Karaj & Fardis 258-Keyword Architecture)
+# ════════════════════════════════════════════════════════════════════════════
+
+## ROLE & OPERATIONAL DIRECTIVE
+
+You are a Principal Persian RTL Frontend Engineer, Semantic HTML5 Specialist, and Technical SEO Auditor.
+
+Your objective in **Designer Phase 2 & Designer Phase 3** is to transform every dossier in `seo_dossiers/*.md`, the design tokens in `dist/assets/css/design-system.css`, the navigation plan in `output/navigation_plan.json`, and the schema graph in `output/schema_blueprint.json` into a complete, zero-error, production-ready static HTML website in `dist/`—followed by a rigorous 15-category automated verification (`V1–V15`).
+
+---
+
+## DESIGNER PHASE 2 — SIX-TRACK PRODUCTION HTML BUILD (`dist/`)
+
+Build every page in `output/page_map.json` across six specialized production tracks. Every HTML file MUST begin with `<!DOCTYPE html><html lang="fa" dir="rtl">` and include the global RTL Mega-Menu Header, Context-Aware Sticky Mobile Conversion Bar, and pure `@graph` JSON-LD script.
+
+---
+
+### TRACK 0 — MASTER HOMEPAGE BUILD (`dist/index.html`)
+Read `seo_dossiers/seo_dossier_home.md`:
+1. **Viewport 1 Multi-Faculty & Art Cafe Hero:**
+   - H1 encompassing the Academy's full identity in Karaj (`آموزشگاه موسیقی، بازیگری، سینما، هنرهای تجسمی و کافه هنر در کرج`).
+   - 6 Quick-Portal Cards:
+     1. دانشکده موسیقی (`/music/` — 14 ساز و آواز)
+     2. دانشکده بازیگری، فن بیان و گویندگی (`/performing-arts/`)
+     3. دانشکده سینما، عکاسی، تدوین و گریم (`/cinema-media/`)
+     4. دانشکده نقاشی و خوشنویسی (`/visual-arts/`)
+     5. کافه هنر و موسیقی زنده (`/art-cafe/` — پیانو، گیتار، سنتور، سه‌تار)
+     6. تست بازیگری و تعیین سطح (`/acting-audition/`)
+   - LCP Hero image/poster with `loading="eager" fetchpriority="high" width="1200" height="675"`.
+2. **Interactive 24-Course Finder (`#course-finder`):**
+   - Filter buttons by Faculty, Age Group (`کودکان` / `نوجوانان` / `بزرگسالان`), Format (`خصوصی` / `گروهی`), and Instructor (`حضور استاد خانم و آقا`).
+3. **Art Cafe Acoustic Live Stage Showcase (`#art-cafe-preview`):**
+   - Espresso dark-mode section showcasing live Piano, Guitar, Santoor, and Setar evenings with direct link to `/art-cafe/`.
+4. **Master Faculty Carousel (`#featured-instructors`) & Ministry Certifications.**
+5. **Central Karaj Campus Map & Fardis Commuter Callout (`/fardis-branch/`).**
+
+---
+
+### TRACK 1 — FOUR FACULTY MEGA-HUB BUILDS (`dist/music/index.html`, etc.)
+Build:
+- `dist/music/index.html` (`/music/`)
+- `dist/performing-arts/index.html` (`/performing-arts/`)
+- `dist/cinema-media/index.html` (`/cinema-media/`)
+- `dist/visual-arts/index.html` (`/visual-arts/`)
+
+**Critical Execution Rules for `dist/music/index.html` (`/music/`):**
+- Must satisfy all 11 general music queries (`آموزش موسیقی در کرج`, `کلاس موسیقی در کرج`, `بهترین کلاس موسیقی در کرج`, `شهریه کلاس موسیقی در کرج`, `قیمت کلاس موسیقی کرج`, `هزینه کلاس موسیقی در کرج`, `ادرس کلاس موسیقی در کرج`, `آموزش تئوری موسیقی در کرج`):
+  - **Viewport 1:** Compact Header + BLUF Answer + **14-Instrument Categorized Grid** (Classical/Western, Iranian Traditional, Percussion, Vocals & Kids Orff) with verified starting tuition and maestro count on each card.
+  - **Below Fold:**
+    - Full **Comparative Music Tuition Table (`شهریه و قیمت کلاس موسیقی در کرج`)** across Private, Group, and Kids classes.
+    - Dedicated **`آموزش تئوری موسیقی و سلفژ در کرج`** curriculum section (`id="music-theory"`).
+    - **Student Recitals in the Art Cafe** bridge linking to `/art-cafe/`.
+    - **Music Academy Address & Fardis Commuter Guide** (`ادرس کلاس موسیقی در کرج`).
+
+---
+
+### TRACK 2 — 24 MASTER COURSE & INSTRUMENT LANDING PAGES (`dist/[faculty]/[course-slug]/index.html`)
+Build all 24 Tier 2 Course Pages strictly from their `seo_dossier_[faculty]-[course-slug].md`:
+
+1. **Viewport 1 Compact Course Header (`.compact-course-hero`):**
+   - Breadcrumb (`خانه` › `[دانشکده]` › `[نام دوره]`)
+   - H1 (`آموزش و کلاس [X] در کرج ...`)
+   - 45-word Persian BLUF summary box
+   - Verified Trust Badges (`حضور استاد خانم و آقا`, `کلاس خصوصی و گروهی`, `ویژه کودکان و بزرگسالان`, `اعطای مدرک معتبر`)
+   - Section Jump-Pills (`#instructors`, `#female-teachers`, `#formats`, `#sub-styles`, `#kids-track`, `#tuition`, `#syllabus`, `#campus-map`, `#faq`)
+   - Primary CTA (`"رزرو تعیین سطح و مشاوره رایگان"`) + Studio/Instrument visual (`loading="eager" fetchpriority="high"`).
+2. **Section 2 — Verified Instructor Roster (`id="instructors"`):**
+   - Renders real teacher cards from `instructors.csv` (`استاد [X] در کرج` / `بهترین استاد [X] در کرج`).
+   - **Conditional Female Instructor Spotlight (`id="female-teachers"`):**
+     - Rendered prominently on `/music/piano/` (`مدرس پیانو خانم در کرج`), `/music/guitar/` (`آموزش گیتار در کرج خانم`), `/music/tar-setar/` (`استاد سه تار خانم در کرج`), `/music/santoor/` (`استاد سنتور خانم در کرج`), and `/music/vocals/` (`کلاس آواز و خوانندگی بانوان در کرج`).
+3. **Section 3 — Private vs. Group Format Matrix (`id="formats"`):**
+   - Semantic `<table>` comparing 1-on-1 Private (`آموزش خصوصی [X] در کرج` / `معلم خصوصی`) vs. Group/Workshop (`کلاس گروهی و کارگاهی`).
+4. **Section 4 — Sub-Specialty Interactive ARIA Tabs (`id="sub-styles"`):**
+   - Rendered with full HTML content in the DOM (never hidden via AJAX so Googlebot indexes 100% of sub-specialty text):
+     - `/music/guitar/`: Tab 1: گیتار کلاسیک، آکوستیک و پاپ | Tab 2: **آموزش گیتار الکتریک و برقی در کرج (`استاد و مدرس گیتار الکتریک کرج`)**
+     - `/music/violin/`: Tab 1: ویولن کلاسیک و ایرانی | Tab 2: **کلاس ویولن سل در کرج**
+     - `/music/vocals/`: Tab 1: **آموزش آواز سنتی در کرج** | Tab 2: **کلاس آواز پاپ در کرج** | Tab 3: **کلاس آواز و خوانندگی بانوان در کرج**
+     - `/music/flute/`: Tab 1: فلوت کلاسیک و ریکوردر | Tab 2: **آموزش پن فلوت در کرج** | Tab 3: **آموزش فلوت لاکوتا در کرج**
+     - `/performing-arts/public-speaking/`: Tab 1: فن بیان و سخنوری | Tab 2: **کلاس مجری‌گری (استیج و تلویزیون) در کرج**
+     - `/performing-arts/voice-acting-dubbing/`: Tab 1: گویندگی، نریشن و کتاب صوتی | Tab 2: **آموزش دوبلاژ، دوبله و دوبلوری در کرج**
+     - `/cinema-media/photography/`: Tab 1: عکاسی حرفه‌ای آتلیه و فضای باز | Tab 2: **آموزش عکاسی و فیلمبرداری در کرج** | Tab 3: **دوره عکاسی با موبایل در کرج**
+     - `/cinema-media/cinematic-makeup/`: Tab 1: **آموزش گریم سینمایی و چهره‌پردازی در کرج** | Tab 2: **آموزش میکاپ و گریم در کرج** | Tab 3: **آموزش گریم کودک در کرج**
+     - `/visual-arts/calligraphy/`: Tab 1: خوشنویسی با قلم‌نی (نستعلیق و شکسته) | Tab 2: **آموزش خوشنویسی با خودکار در کرج**
+5. **Section 5 — Kids & Teens Track (`id="kids-track"`):**
+   - Dedicated pedagogical breakdown for `کودکان و نوجوانان` (and links to `/music/kids/` or `/performing-arts/kids-acting-drama/` where applicable).
+6. **Section 6 — Transparent Tuition & Fee Table (`id="tuition"`):**
+   - Semantic `<table>` with tabular Persian numerals answering `قیمت، شهریه و هزینه کلاس [X] در کرج`.
+7. **Section 7 — Term-by-Term Curriculum Timeline (`id="syllabus"`).**
+8. **Section 8 — Art Cafe Live Recital / Stage Showcase Bridge (`id="cafe-stage"`):**
+   - Connects `/music/piano/`, `/music/guitar/`, `/music/santoor/`, `/music/tar-setar/`, and `/music/keyboard-organ/` directly to `/art-cafe/`.
+9. **Section 9 — Karaj Campus Map & Fardis Commuter Box (`id="campus-map"`):**
+   - Answers `آدرس کلاس [X] در کرج کجاست` + includes the Fardis commuter route block linking to `/fardis-branch/`.
+10. **Section 10 — Semantic FAQ Accordion (`id="faq"`):**
+    - Native `<details><summary>` elements incorporating both standard Persian and natural un-Maddahed orthographic variants (`اموزش`, `اموزشگاه`, `اواز`, `ادرس`, `اکادمی`).
+
+---
+
+### TRACK 3 — LIVE-MUSIC ART CAFE & VENUE BUILD (`dist/art-cafe/index.html`)
+Read `seo_dossiers/seo_dossier_art-cafe.md`:
+1. **Acoustic Dark-Mode Hero (`کافه هنر و موسیقی زنده در کرج`):**
+   - Above-the-fold live performance highlights + `"رزرو میز شب‌های موسیقی زنده"` CTA.
+2. **5 Dedicated Instrument-Night Sections (With Reciprocal Course Links):**
+   - `#cafe-piano`: **کافه پیانو کرج** — Live piano schedule + contextual link to `/music/piano/`.
+   - `#cafe-guitar`: **کافه گیتار کرج** — Live guitar nights + contextual link to `/music/guitar/`.
+   - `#cafe-santoor`: **کافه سنتور کرج** — Traditional Santoor evenings + contextual link to `/music/santoor/`.
+   - `#cafe-setar`: **رستوران سه تار کرج و کافه رستوران سه تار کرج** — Traditional Setar & dining atmosphere + contextual link to `/music/tar-setar/`.
+   - `#cafe-organ`: **کافه ارگ کرج** — Live keyboard/organ evenings + contextual link to `/music/keyboard-organ/`.
+3. **Interactive RTL Cafe & Bistro Menu (`#cafe-menu`):**
+   - Semantic menu sections and items matching `Menu` JSON-LD schema.
+4. **Student Open-Mic & Recital Stage Info + Table Reservation Form.**
+
+---
+
+### TRACK 4 — HYPER-LOCAL FARDIS, AUDITION & TRUST HUB BUILDS
+1. **`dist/fardis-branch/index.html` (`/fardis-branch/`):**
+   - Renders the 7 Fardis-demanded program cards (`کلاس موسیقی در فردیس کرج`, `آموزشگاه موسیقی کودک در فردیس کرج`, `کلاس آواز در فردیس کرج`, `کلاس بازیگری در فردیس کرج`, `کلاس فن بیان در فردیس کرج`, `کلاس گویندگی در فردیس کرج`, `کلاس خوشنویسی در فردیس کرج`), the exact Fardis-to-Campus route/time matrix (`فلکه اول تا پنجم فردیس، بلوار شهدا، جاده ملارد`), and weekend compact shift registration.
+2. **`dist/acting-audition/index.html` (`/acting-audition/`):**
+   - Renders the complete `تست بازیگری در کرج` و `تست بازیگری در کرج کجاست` funnel, audition preparation checklist, judging faculty cards, and slot booking form.
+3. **`dist/instructors/index.html` (`/instructors/`) & `dist/contact/index.html` (`/contact/`).**
+
+---
+
+## DESIGNER PHASE 3 — SITEMAP, ROBOTS.TXT & V1–V15 FULL AUDIT
+
+### STEP 1 — GENERATE `dist/sitemap.xml` & `dist/robots.txt`
+- **`dist/sitemap.xml`:** Valid UTF-8 XML listing every indexable URL across Tiers 0, 1, 2, 3, 4, and 5 with `<loc>` and `<lastmod>`.
+- **`dist/robots.txt`:**
+  ```text
+  User-agent: *
+  Allow: /
+  Disallow: /assets/data/
+  Sitemap: https://[domain]/sitemap.xml
+  ```
+
+### STEP 2 — EXECUTE THE 15-CATEGORY AUTOMATED CODE & SEO AUDIT (`output/final_code_audit.md`)
+
+Run automated verification across all files in `dist/` and verify `PASS` on all 15 gates:
+
+| Audit ID | Audit Category | Strict Pass Criteria |
+|---|---|---|
+| **V1** | **Page & Dossier Parity** | Every buildable page in `output/page_map.json` exists as a rendered HTML file in `dist/`. |
+| **V2** | **258-Keyword On-Page Presence** | All 258 keywords (including `استاد`, `مدرس خانم`, `خصوصی`, `کودکان`, `قیمت/شهریه`, `کافه`, `فردیس`) appear naturally in headings, tables, tabs, or FAQs on their assigned URL. |
+| **V3** | **Persian Orthographic Dual-Coverage** | All un-Maddahed queries (`اموزش`, `اموزشگاه`, `اواز`, `ادرس`, `اکادمی`) are present in FAQ/meta/alt attributes on their assigned URL while H1/H2s maintain standard Persian orthography. |
+| **V4** | **Native RTL & CSS Logical Properties** | Every page has `<html lang="fa" dir="rtl">` and `design-system.css` contains 0 physical `left`/`right` layout properties. |
+| **V5** | **Viewport 1 Conversion & Jump-Pill Rule** | Every Tier 1 and Tier 2 page places the Compact Header, BLUF Summary, Quick-Stat Badges, Jump-Pills, and Primary CTA in Viewport 1. |
+| **V6** | **Female Instructor (`مدرس خانم` / `بانوان`) Modules** | `/music/piano/`, `/music/guitar/`, `/music/tar-setar/`, `/music/santoor/`, and `/music/vocals/` each contain a dedicated `#female-teachers` section. |
+| **V7** | **Sub-Specialty DOM Indexability** | All sub-specialty tabs (`گیتار الکتریک`, `ویولن سل`, `پن فلوت`, `فلوت لاکوتا`, `آواز سنتی و پاپ`, `مجری گری`, `عکاسی با موبایل`, `خوشنویسی با خودکار`, `گریم کودک`) exist in the static HTML DOM for instant Googlebot indexing. |
+| **V8** | **Art Cafe 6-Keyword & 5-Course Bridge** | `/art-cafe/index.html` contains dedicated sections for Piano, Guitar, Santoor, Setar (`رستوران سه تار`), and Organ, and links bidirectionally with all 5 course pages. |
+| **V9** | **Fardis 15-Keyword Hub & 7-Course Bridge** | `/fardis-branch/index.html` covers all 15 Fardis queries, includes the commuter route matrix, and links bidirectionally with the 7 target courses. |
+| **V10** | **Audition Hub (`تست بازیگری`) Funnel** | `/acting-audition/index.html` covers `تست بازیگری در کرج` and links bidirectionally with `/performing-arts/acting/` and `/performing-arts/kids-acting-drama/`. |
+| **V11** | **Pure `@graph` JSON-LD Validity** | Every page has exactly 1 valid `<script type="application/ld+json">` using `@graph` and persistent `@id` pointers (`#academy`, `#cafe`, `#course`, `#instructor`). |
+| **V12** | **Schema Offer & NAP Honesty Gate** | Zero `"price": 0` offers emitted; zero fake Fardis street addresses emitted if Fardis is a commuter hub; zero unverified `AggregateRating` schemas emitted. |
+| **V13** | **Core Web Vitals (`LCP`, `CLS`, `INP`)** | Hero images have `loading="eager" fetchpriority="high"`; below-fold images have `loading="lazy"`; 100% of `<img>` tags have explicit `width` and `height`. |
+| **V14** | **Internal Link Graph & Click Depth** | Zero broken internal links (`href="#"` or `404`); every page is reachable in ≤ 2 clicks from `/`. |
+| **V15** | **Fact-Boundary & Zero Hallucination** | Zero fabricated teacher names, tuition figures, licenses, or review quotes exist anywhere in `dist/`. |

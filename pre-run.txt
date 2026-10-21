@@ -1,0 +1,134 @@
+# PRE-RUN PREPARATION CHECKLIST & INPUT FILE TEMPLATES
+# MULTI-DISCIPLINARY ARTS, MUSIC & CINEMA ACADEMY + LIVE-MUSIC ART CAFE (KARAJ)
+# ════════════════════════════════════════════════════════════════════════════
+
+## 1. DIRECTORY STRUCTURE TO CREATE BEFORE RUNNING PHASE 0
+
+Create this exact folder layout in your project workspace:
+
+```text
+project_root/
+├── input/
+│   ├── keywords.txt                  ← Paste your 258 Persian keywords here
+│   ├── academy_data.txt              ← Brand, Karaj Campus NAP, Licenses, Fardis access, Art Cafe Menu
+│   ├── courses.csv                   ← Pre-mapped 24 Courses & Sub-Specialties across 4 Faculties
+│   ├── instructors.csv               ← Maestro & Female Instructor (`مدرس خانم`) roster
+│   ├── cafe_events.csv               ← Live Piano, Guitar, Santoor, Setar & Organ nights in the Art Cafe
+│   ├── reviews.csv                   ← (Optional) Verified student/parent testimonials
+│   ├── serp_algorithm_matrix.json    ← (Recommended) Output from Phase 0.0 Top-20 SERP Decoder
+│   └── media/                        ← Real studio, classroom, maestro, and Art Cafe photos
+├── output/
+│   └── silos/
+├── seo_dossiers/
+└── dist/
+    └── assets/
+        ├── css/
+        ├── js/
+        └── images/
+```
+
+---
+
+## 2. READY-TO-FILL TEMPLATE: `input/courses.csv` (ALL 24 COURSES MAPPED TO YOUR 258 KEYWORDS)
+
+Save this header and fill in the exact tuition (`tuition_private`, `tuition_group`), session counts, and studio rooms for your academy:
+
+```csv
+course_id,department_id,name_fa,url_slug,parent_hub_slug,sub_specialties_fa,formats_offered,age_groups,has_female_instructor,tuition_private_irr,tuition_group_irr,sessions_per_term,session_duration_min,certificate_type,performed_in_cafe,fardis_high_demand,status
+CRS_PIANO,DEPT_MUSIC,کلاس و آموزش پیانو,piano,/music/,پیانو کلاسیک|پیانو پاپ|پیانو کودک,private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر فنی و حرفه‌ای / ارشاد,true,false,active
+CRS_GUITAR,DEPT_MUSIC,کلاس و آموزش گیتار (کلاسیک، پاپ و الکتریک),guitar,/music/,گیتار کلاسیک|گیتار پاپ و آکوستیک|گیتار الکتریک و برقی|گیتار فلامنکو,private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,true,false,active
+CRS_VIOLIN,DEPT_MUSIC,کلاس و آموزش ویولن و ویولن سل,violin,/music/,ویولن کلاسیک|ویولن ایرانی|ویولن سل (چلو),private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,false,false,active
+CRS_VOCALS,DEPT_MUSIC,کلاس آموزش آواز و خوانندگی,vocals,/music/,آواز سنتی ایرانی|آواز پاپ و کلاسیک|آواز ویژه بانوان|آواز کودکان|آواز گروهی (کر),private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,45,مدرک معتبر پایان دوره,false,true,active
+CRS_TAR_SETAR,DEPT_MUSIC,کلاس آموزش تار و سه‌تار,tar-setar,/music/,آموزش سه‌تار|آموزش تار ایرانی|ردیف‌نوازی,private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,true,false,active
+CRS_SANTOOR,DEPT_MUSIC,کلاس و آموزش سنتور,santoor,/music/,سنتورنوازی مقدماتی تا عالی|ردیف میرزاعبدالله,private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,true,false,active
+CRS_TONBAK,DEPT_MUSIC,کلاس و آموزش تنبک,tonbak,/music/,تنبک‌نوازی سنتی و مدرن|ریتم‌خوانی,private|group,kids|teens|adults,false,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,false,false,active
+CRS_DAF,DEPT_MUSIC,کلاس آموزش دف و دف‌زنی,daf,/music/,دف‌نوازی سنتی و خانقاهی|گروه‌نوازی دف,private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,45,مدرک معتبر پایان دوره,false,false,active
+CRS_KAMANCHEH,DEPT_MUSIC,کلاس و آموزش کمانچه,kamancheh,/music/,کمانچه‌نوازی ایرانی و لری,private|group,teens|adults,false,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,false,false,active
+CRS_TANBOUR,DEPT_MUSIC,کلاس و آموزش تنبور,tanbour,/music/,تنبورنوازی مقامی و سنتی,private|group,teens|adults,false,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,false,false,active
+CRS_FLUTE,DEPT_MUSIC,کلاس آموزش فلوت، پن‌فلوت و فلوت لاکوتا,flute,/music/,فلوت کلیددار کلاسیک|فلوت ریکوردر|پن فلوت|فلوت لاکوتا (سرخپوستی),private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,false,false,active
+CRS_HANGDRUM,DEPT_MUSIC,کلاس و آموزش هنگ‌درام,hang-drum,/music/,هنگ‌درام مقدماتی تا پیشرفته|بداهه‌نوازی,private|group,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,45,مدرک معتبر پایان دوره,false,false,active
+CRS_ORGAN,DEPT_MUSIC,کلاس آموزش ارگ و کیبورد,keyboard-organ,/music/,آموزش ارگ مجلسی و پاپ|کیبورد و آکوردشناسی,private|group,kids|teens|adults,false,[FILL_PRICE],[FILL_PRICE],8,30,مدرک معتبر پایان دوره,true,false,active
+CRS_KIDS_MUSIC,DEPT_MUSIC,آموزشگاه و کلاس موسیقی کودک (ارف),kids,/music/,موسیقی کودک ارف (بلز، فلوت ریکوردر، طبلک)|ریتم و بازی‌های موزیکال,group|private,kids,true,[FILL_PRICE],[FILL_PRICE],8,45,گواهی پایان دوره کودک,false,true,active
+CRS_ACTING,DEPT_PERFORMING,کلاس و آموزش بازیگری سینما و تئاتر,acting,/performing-arts/,بازیگری مقابل دوربین|بازیگری تئاتر و صحنه|بدن و بیان بازیگر,group|private,teens|adults,true,[FILL_PRICE],[FILL_PRICE],12,120,مدرک معتبر سینمایی / ارشاد,false,true,active
+CRS_KIDS_ACTING,DEPT_PERFORMING,کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان,kids-acting-drama,/performing-arts/,بازیگری کودک و نوجوان|نمایش خلاق برای کودکان|اعتمادبه‌نفس صحنه‌ای,group,kids|teens,true,[FILL_PRICE],[FILL_PRICE],10,90,گواهی پایان دوره بازیگری کودک,false,false,active
+CRS_SPEECH,DEPT_PERFORMING,کلاس آموزش فن بیان، سخنوری و مجری‌گری,public-speaking,/performing-arts/,فن بیان و سخنوری بزرگسالان|فن بیان کودکان و نوجوانان|آموزش مجری‌گری استیج و تلویزیون,group|private,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],10,90,مدرک معتبر فن بیان و سخنوری,false,true,active
+CRS_VOICE_DUBBING,DEPT_PERFORMING,کلاس آموزش گویندگی، دوبلاژ و دوبلوری,voice-acting-dubbing,/performing-arts/,آموزش گویندگی رادیو، پادکست و نریشن|آموزش دوبلاژ، دوبله و دوبلوری انیمیشن و فیلم|گویندگی کودکان,group|private,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],10,90,مدرک معتبر گویندگی و دوبله,false,true,active
+CRS_PHOTOGRAPHY,DEPT_CINEMA,کلاس آموزش عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل,photography,/cinema-media/,عکاسی حرفه‌ای دیجیتال و پرتره|آموزش عکاسی و فیلمبرداری|دوره عکاسی با موبایل,group|private,teens|adults,true,[FILL_PRICE],[FILL_PRICE],10,90,مدرک معتبر عکاسی و تصویربرداری,false,false,active
+CRS_FILM_EDITING,DEPT_CINEMA,کلاس آموزش تدوین فیلم و ادیت حرفه‌ای,film-editing,/cinema-media/,آموزش تدوین سینمایی (Premiere & DaVinci)|ادیت ویدیو و ریلز,group|private,teens|adults,false,[FILL_PRICE],[FILL_PRICE],10,90,مدرک معتبر تدوین فیلم,false,false,active
+CRS_DIRECTING_SCRIPT,DEPT_CINEMA,کلاس آموزش کارگردانی سینما و فیلمنامه‌نویسی,directing-screenwriting,/cinema-media/,آموزش کارگردانی فیلم کوتاه و سینما|کلاس فیلمنامه‌نویسی و دراماتورژی,group|private,teens|adults,false,[FILL_PRICE],[FILL_PRICE],12,120,مدرک معتبر کارگردانی و فیلمنامه‌نویسی,false,false,active
+CRS_MAKEUP,DEPT_CINEMA,کلاس آموزش گریم سینمایی، میکاپ و گریم کودک,cinematic-makeup,/cinema-media/,آموزش گریم سینمایی و چهره‌پردازی سه‌بعدی|آموزش میکاپ و گریم تخصصی|آموزش گریم کودک,group|private,teens|adults,true,[FILL_PRICE],[FILL_PRICE],10,120,مدرک معتبر چهره‌پردازی و گریم,false,false,active
+CRS_PAINTING,DEPT_VISUAL,کلاس آموزش طراحی و نقاشی حرفه‌ای,drawing-painting,/visual-arts/,طراحی پایه و سیاه‌قلم|نقاشی رنگ‌روغن، آبرنگ و اکریلیک,group|private,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,90,مدرک معتبر هنرهای تجسمی,false,false,active
+CRS_CALLIGRAPHY,DEPT_VISUAL,کلاس آموزش خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان),calligraphy,/visual-arts/,خوشنویسی با قلم‌نی (نستعلیق و شکسته)|آموزش خوشنویسی با خودکار (خط تحریری)|خوشنویسی ویژه کودکان,group|private,kids|teens|adults,true,[FILL_PRICE],[FILL_PRICE],8,60,مدرک معتبر انجمن خوشنویسان / آموزشگاه,false,true,active
+```
+
+---
+
+## 3. READY-TO-FILL TEMPLATE: `input/instructors.csv` (INCLUDES FEMALE MAESTRO FLAGS)
+
+Be sure to include your female instructors (`gender = female`) for **Piano, Guitar, Tar/Setar, Santoor, and Vocals** so the agent can verify and build the `#female-teachers` modules demanded by `مدرس پیانو خانم در کرج`, `استاد سه تار خانم در کرج`, `استاد سنتور خانم در کرج`, `آموزش گیتار در کرج خانم`, and `کلاس آواز بانوان در کرج`:
+
+```csv
+instructor_id,name_fa,gender,course_ids,specialties_fa,credentials_fa,experience_years,available_days_fa,photo_filename,sample_media_url
+INST_01,[نام استاد پیانو خانم],female,CRS_PIANO,پیانو کلاسیک، پاپ و پیانو کودک,کارشناسی ارشد نوازندگی پیانو,[N],شنبه، دوشنبه، چهارشنبه,inst-piano-female.webp,
+INST_02,[نام استاد پیانو آقا],male,CRS_PIANO,پیانو کلاسیک و هارمونی,عضو خانه موسیقی ایران,[N],یکشنبه، سه‌شنبه، پنجشنبه,inst-piano-male.webp,
+INST_03,[نام استاد گیتار و الکتریک],male,CRS_GUITAR,گیتار الکتریک، پاپ و فلامنکو,سرپرست گروه موسیقی و نوازنده استودیویی,[N],همه‌روزه,inst-guitar-male.webp,
+INST_04,[نام استاد گیتار خانم],female,CRS_GUITAR,گیتار کلاسیک، پاپ و گیتار کودکان,کارشناس موسیقی,[N],شنبه تا چهارشنبه,inst-guitar-female.webp,
+INST_05,[نام استاد تار و سه‌تار خانم],female,CRS_TAR_SETAR,تار و سه‌تار سنتی ایرانی,برگزیده جشنواره موسیقی جوان,[N],یکشنبه و سه‌شنبه,inst-setar-female.webp,
+INST_06,[نام استاد سنتور خانم],female,CRS_SANTOOR,سنتورنوازی سنتی و معاصر,فوق‌لیسانس نوازندگی ایرانی,[N],شنبه و چهارشنبه,inst-santoor-female.webp,
+INST_07,[نام استاد آواز بانوان],female,CRS_VOCALS,آواز سنتی و پاپ ویژه بانوان و کودکان,مدرس صداسازی و سلفژ,[N],روزهای زوج,inst-vocals-female.webp,
+```
+
+---
+
+## 4. READY-TO-FILL TEMPLATE: `input/cafe_events.csv` (FOR `/art-cafe/`)
+
+Covers all 6 Art Cafe queries (`کافه پیانو کرج`, `کافه گیتار کرج`, `کافه سنتور کرج`, `کافه ارگ کرج`, `رستوران سه تار کرج`, `کافه رستوران سه تار کرج`):
+
+```csv
+event_id,instrument_focus_fa,title_fa,target_keywords,days_of_week_fa,time_range_fa,performer_name_fa,reservation_required,linked_course_slug
+CAFE_EVT_01,پیانو,شب‌های اجرای زنده پیانو در کافه هنر,کافه پیانو کرج,پنجشنبه‌ها و جمعه‌ها,۱۹:۰۰ تا ۲۲:۰۰,[نام نوازنده پیانو],true,/music/piano/
+CAFE_EVT_02,گیتار,عصرهای گیتار آکوستیک و فلامنکو,کافه گیتار کرج,چهارشنبه‌ها,۱۸:۰۰ تا ۲۱:۰۰,[نام نوازنده گیتار],true,/music/guitar/
+CAFE_EVT_03,سنتور,شب‌های سنتورنوازی و موسیقی اصیل ایرانی,کافه سنتور کرج,دوشنبه‌ها,۱۹:۰۰ تا ۲۱:۳۰,[نام نوازنده سنتور],true,/music/santoor/
+CAFE_EVT_04,سه‌تار و تار,شب‌های دلنشین سه‌تار همراه با منوی شام و دمنوش,رستوران سه تار کرج|کافه رستوران سه تار کرج,سه‌شنبه‌ها و جمعه‌ها,۲۰:۰۰ تا ۲۲:۳۰,[نام نوازنده سه‌تار],true,/music/tar-setar/
+CAFE_EVT_05,ارگ و کیبورد,شب‌های خاطره‌انگیز تکنوازی ارگ و کیبورد,کافه ارگ کرج,شنبه‌ها,۱۹:۰۰ تا ۲۱:۰۰,[نام نوازنده کیبورد],false,/music/keyboard-organ/
+```
+
+---
+
+## 5. READY-TO-FILL TEMPLATE: `input/academy_data.txt`
+
+```text
+BRAND_NAME: [نام آموزشگاه و کافه هنر شما در کرج]
+SITE_LANGUAGE: fa
+SITE_DIRECTION: rtl
+MARKET: IR
+CITY: کرج
+CURRENCY: IRR
+DOMAIN: https://[your-domain.ir]
+
+CENTRAL_CAMPUS_ADDRESS: کرج، [محله/خیابان دقیق، مثلاً عظیمیه / گوهردشت / جهانشهر / طالقانی]، [پلاک و واحد]
+CENTRAL_CAMPUS_PHONE: 026-[XXXXXXX]
+WHATSAPP_NUMBER: 0912-[XXXXXXX]
+OPENING_HOURS: شنبه تا جمعه از ساعت ۰۹:۰۰ الی ۲۲:۰۰
+
+FARDIS_ACCESS_STATUS: SERVICE_AREA_COMMUTER_HUB
+FARDIS_COMMUTER_DETAILS: فاصله ۱۵ الی ۲۰ دقیقه‌ای از فلکه اول تا پنجم فردیس، بلوار شهدا و جاده ملارد از طریق بلوار امام خمینی و مترو/بی‌آرتی کرج + برگزاری شیفت‌های فشرده پنجشنبه و جمعه ویژه هنرجویان فردیس کرج.
+
+LICENSES_AND_CERTIFICATES:
+- دارای مجوز رسمی درجه یک از وزارت فرهنگ و ارشاد اسلامی استان البرز
+- ارائه مدرک معتبر سازمان فنی و حرفه‌ای کشور (قابل ترجمه رسمی بین‌المللی)
+
+FACILITIES:
+- پلاتوهای تخصصی تمرین بازیگری و بلک‌باکس تئاتر
+- اتاق‌های آکوستیک تمرین تک‌نفره و گروهی موسیقی (مجهز به پیانو آکوستیک و دیجیتال)
+- استودیو ضبط صدا، دوبلاژ و گویندگی استاندارد
+- آتلیه عکاسی، فیلمبرداری و کارگاه تدوین سینمایی
+- کارگاه تخصصی گریم سینمایی، طراحی، نقاشی و خوشنویسی
+
+ART_CAFE_INFO:
+- نام کافه: کافه هنر و موسیقی [نام برند]
+- ویژگی منحصربه‌فرد: کافه و رستوران هنری واقع در محیط آکادمی با استیج اجرای زنده پیانو، گیتار، سنتور، سه‌تار و ارگ
+- منوی کافه رستوران: انواع قهوه تخصصی، دمنوش‌های سنتی ایرانی، کیک‌های روز، پاستا، پنینی، سالاد و غذاهای گرم
+```
+
+---

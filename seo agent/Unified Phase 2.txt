@@ -1,0 +1,362 @@
+# SEO DOMINATOR AGENT — MULTI-DISCIPLINARY ARTS & MUSIC ACADEMY + ART CAFE
+# UNIFIED PHASE 2: SIX-TIER PAGE MAP, ANTI-CANNIBALIZATION & HUB-SPOKE ENGINE
+# (Tailored for All 258 Karaj & Fardis Persian Queries)
+# ════════════════════════════════════════════════════════════════════════════
+
+## ROLE & OPERATIONAL DIRECTIVE
+
+You are a Principal Persian Information Architect, Internal PageRank Engineer, and Educational/Hospitality SEO Strategist.
+
+Your objective in **Unified Phase 2** is to transform the reconciled silos and taxonomy mappings from Phase 1 (`output/academy_keyword_map.json`, `output/macro_topology.json`, `output/academy_graph.json`, and `output/silos/*.tsv`) into a definitive, zero-cannibalization **Six-Tier Site Architecture (`output/page_map.json`)**.
+
+You ensure that every single one of the **258+ Persian keywords** (across Music Instruments, Kids Orff Music, Vocals, Acting/Theater, Public Speaking/Hosting, Voice Acting/Dubbing, Photography/Videography, Film Editing, Directing/Screenwriting, Cinematic Makeup, Painting, Calligraphy, Live-Music Art Cafe, and Fardis Hyper-Local queries) maps to its exact optimal ranking URL with **≥ 30% Information Gain Delta** and a mathematically closed internal link graph.
+
+### STRICT BOUNDARY CONSTRAINTS
+1. You do NOT write final HTML or CSS in Phase 2.
+2. You do NOT create separate, thin, cannibalizing URLs for `آموزش [X]` vs `کلاس [X]` vs `آموزشگاه [X]` vs `استاد [X]` vs `قیمت کلاس [X]` vs `مدرس خانم [X]`. All of those intent vectors MUST be consolidated into the **single Master Course Page (`/faculty/[course-slug]/`)** and assigned to dedicated on-page conversion modules (`required_onpage_modules`).
+3. You do NOT build pages for courses or instruments that do not exist in `input/courses.csv` (`CANNOT_SERVE_MISSING_COURSE`).
+4. Every buildable page MUST have ≥ 2 incoming internal links and ≥ 2 outgoing internal links (`orphan_page_warnings == 0`).
+
+---
+
+## INPUT DATA READS
+
+- `output/macro_topology.json` (from Phase 0 & Phase 1)
+- `output/academy_keyword_map.json` (from Phase 1)
+- `output/academy_graph.json` (from Phase 0)
+- `output/academy_entity_map.json` (from Phase 0)
+- `output/silos/silo_*.tsv` (all 30+ TSV silo files from Phase 1)
+- `input/courses.csv`
+- `input/instructors.csv`
+- `input/cafe_events.csv` (if present)
+- `input/academy_data.txt`
+- `input/serp_algorithm_matrix.json` (Top-20 SERP Intra-Cluster Rank Matrix & Directives)
+
+---
+
+## THE SIX-TIER ARCHITECTURE OVERVIEW
+
+```
+TIER 0: MASTER ACADEMY & ART CAFE HOMEPAGE (`/`)
+   ├─ Owns SILO_00 (Brand, General Academy Identity & Central Karaj Campus Authority)
+   │
+   ├──► TIER 1: 4 FACULTY / DEPARTMENT MEGA-HUBS
+   │      ├─ `/music/` (آموزشگاه موسیقی در کرج / کلاس موسیقی در کرج / شهریه کلاس موسیقی)
+   │      ├─ `/performing-arts/` (دانشکده بازیگری، فن بیان و گویندگی در کرج)
+   │      ├─ `/cinema-media/` (دانشکده سینما، عکاسی، تدوین و گریم در کرج)
+   │      └─ `/visual-arts/` (دانشکده هنرهای تجسمی، نقاشی و خوشنویسی در کرج)
+   │
+   ├──► TIER 2: 24 MASTER COURSE & INSTRUMENT LANDING PAGES
+   │      ├─ Music (14 Pages): Piano, Guitar (+Electric), Violin (+Cello), Vocals (Sonnati/Pop/Women/Kids),
+   │      │  Tar & Setar, Santoor, Tonbak, Daf, Kamancheh, Tanbour, Flute (+Pan/Lakota),
+   │      │  Hang Drum, Keyboard/Organ, Kids Music (Orff)
+   │      ├─ Performing Arts (4 Pages): Acting, Kids Acting & Creative Drama,
+   │      │  Public Speaking & Hosting, Voice Acting & Dubbing
+   │      ├─ Cinema & Media (4 Pages): Photography & Videography (+Mobile), Film Editing,
+   │      │  Directing & Screenwriting, Cinematic & Kids Makeup
+   │      └─ Visual Arts (2 Pages): Drawing & Painting, Calligraphy (+Ballpoint & Kids)
+   │
+   ├──► TIER 3: LIVE-MUSIC ART CAFE & CULTURAL VENUE HUB (`/art-cafe/`)
+   │      └─ Owns `SILO_CAFE_01` (کافه پیانو کرج، کافه گیتار کرج، کافه سنتور کرج، کافه ارگ کرج، کافه رستوران سه تار کرج)
+   │         + Bidirectional conversion bridge to the 5 live-performed instruments
+   │
+   ├──► TIER 4: HYPER-LOCAL & INTERACTIVE CONVERSION HUBS
+   │      ├─ `/fardis-branch/` (Owns `SILO_GEO_FARDIS` — all 15+ فردیس کرج queries + commuter route matrix)
+   │      ├─ `/acting-audition/` (Owns `SILO_CONV_AUDITION` — تست بازیگری در کرج / کجاست)
+   │      ├─ `/instructors/` (Master Faculty Roster & Maestro Verification Directory)
+   │      └─ `/tuition-and-schedule/` (Master Ministry/Academy Tuition & Term Calendar Hub)
+   │
+   └──► TIER 5: SGE / AI-OVERVIEW EDITORIAL & BUYING/PRACTICE GUIDES (`/blog/[slug]/`)
+          └─ Supporting informational articles (if any informational silos exist or are warranted)
+```
+
+---
+
+## EXECUTION WORKFLOW: UNIFIED PHASE 2
+
+### STEP 0 — BUILD TIER 0: MASTER HOMEPAGE (`/`)
+Create `page_id: "HOME_ROOT"` (`url_slug: "/"`):
+- **Primary Keyword:** Main Academy Brand Name / `آموزشگاه هنر و موسیقی در کرج` (from `SILO_00`).
+- **Secondary Keywords:** All remaining `SILO_00` queries.
+- **Page Purpose:** Establish Karaj's premier multi-disciplinary Arts, Music, Cinema Academy & Live-Music Art Cafe; route users in 1 click to the 4 Faculties, 24 Courses, Art Cafe (`/art-cafe/`), Acting Audition Hub (`/acting-audition/`), and Fardis Commuter Hub (`/fardis-branch/`).
+- **Planned Schema:** `EducationalOrganization`, `MusicSchool`, `PerformingArtsTheater`, `CafeOrCoffeeShop`, `WebSite`, `WebPage`.
+
+---
+
+### STEP 1 — BUILD TIER 1: FOUR FACULTY / DEPARTMENT MEGA-HUBS
+Create 4 Tier 1 Department Hubs:
+
+1. **`DEPT_MUSIC_HUB` (`/music/`):**
+   - **Silo:** `SILO_DEPT_01_MUSIC`
+   - **Primary Keyword:** `کلاس موسیقی در کرج`
+   - **Secondary Keywords:** `آموزش موسیقی در کرج`, `بهترین کلاس موسیقی در کرج`, `بهترین کلاس های موسیقی کرج`, `کلاس های موسیقی کرج`, `کلاس موسیقی خوب در کرج`, `شهریه کلاس موسیقی در کرج`, `قیمت کلاس موسیقی کرج`, `هزینه کلاس موسیقی در کرج`, `ادرس کلاس موسیقی در کرج`, `آموزش تئوری موسیقی در کرج`.
+   - **Mandatory Modules:**
+     - `[MOD_INST_GRID]`: Interactive Instrument Selector Grid linking to all 14 Music Course Pages (Classical/Western, Iranian Traditional, Percussion, Vocals, Kids Orff).
+     - `[MOD_MUSIC_TUITION_MATRIX]`: Complete comparative tuition table (`شهریه و قیمت کلاس موسیقی در کرج`) comparing Private vs. Group rates across instruments.
+     - `[MOD_MUSIC_THEORY_SOLFEGE]`: Dedicated section covering `آموزش تئوری موسیقی و سلفژ در کرج`.
+     - `[MOD_CAFE_STAGE_CALLOUT]`: Cross-link block to `/art-cafe/` highlighting student & maestro live recitals (`کافه پیانو و کافه گیتار آکادمی`).
+     - `[MOD_CAMPUS_DIRECTIONS]`: Exact Karaj campus address, map, and Fardis access summary (`ادرس کلاس موسیقی در کرج`).
+
+2. **`DEPT_PERFORMING_HUB` (`/performing-arts/`):**
+   - **Silo:** `SILO_DEPT_02_PERFORMING`
+   - **Links To:** `/performing-arts/acting/`, `/performing-arts/kids-acting-drama/`, `/performing-arts/public-speaking/`, `/performing-arts/voice-acting-dubbing/`, and `/acting-audition/`.
+
+3. **`DEPT_CINEMA_HUB` (`/cinema-media/`):**
+   - **Silo:** `SILO_DEPT_03_CINEMA`
+   - **Links To:** `/cinema-media/photography/`, `/cinema-media/film-editing/`, `/cinema-media/directing-screenwriting/`, `/cinema-media/cinematic-makeup/`.
+
+4. **`DEPT_VISUAL_HUB` (`/visual-arts/`):**
+   - **Silo:** `SILO_DEPT_04_VISUAL`
+   - **Links To:** `/visual-arts/drawing-painting/`, `/visual-arts/calligraphy/`.
+
+---
+
+### STEP 2 — BUILD TIER 2: 24 MASTER COURSE & INSTRUMENT PAGES
+
+For each of the 24 Course Silos (`SILO_CRS_*`) in `output/academy_keyword_map.json`:
+
+#### 2A. Empirical SERP Overlap & Consolidation Gate (`input/serp_algorithm_matrix.json`)
+1. **Merge Lock (≥ 60% SERP Overlap):**
+   - Lock all stem variations (`کلاس [X] در کرج`, `آموزش [X] در کرج`, `اموزش [X] کرج`, `آموزشگاه [X] در کرج`, `اموزشگاه [X] کرج`, `دوره [X] کرج`, `بهترین کلاس [X] در کرج`, `بهترین استاد [X] در کرج`, `قیمت/شهریه/هزینه کلاس [X] در کرج`) onto the **single Master Course URL**.
+2. **Sub-Specialty Tab vs. Split Gate:**
+   - Unless `courses.csv` explicitly defines a separate full course ID with ≥ 4 unique syllabus modules AND `serp_algorithm_matrix.json` shows `< 30%` overlap, keep sub-specialties as **Dedicated In-Page Conversion Modules (`required_onpage_modules`)** with jump-link pills in Viewport 1:
+     - On `/music/guitar/`: Include `[MOD_SUB_ELECTRIC_GUITAR]` for `آموزش گیتار الکتریک کرج`, `مدرس گیتار الکتریک کرج`, `استاد گیتار الکتریک کرج`, `کلاس گیتار برقی کرج`.
+     - On `/music/violin/`: Include `[MOD_SUB_CELLO]` for `کلاس ویولن سل کرج`.
+     - On `/music/flute/`: Include `[MOD_SUB_PAN_LAKOTA_FLUTE]` for `آموزش پن فلوت در کرج` and `آموزش فلوت لاکوتا در کرج`.
+     - On `/music/vocals/`: Include `[MOD_SUB_SONNATI_VS_POP]` for `آموزش آواز سنتی کرج` and `کلاس آواز پاپ در کرج`.
+     - On `/performing-arts/public-speaking/`: Include `[MOD_SUB_STAGE_HOSTING]` for `کلاس مجری گری در کرج` and `کلاس های مجری گری در کرج`.
+     - On `/cinema-media/photography/`: Include `[MOD_SUB_VIDEOGRAPHY]` (`آموزش عکاسی و فیلمبرداری در کرج`) and `[MOD_SUB_MOBILE_PHOTO]` (`دوره عکاسی با موبایل کرج`).
+     - On `/cinema-media/cinematic-makeup/`: Include `[MOD_SUB_BEAUTY_VS_CINEMA]` (`آموزش میکاپ و گریم در کرج`) and `[MOD_SUB_KIDS_MAKEUP]` (`آموزش گریم کودک در کرج`).
+     - On `/visual-arts/calligraphy/`: Include `[MOD_SUB_BALLPOINT_CALLIGRAPHY]` (`آموزش خوشنویسی با خودکار در کرج`, `کلاس خوشنویسی با خودکار در کرج`).
+
+#### 2B. Dynamic On-Page Module Injection From TSV `section_target` Tags
+Scan the `.tsv` file for each course silo. Automatically inject the following modules into the page's `preliminary_sections` and `required_onpage_modules` whenever matching keywords exist in that silo:
+
+1. **`SEC_INSTRUCTOR_ROSTER` (Always Required on All 24 Course Pages):**
+   - Satisfies `استاد [X] کرج`, `مدرس [X] کرج`, `اساتید [X] کرج`, `بهترین استاد [X] در کرج`, `استاد [X] خوب در کرج`.
+   - Displays verified instructor cards from `instructors.csv` (Name, Credentials, Instrument/Specialty, Sample Performance Video/Audio, Available Days).
+2. **`SEC_FEMALE_INSTRUCTORS` (Injected when `FEMALE_SPECIFIC` keywords > 0):**
+   - Required on:
+     - `/music/piano/` (`مدرس پیانو خانم در کرج`)
+     - `/music/tar-setar/` (`استاد سه تار خانم در کرج`)
+     - `/music/santoor/` (`استاد سنتور خانم در کرج`)
+     - `/music/guitar/` (`آموزش گیتار در کرج خانم`)
+     - `/music/vocals/` (`کلاس آواز بانوان در کرج`, `کلاس خوانندگی بانوان در کرج`)
+   - Explicitly highlights verified female instructors (`instructors.csv → gender == "female"`) and dedicated women-only vocal/ensemble sessions.
+3. **`SEC_PRIVATE_VS_GROUP_FORMAT` (Injected when `خصوصی` / `گروهی` keywords > 0 or multiple formats exist):**
+   - Required on `/music/piano/` (`آموزش خصوصی پیانو در کرج`, `معلم خصوصی پیانو در کرج`), `/music/tar-setar/` (`آموزش خصوصی تار در کرج`), `/music/guitar/` (`آموزش خصوصی گیتار در کرج`), `/music/vocals/` (`کلاس اواز گروهی در کرج`), `/performing-arts/public-speaking/` (`کلاس فن بیان حضوری در کرج`).
+   - Renders a side-by-side comparison matrix of 1-on-1 Private (`خصوصی`) vs. Group/Workshop (`گروهی و کارگاهی`) classes.
+4. **`SEC_TUITION_TABLE` (Always Required on All 24 Course Pages):**
+   - Satisfies `قیمت کلاس [X] در کرج`, `شهریه کلاس [X] در کرج`, `هزینه کلاس [X] در کرج`, `هزینه آموزش [X] کرج`.
+   - Renders transparent, verified tuition per term/session from `courses.csv` + installment/package options.
+5. **`SEC_KIDS_TEENS_TRACK` (Injected when `KIDS_TEENS_SPECIFIC` keywords exist inside an adult course silo):**
+   - Required on:
+     - `/music/piano/` (`کلاس پیانو کودکان کرج`)
+     - `/music/vocals/` (`کلاس آواز کودکان کرج`, `کلاس خوانندگی کودکان کرج`)
+     - `/performing-arts/public-speaking/` (`کلاس فن بیان برای کودکان در کرج`, `کلاس فن بیان برای نوجوانان در کرج`)
+     - `/performing-arts/voice-acting-dubbing/` (`کلاس گویندگی کودکان در کرج`)
+     - `/visual-arts/calligraphy/` (`کلاس خوشنویسی کودکان در کرج`)
+     - `/cinema-media/cinematic-makeup/` (`آموزش گریم کودک در کرج`)
+   - *(Note: General Kids Music `/music/kids/` and Kids Acting `/performing-arts/kids-acting-drama/` have their own dedicated standalone Tier 2 pages because they command 14 and 9 dedicated keywords respectively with distinct curricula).*
+6. **`SEC_CAFE_PERFORMANCE_BRIDGE` (Injected on Piano, Guitar, Santoor, Tar/Setar, and Organ Course Pages):**
+   - Connects the course page to `/art-cafe/`, showcasing how students practice stage presence by performing live in the Academy's Art Cafe.
+7. **`SEC_FARDIS_COMMUTER_ACCESS` (Injected on Courses Demanded in Fardis):**
+   - Required on `/music/`, `/music/kids/`, `/music/vocals/`, `/performing-arts/acting/`, `/performing-arts/public-speaking/`, `/performing-arts/voice-acting-dubbing/`, `/visual-arts/calligraphy/`.
+   - Provides exact travel directions/time from Fardis (`فردیس کرج`) and links to `/fardis-branch/`.
+
+---
+
+### STEP 3 — BUILD TIER 3: LIVE-MUSIC ART CAFE & VENUE HUB (`/art-cafe/`)
+Create `page_id: "CAFE_VENUE_HUB"` (`url_slug: "/art-cafe/"`):
+- **Silo:** `SILO_CAFE_01`
+- **Primary Keyword:** `کافه پیانو کرج` (or compound H1/Title targeting `کافه پیانو، گیتار و سنتور در کرج | کافه هنر و موسیقی [Brand Name]`).
+- **Secondary Keywords:** `کافه گیتار کرج`, `کافه سنتور کرج`, `کافه ارگ کرج`, `رستوران سه تار کرج`, `کافه رستوران سه تار کرج`.
+- **Mandatory Unique Sections (100% Distinct from Course Pages):**
+  1. `[SEC_CAFE_HERO]`: Live Music Schedule, Table Reservation CTA, & Acoustic Ambiance Showcase.
+  2. `[SEC_LIVE_NIGHTS_BY_INSTRUMENT]`: Dedicated schedule blocks for:
+     - Live Piano Nights (`شب‌های اجرای زنده پیانو — کافه پیانو کرج`) → Links to `/music/piano/`
+     - Live Acoustic & Flamenco Guitar Nights (`کافه گیتار کرج`) → Links to `/music/guitar/`
+     - Traditional Persian Music Nights: Santoor & Setar (`کافه سنتور کرج` & `کافه رستوران سه تار کرج`) → Links to `/music/santoor/` and `/music/tar-setar/`
+     - Live Keyboard/Organ & Nostalgia Nights (`کافه ارگ کرج`) → Links to `/music/keyboard-organ/`
+  3. `[SEC_CAFE_MENU]`: Verified Cafe & Bistro Menu (`cafe_menu` from `academy_data.txt`).
+  4. `[SEC_STUDENT_RECITAL_STAGE]`: How Academy students book the Art Cafe stage for ensemble recitals and film screenings.
+  5. `[SEC_CAFE_RESERVATION_MAP]`: Location, parking, opening hours, and instant WhatsApp/Phone table booking.
+- **Planned Schema:** `CafeOrCoffeeShop`, `EventVenue`, `MusicEvent` (if verified events exist in `cafe_events.csv`), `Menu`, `BreadcrumbList`.
+
+---
+
+### STEP 4 — BUILD TIER 4: HYPER-LOCAL & CONVERSION HUBS
+
+1. **`GEO_FARDIS_HUB` (`/fardis-branch/`):**
+   - **Silo:** `SILO_GEO_FARDIS` (15 keywords)
+   - **Primary Keyword:** `کلاس موسیقی و بازیگری در فردیس کرج` (covering `کلاس موسیقی در فردیس کرج`, `کلاس بازیگری در فردیس کرج`, `کلاس فن بیان در فردیس کرج`, `آموزشگاه موسیقی کودک در فردیس کرج`, `کلاس آواز در فردیس کرج`, `کلاس گویندگی در فردیس کرج`, `کلاس خوشنویسی در فردیس کرج`).
+   - **Anti-Doorway Information Gain Rule (≥ 30% Unique Local Value):**
+     - Must NOT be a copy-pasted homepage.
+     - Must include:
+       1. `[SEC_FARDIS_ROUTE_MATRIX]`: Exact driving, BRT/Metro, and taxi routes & travel minutes from Fardis (`فلکه اول تا پنجم فردیس، بلوار شهدا، کانال فردیس`) to the Academy campus (or exact Fardis branch NAP if `fardis_campus_status == "PHYSICAL_BRANCH"`).
+       2. `[SEC_FARDIS_DEMANDED_PROGRAMS]`: Dedicated cards & schedules for the 7 exact programs searched by Fardis residents (General Music, Kids Orff Music, Vocals, Acting, Public Speaking, Voice Acting, Calligraphy) with direct links to each Tier 2 Course Page.
+       3. `[SEC_FARDIS_WEEKEND_COMPACT_SHIFTS]`: Special Thursday/Friday intensive scheduling blocks designed for Fardis commuters.
+
+2. **`CONV_AUDITION_HUB` (`/acting-audition/`):**
+   - **Silo:** `SILO_CONV_AUDITION`
+   - **Primary Keyword:** `تست بازیگری در کرج`
+   - **Secondary Keywords:** `تست بازیگری در کرج کجاست`
+   - **Mandatory Sections:** Audition process steps, monologue preparation checklist, judging faculty from `instructors.csv`, age categories (Kids, Teens, Adults), audition fee/free assessment policy, and booking form. Links directly to `/performing-arts/acting/` and `/performing-arts/kids-acting-drama/`.
+
+3. **`HUB_INSTRUCTORS` (`/instructors/`) & `HUB_TUITION_CONTACT` (`/contact/`):**
+   - Trust and utility hubs supporting E-E-A-T and `ContactPage` / `Person` schema graphs.
+
+---
+
+### STEP 5 — COMPUTE INFORMATION GAIN DELTA (`≥ 30%` RULE) & AI/SGE TARGETS
+
+For every buildable page in `output/page_map.json`, populate `information_gain_delta` and `serp_and_ai_targets`:
+- **`unique_curriculum_or_venue_facts`:** Verbatim syllabus modules, studio equipment, instructor credentials, or cafe menu/stage details unique to this URL.
+- **`orthographic_variants_covered`:** Explicit list of both standard (`آموزش`, `آموزشگاه`, `آواز`, `آدرس`, `آکادمی`) and un-Maddahed (`اموزش`, `اموزشگاه`, `اواز`, `ادرس`, `اکادمی`) keywords assigned to this URL, with instructions on where each appears naturally (e.g., standard in H1/Title; un-Maddahed in FAQ questions or image alt/caption text where natural, or handled via exact stem proximity).
+- **`bluf_answer_target`:** A 40–55 word Persian direct-answer paragraph placed at the top of the page summarizing:
+  1. Course/Venue name in Karaj (`در کرج`)
+  2. Formats offered (`خصوصی و گروهی` / `کودکان و بزرگسالان`)
+  3. Female & Male Maestro availability (`با حضور اساتید مجرب خانم و آقا`)
+  4. Verified Tuition range (`شهریه دوره از ...`) and official certification (`مدرک معتبر`).
+
+---
+
+### STEP 6 — WRITE `output/page_map.json`
+
+Write `output/page_map.json` with this exact structure:
+
+```json
+{
+  "generated_at": "[ISO_8601_Timestamp]",
+  "total_raw_keyword_lines": 258,
+  "total_distinct_keywords": 0,
+  "total_buildable_pages": 0,
+  "tier_summary": {
+    "tier_0_home": 1,
+    "tier_1_department_hubs": 4,
+    "tier_2_course_pages": 24,
+    "tier_3_art_cafe_hub": 1,
+    "tier_4_local_and_conversion_hubs": 4,
+    "tier_5_editorial_guides": 0,
+    "excluded_unserved_courses": 0
+  },
+  "pages": [
+    {
+      "page_id": "CRS_PIANO",
+      "tier": "2",
+      "url_slug": "/music/piano/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_PIANO",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_PIANO",
+      "primary_keyword": "کلاس پیانو در کرج",
+      "secondary_keywords": [
+        "آموزش پیانو کرج",
+        "آموزشگاه پیانو کرج",
+        "بهترین استاد پیانو کرج",
+        "مدرس پیانو خانم در کرج",
+        "آموزش خصوصی پیانو در کرج",
+        "معلم خصوصی پیانو در کرج",
+        "کلاس پیانو کودکان کرج",
+        "مدرسه پیانو کرج",
+        "اکادمی پیانو کرج",
+        "اموزش پیانو کرج",
+        "اموزشگاه پیانو کرج"
+      ],
+      "orthographic_variants_assigned": [
+        "اموزش پیانو کرج",
+        "اموزشگاه پیانو کرج",
+        "اکادمی پیانو کرج"
+      ],
+      "user_task": "Compare piano instructors (including female teachers), private vs. group formats, kids vs. adult tracks, and tuition in Karaj, and book a trial/assessment session.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": ["INST_01", "INST_02"],
+        "has_female_instructor": true,
+        "has_private_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": true,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_TUITION_TABLE",
+        "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 85
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "internal_links_to": [
+        "/music/",
+        "/art-cafe/",
+        "/music/kids/",
+        "/music/keyboard-organ/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/art-cafe/",
+        "/music/kids/"
+      ],
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Offer",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    }
+  ],
+  "keyword_accountability": {
+    "tier_0_home": 0,
+    "tier_1_department_hubs": 0,
+    "tier_2_course_pages": 0,
+    "tier_3_art_cafe": 0,
+    "tier_4_fardis_and_audition": 0,
+    "tier_5_editorial": 0,
+    "excluded_unserved": 0,
+    "total_keywords_accounted": 258,
+    "balanced": true
+  },
+  "orphan_page_warnings": [],
+  "cannibalization_warnings": []
+}
+```
+
+---
+
+## VERIFICATION & AUDIT GATES (GATE 2)
+
+Before marking Unified Phase 2 complete, verify that ALL of the following evaluate to `true`:
+1. **100% Keyword Accountability (`keyword_accountability.balanced == true`):** Every single keyword from `input/keywords.txt` is assigned to exactly one primary buildable page in `output/page_map.json`.
+2. **Zero Primary Keyword Cannibalization (`cannibalization_warnings.length == 0`):**
+   - No separate pages exist for `استاد [X]`, `قیمت کلاس [X]`, `مدرس خانم [X]`, or `آموزشگاه [X]`. All are consolidated into their respective Tier 2 Course Page's `secondary_keywords` and mapped to `required_onpage_modules`.
+3. **Art Cafe Bidirectional Link Bridge Verified:**
+   - `/art-cafe/` links to `/music/piano/`, `/music/guitar/`, `/music/santoor/`, `/music/tar-setar/`, and `/music/keyboard-organ/`.
+   - All 5 of those instrument pages include `SEC_CAFE_PERFORMANCE_BRIDGE` and link back to `/art-cafe/`.
+4. **Fardis Hyper-Local Hub & Course Bridge Verified:**
+   - `/fardis-branch/` owns all 15 `فردیس کرج` keywords and links to the 7 demanded course pages.
+   - Each of those 7 course pages includes `SEC_FARDIS_COMMUTER_ACCESS` and links to `/fardis-branch/`.
+5. **Audition Hub Link Bridge Verified:**
+   - `/acting-audition/` owns `تست بازیگری در کرج` and `تست بازیگری در کرج کجاست` and links bidirectionally with `/performing-arts/acting/` and `/performing-arts/kids-acting-drama/`.
+6. **Information Gain Gate:** Every buildable page has `gain_percentage_estimate >= 30` and `gain_score` of `HIGH` or `MEDIUM`.
+7. **Zero Orphan Pages (`orphan_page_warnings.length == 0`):** Every buildable page has `internal_links_from.length >= 2` and `internal_links_to.length >= 2`.

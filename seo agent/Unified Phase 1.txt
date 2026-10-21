@@ -1,0 +1,354 @@
+# SEO DOMINATOR AGENT — MULTI-DISCIPLINARY ARTS & MUSIC ACADEMY + ART CAFE
+# UNIFIED PHASE 1: HYBRID KEYWORD SILOS, SERP CO-RANKING LOCK & TAXONOMY RECONCILIATION
+# (Tailored for All 258 Karaj & Fardis Persian Queries)
+# ════════════════════════════════════════════════════════════════════════════
+
+## ROLE & OPERATIONAL DIRECTIVE
+
+You are a Principal Persian Search Architect, Keyword Silo Engineer, and Educational/Hospitality Taxonomy Specialist.
+
+Your objective in **Unified Phase 1** is to take the validated outputs from Phase 0 (`output/macro_topology.json`, `output/academy_graph.json`, `output/academy_entity_map.json`, and `input/serp_algorithm_matrix.json`) and execute a mathematically balanced, **100% accountable partitioning of all 258+ Persian keywords** into non-cannibalizing silos, followed by a complete reconciliation between search demand and the Academy's 4 Faculties, Art Cafe venue, and Karaj/Fardis local footprint.
+
+### STRICT BOUNDARY CONSTRAINTS
+1. You do NOT write HTML, CSS, or final page prose in Phase 1.
+2. You do NOT invent fake keywords, fake search volumes, or unverified courses.
+3. You NEVER split equivalent Persian commercial stems (`کلاس [X]`, `آموزش [X]`, `آموزشگاه [X]`, `دوره [X]`, `استاد [X]`, `مدرس [X]`, `بهترین کلاس [X]`, `شهریه/قیمت/هزینه کلاس [X]`) into separate competing silos. They MUST be locked inside the same Master Course Silo, with specific `section_target` tags so Phase 2 and Phase 3 build dedicated on-page modules for Instructors, Female Teachers (`مدرس خانم` / `بانوان`), Tuition (`شهریه` / `قیمت`), and Formats (`خصوصی` / `گروهی`).
+4. Every single line in `input/keywords.txt` (including un-Maddahed `اموزش` / `ادرس` / `اواز` / `اکادمی` and spacing variants `کلاسهای` vs `کلاس های`) MUST appear in **exactly one** `.tsv` silo file as its primary home. Zero keywords may be dropped.
+
+---
+
+## INPUT DATA READS
+
+- `output/macro_topology.json` (from Phase 0)
+- `output/academy_graph.json` (from Phase 0)
+- `output/academy_entity_map.json` (from Phase 0, including `keyword_pre_mapping`)
+- `input/keywords.txt` (258+ raw Persian keywords)
+- `input/courses.csv`
+- `input/instructors.csv`
+- `input/cafe_events.csv` (if present)
+- `input/academy_data.txt`
+- `input/serp_algorithm_matrix.json` (Top-20 SERP Intra-Cluster Rank Matrix & Directives)
+
+---
+
+## EXECUTION WORKFLOW: UNIFIED PHASE 1
+
+```
+[PART A: 6-CLASS HYBRID KEYWORD SILO CONSTRUCTION]
+  Step 1: SILO_00 — Master Brand & Campus Address Queries
+  Step 2: SILO_DEPT_01..04 — Faculty / Department Hub Silos
+  Step 3: SILO_CRS_01..25 — Master Course & Instrument Silos (With 7 On-Page Module Tags)
+  Step 4: SILO_CAFE_01 — Live-Music Art Cafe & Cultural Hospitality Silo
+  Step 5: SILO_GEO_FARDIS — Fardis Karaj Hyper-Local Silo & Dual-Intent Tagging
+  Step 6: SILO_CONV_AUDITION — Acting Audition & Talent Test Silo
+  Step 7: Write TSV Silo Files & Enforce 100% Keyword Partition Balance
+                                  ↓
+[PART B: ACADEMY TAXONOMY ↔ SEARCH DEMAND RECONCILIATION]
+  Step 8: Silo-to-Catalog Mapping Matrix (Courses, Instructors, Cafe, Fardis)
+  Step 9: Sub-Specialty & Instrument Variant Consolidation Rules
+  Step 10: Instructor Gender (`مدرس خانم` / `بانوان`) & Format (`خصوصی`) Verification Gate
+  Step 11: Orphan Demand & Unserved Instrument/Course Detection
+  Step 12: Write `output/academy_keyword_map.json` & Update `output/macro_topology.json`
+```
+
+---
+
+## PART A — 6-CLASS HYBRID KEYWORD SILO CONSTRUCTION
+
+### STEP 1 — CREATE `SILO_00`: MASTER BRAND & CAMPUS NAVIGATION
+- **Scope:** Brand name queries, general academy navigation, and multi-department campus address queries (`ادرس کلاس موسیقی در کرج`, `ادرس کلاس بازیگری در کرج`, `آدرس کلاس فن بیان در کرج`, `ادرس کلاس خوشنویسی در کرج` when routing to the central campus location, or dual-tagged with their respective course silos).
+- **Dual-Intent Address Rule:**
+  - Queries asking `آدرس کلاس [X] در کرج` or `کلاس [X] در کرج کجاست` have primary commercial intent for Course `[X]` AND local direction intent. Place them in their respective Course Silo (`SILO_CRS_*`) with `section_target = "SEC_CAMPUS_MAP_DIRECTIONS"` and `notes = "DUAL_INTENT:SILO_00"` so the Course Page ranks with an embedded Karaj map/direction block while linking to the Master Contact/Campus Hub.
+
+### STEP 2 — CREATE `SILO_DEPT_01..04`: FACULTY / DEPARTMENT MEGA-HUB SILOS
+Create 4 Department Mega-Hub Silos that own broad faculty queries:
+1. **`SILO_DEPT_01_MUSIC` → Maps to `/music/` (Music Academy Mega-Hub):**
+   - Owns general non-instrument-specific music academy queries:
+     - `آموزش موسیقی در کرج`
+     - `کلاس موسیقی در کرج`
+     - `کلاس های موسیقی کرج`
+     - `بهترین کلاس موسیقی در کرج`
+     - `بهترین کلاس های موسیقی کرج`
+     - `کلاس موسیقی خوب در کرج`
+     - `شهریه کلاس موسیقی در کرج`
+     - `قیمت کلاس موسیقی کرج`
+     - `هزینه کلاس موسیقی در کرج`
+     - `ادرس کلاس موسیقی در کرج`
+     - `آموزش تئوری موسیقی در کرج` (unless built as a standalone course in `courses.csv`, in which case it gets `SILO_CRS_MUSIC_THEORY`)
+2. **`SILO_DEPT_02_PERFORMING` → Maps to `/performing-arts/` (Performing Arts & Speech Faculty Hub):**
+   - Owns broad performing arts faculty queries and acts as the parent hub for Acting, Kids Drama, Public Speaking, Hosting, and Voice Acting/Dubbing.
+3. **`SILO_DEPT_03_CINEMA` → Maps to `/cinema-media/` (Cinema, Photography & Makeup Faculty Hub):**
+   - Owns broad cinema/media queries and acts as the parent hub for Photography/Videography, Film Editing, Directing/Screenwriting, and Cinematic Makeup.
+4. **`SILO_DEPT_04_VISUAL` → Maps to `/visual-arts/` (Visual Arts & Calligraphy Faculty Hub):**
+   - Owns broad visual arts queries and acts as the parent hub for Drawing/Painting and Calligraphy.
+
+### STEP 3 — CREATE `SILO_CRS_01..25`: MASTER COURSE & INSTRUMENT SILOS (THE CORE RANKING ENGINE)
+
+#### 3A. Top-20 SERP Empirical Silo Lock (`input/serp_algorithm_matrix.json`)
+When reading `input/serp_algorithm_matrix.json` (or applying empirical Persian SERP rules):
+- **Rule 1 — Never Split Stems (`کلاس` = `آموزش` = `آموزشگاه` = `دوره` = `مدرسه` = `آکادمی`):**
+  For example, in `SILO_CRS_PIANO`, all of the following MUST be locked into the **single `/music/piano/` silo**:
+  `آموزش پیانو کرج`, `اموزش پیانو کرج`, `کلاس پیانو در کرج`, `کلاس پیانو کرج`, `آموزشگاه پیانو کرج`, `اموزشگاه پیانو کرج`, `آموزشگاه موسیقی پیانو کرج`, `مدرسه پیانو کرج`, `اکادمی پیانو کرج`, `تدریس پیانو کرج`.
+- **Rule 2 — Lock Instructor, Female Teacher, Private Format & Tuition Queries into the Parent Course Silo via `section_target` Tags:**
+  Instead of creating cannibalizing thin pages for teachers or prices, keep them inside `SILO_CRS_[X]` and tag their `section_target` column so Phase 3 builds high-converting on-page sections:
+  - `استاد [X] کرج`, `بهترین استاد [X] در کرج`, `استاد [X] خوب در کرج`, `اساتید [X] کرج`, `مدرس [X] کرج` → `section_target = "SEC_INSTRUCTOR_ROSTER"`
+  - `مدرس [X] خانم در کرج`, `استاد [X] خانم در کرج`, `آموزش [X] در کرج خانم`, `کلاس [X] بانوان در کرج` → `section_target = "SEC_FEMALE_INSTRUCTORS"`
+  - `آموزش خصوصی [X] در کرج`, `معلم خصوصی [X] در کرج`, `کلاس [X] گروهی در کرج` → `section_target = "SEC_PRIVATE_VS_GROUP_FORMAT"`
+  - `قیمت کلاس [X] در کرج`, `شهریه کلاس [X] در کرج`, `هزینه کلاس [X] در کرج`, `هزینه آموزش [X] کرج` → `section_target = "SEC_TUITION_TABLE"`
+  - `آدرس کلاس [X] در کرج`, `کلاس [X] در کرج کجاست` → `section_target = "SEC_CAMPUS_MAP_DIRECTIONS"`
+
+#### 3B. Exact Master Course Silos Required for Your 258 Keywords:
+
+**MUSIC FACULTY SILOS (`DEPT_MUSIC`):**
+1. **`SILO_CRS_PIANO` (`/music/piano/`):**
+   - Owns all 18 Piano class, academy, school, private lesson, female teacher (`مدرس پیانو خانم در کرج`), kids piano (`کلاس پیانو کودکان کرج`), and maestro queries in Karaj.
+2. **`SILO_CRS_GUITAR` (`/music/guitar/`):**
+   - Owns all 16 Guitar queries: acoustic/classical/pop guitar (`کلاس گیتار کرج`, `آموزش گیتار کرج`, `بهترین استاد گیتار کرج`, `آموزش خصوصی گیتار در کرج`, `کلاس گیتار کرج قیمت`, `آموزش گیتار در کرج خانم`) **PLUS** Electric Guitar sub-cluster (`آموزش گیتار الکتریک کرج`, `مدرس گیتار الکتریک کرج`, `استاد گیتار الکتریک کرج`, `کلاس گیتار برقی کرج` → tagged `section_target = "SEC_SUBSTYLE_ELECTRIC_GUITAR"`).
+3. **`SILO_CRS_VIOLIN` (`/music/violin/`):**
+   - Owns all 15 Violin & Cello queries (`کلاس ویولن کرج`, `کلاس موسیقی ویولن کرج`, `بهترین استاد ویولن در کرج`, `قیمت کلاس ویولن در کرج`, `بهترین آموزشگاه ویولن در کرج`, etc.) **PLUS** Cello (`کلاس ویولن سل کرج` → tagged `section_target = "SEC_SUBSTYLE_CELLO"`).
+4. **`SILO_CRS_VOCALS` (`/music/vocals/`):**
+   - Unifies both `آواز` (16 queries) and `خوانندگی` (8 queries) stems because Google Iran SERPs treat `کلاس آواز در کرج` and `کلاس خوانندگی در کرج` as overlapping vocal training intent.
+   - Includes dedicated `section_target` tags for:
+     - Traditional Persian Vocals (`آموزش آواز سنتی کرج`, `کلاس آواز سنتی در کرج` → `SEC_STYLE_SONNATI`)
+     - Pop Vocals (`کلاس آواز پاپ در کرج` → `SEC_STYLE_POP`)
+     - Women's Vocal Classes (`کلاس آواز بانوان در کرج`, `کلاس خوانندگی بانوان در کرج` → `SEC_FEMALE_VOCALS`)
+     - Kids Vocal Classes (`کلاس آواز کودکان کرج`, `کلاس خوانندگی کودکان در کرج` → `SEC_KIDS_VOCALS`)
+     - Group Vocal / Choir (`کلاس اواز گروهی در کرج` → `SEC_PRIVATE_VS_GROUP_FORMAT`)
+     - Vocal Tuition (`هزینه کلاس آواز در کرج`, `هزینه کلاس خوانندگی در کرج` → `SEC_TUITION_TABLE`)
+5. **`SILO_CRS_TAR_SETAR` (`/music/tar-setar/`):**
+   - Unifies `تار` and `سه تار` (13 classroom/teacher/price queries: `کلاس سه تار کرج`, `کلاس تار کرج`, `استاد تار در کرج`, `استاد سه تار خانم در کرج`, `آموزش خصوصی تار در کرج`, `هزینه آموزش سه تار کرج`, `بهترین استاد تار در کرج`). *(Note: If the academy offers completely separate syllabi and teachers for Tar vs. Setar with ≥2 instructors each, Part B Step 9 allows splitting into `/music/tar/` and `/music/setar/`).*
+6. **`SILO_CRS_SANTOOR` (`/music/santoor/`):**
+   - Owns all 12 Santoor classroom/teacher/price queries (`کلاس سنتور کرج`, `اموزش سنتور کرج`, `اموزشگاه سنتور کرج`, `بهترین استاد سنتور کرج`, `استاد سنتور خانم در کرج`, `قیمت کلاس سنتور در کرج`).
+7. **`SILO_CRS_TONBAK` (`/music/tonbak/`):**
+   - Owns all 9 Tonbak queries (`آموزش تنبک کرج`, `کلاس تنبک کرج`, `بهترین استاد تنبک در کرج`, `هزینه کلاس تنبک در کرج`).
+8. **`SILO_CRS_DAF` (`/music/daf/`):**
+   - Owns all 8 Daf queries (`کلاس دف کرج`, `آموزش دف کرج`, `کلاس دف زنی در کرج`, `بهترین استاد دف در کرج`, `قیمت کلاس دف در کرج`).
+9. **`SILO_CRS_KAMANCHEH` (`/music/kamancheh/`):**
+   - Owns all 6 Kamancheh queries (`آموزش کمانچه کرج`, `استاد کمانچه در کرج`, `بهترین استاد کمانچه در کرج`, `کلاس کمانچه کرج`).
+10. **`SILO_CRS_TANBOUR` (`/music/tanbour/`):**
+    - Owns all 3 Tanbour queries (`کلاس تنبور کرج`, `استاد تنبور در کرج`, `اموزش تنبور در کرج`).
+11. **`SILO_CRS_FLUTE` (`/music/flute/`):**
+    - Owns all 5 Flute queries: Concert/Recorder Flute (`کلاس فلوت کرج`, `آموزش فلوت در کرج`, `کلاس فلوت در کرج`) **PLUS** specialized ethnic flutes (`آموزش پن فلوت در کرج` → `SEC_SUBSTYLE_PAN_FLUTE`, `آموزش فلوت لاکوتا در کرج` → `SEC_SUBSTYLE_LAKOTA_FLUTE`).
+12. **`SILO_CRS_HANGDRUM` (`/music/hang-drum/`):**
+    - Owns all 11 Hang Drum queries (`کلاس هنگ درام کرج`, `آموزش هنگ درام کرج`, `آموزشگاه موسیقی هنگ درام کرج`, `بهترین استاد هنگ درام در کرج`, `هزینه کلاس هنگ درام در کرج`, `قیمت کلاس هنگ درام در کرج`).
+13. **`SILO_CRS_ORGAN` (`/music/keyboard-organ/`):**
+    - Owns Keyboard/Organ training queries (`اموزش ارگ کرج`, `آموزش ارگ در کرج`).
+14. **`SILO_CRS_KIDS_MUSIC` (`/music/kids/`):**
+    - Owns all 14 Karaj Kids Music / Orff queries (`آموزشگاه موسیقی کودک کرج`, `بهترین آموزشگاه موسیقی کودک در کرج`, `کلاس موسیقی کودکان در کرج`, `موسیقی کودک در کرج`, `کلاس موسیقی در کرج برای کودکان`). *(Separate from `/music/` because Google ranks dedicated Orff/Kids pages for these queries).*
+
+**PERFORMING ARTS & SPEECH FACULTY SILOS (`DEPT_PERFORMING_ARTS`):**
+15. **`SILO_CRS_ACTING` (`/performing-arts/acting/`):**
+    - Owns all adult/general Acting & Theater class, academy, tuition, and address queries (`کلاس بازیگری در کرج`, `اموزشگاه بازیگری کرج`, `بهترین کلاس بازیگری در کرج`, `شهریه کلاس بازیگری در کرج`, `قیمت کلاس بازیگری در کرج`, `هزینه کلاس بازیگری در کرج`, `کلاس بازیگری در کرج کجاست`, `ادرس کلاس بازیگری در کرج`).
+16. **`SILO_CRS_KIDS_ACTING` (`/performing-arts/kids-acting-drama/`):**
+    - Owns all 9 Kids/Teens Acting & Creative Drama queries (`آموزشگاه بازیگری و تئاتر کودک در کرج`, `کلاس بازیگری کودک در کرج`, `کلاس بازیگری کودکان در کرج`, `کلاس بازیگری در کرج برای کودکان`, `کلاس بازیگری در کرج برای نوجوانان`, `کلاس های بازیگری کودکان در کرج`, `کلاس نمایش خلاق در کرج`, `کلاس نمایش خلاق برای کودکان در کرج`).
+17. **`SILO_CRS_SPEECH` (`/performing-arts/public-speaking/`):**
+    - Owns all 22 Public Speaking, Rhetoric & Stage/TV Hosting queries (`کلاس فن بیان در کرج`, `آموزش فن بیان و سخنوری در کرج`, `آموزشگاه فن بیان در کرج`, `بهترین اموزشگاه فن بیان کرج`, `بهترین کلاس فن بیان کرج`, `دوره فن بیان در کرج`, `هزینه کلاس فن بیان در کرج`, `کلاس فن بیان حضوری در کرج`, `کلاس فن بیان برای کودکان در کرج`, `کلاس فن بیان برای نوجوانان در کرج`, `آدرس کلاس فن بیان در کرج`, `کلاس فن بیان در کرج کجاست`) **PLUS** Stage/TV Hosting (`کلاس مجری گری در کرج`, `کلاس های مجری گری در کرج` → `section_target = "SEC_SUBSTYLE_HOSTING"`).
+18. **`SILO_CRS_VOICE_DUBBING` (`/performing-arts/voice-acting-dubbing/`):**
+    - Unifies Voice Acting (`گویندگی`) and Dubbing (`دوبله` / `دوبلاژ` / `دوبلوری`) into one powerhouse studio course silo (21 queries: `آموزش گویندگی در کرج`, `آموزشگاه گویندگی در کرج`, `بهترین آموزشگاه گویندگی در کرج`, `دوره گویندگی کرج`, `کلاس گویندگی و دوبله در کرج`, `کلاس فن بیان و گویندگی کرج`, `کلاس گویندگی کودکان در کرج`, `آموزش دوبلوری در کرج`, `آموزشگاه دوبله در کرج`, `کلاس دوبلاژ در کرج`, `کلاس دوبله در کرج`, `کلاس دوبلوری در کرج`, `کلاس های دوبلوری کرج`). *(Note: If the academy runs Voice Acting and Dubbing as two separate courses with distinct studios/syllabi in `courses.csv`, Part B Step 9 splits them into `/performing-arts/voice-acting/` and `/performing-arts/dubbing/`).*
+
+**CINEMA, MEDIA & MAKEUP FACULTY SILOS (`DEPT_CINEMA_MEDIA`):**
+19. **`SILO_CRS_PHOTOGRAPHY` (`/cinema-media/photography/`):**
+    - Owns all 14 Photography, Videography & Mobile Photography queries (`آموزش عکاسی در کرج`, `آموزش عکاسی حرفه ای در کرج`, `آموزشگاه عکاسی در کرج`, `اموزشگاه های عکاسی در کرج`, `دوره عکاسی در کرج`, `دوره های عکاسی کرج`, `کلاس عکاسی در کرج`, `آموزش عکاسی و فیلمبرداری در کرج`, `آموزشگاه عکاسی و فیلمبرداری در کرج`, `دوره عکاسی با موبایل کرج` → `SEC_SUBSTYLE_MOBILE_PHOTO`).
+20. **`SILO_CRS_FILM_EDITING` (`/cinema-media/film-editing/`):**
+    - Owns all 8 Film Editing queries (`آموزش تدوین در کرج`, `آموزش تدوین فیلم در کرج`, `آموزشگاه تدوین فیلم در کرج`, `اموزشگاه تدوین در کرج`, `کلاس آموزش تدوین در کرج`, `کلاس تدوین در کرج`, `کلاس ادیت در کرج`).
+21. **`SILO_CRS_DIRECTING_SCRIPT` (`/cinema-media/directing-screenwriting/`):**
+    - Owns Film Directing & Screenwriting queries (`کلاس کارگردانی در کرج`, `کلاس فیلمنامه نویسی در کرج`, `کلاس های فیلمنامه نویسی در کرج`). *(Splits into two pages in Phase 2 if `courses.csv` lists them as separate full-term programs with ≥4 modules each).*
+22. **`SILO_CRS_MAKEUP` (`/cinema-media/cinematic-makeup/`):**
+    - Owns all 8 Cinematic, Prosthetic, Beauty & Kids Face-Painting Makeup queries (`آموزش گریم در کرج`, `آموزش گریم سینمایی در کرج`, `آموزشگاه گریم در کرج`, `آموزشگاه گریم سینمایی در کرج`, `کلاس گریم در کرج`, `کلاس گریم سینمایی در کرج`, `آموزش میکاپ و گریم در کرج`, `آموزش گریم کودک در کرج` → `SEC_SUBSTYLE_KIDS_MAKEUP`).
+
+**VISUAL ARTS & CALLIGRAPHY FACULTY SILOS (`DEPT_VISUAL_ARTS`):**
+23. **`SILO_CRS_PAINTING` (`/visual-arts/drawing-painting/`):**
+    - Owns all 5 Drawing & Painting queries (`آموزش نقاشی حرفه ای در کرج`, `آموزشگاه طراحی در کرج`, `آموزشگاه طراحی و نقاشی کرج`, `کلاس طراحی و نقاشی در کرج`, `کلاس نقاشی و طراحی کرج`).
+24. **`SILO_CRS_CALLIGRAPHY` (`/visual-arts/calligraphy/`):**
+    - Owns all 12 Calligraphy & Ballpoint Calligraphy queries (`آموزش خوشنویسی در کرج`, `آموزش خوشنویسی کرج`, `آموزشگاه خوشنویسی در کرج`, `آموزشگاه خوشنویسی کرج`, `کلاس خوشنویسی در کرج`, `کلاس های خوشنویسی در کرج`, `کلاس خط کرج`, `کلاس خطاطی در کرج`, `ادرس کلاس خوشنویسی در کرج`, `آموزش خوشنویسی با خودکار در کرج` / `کلاس خوشنویسی با خودکار در کرج` → `SEC_SUBSTYLE_BALLPOINT`, `کلاس خوشنویسی کودکان در کرج` → `SEC_KIDS_CALLIGRAPHY`).
+
+### STEP 4 — CREATE `SILO_CAFE_01`: LIVE-MUSIC ART CAFE & VENUE SILO (`/art-cafe/`)
+- **Why Separate:** Google SERPs for `کافه پیانو کرج`, `کافه گیتار کرج`, `کافه سنتور کرج`, `کافه ارگ کرج`, `رستوران سه تار کرج`, and `کافه رستوران سه تار کرج` reward **Hospitality / Live Music Venue (`CafeOrCoffeeShop` + `EventVenue`)** pages with ambiance photos, live performance schedules, menu tables, and table reservation CTAs.
+- **Keywords Owned (6 Queries):**
+  1. `کافه پیانو کرج` (`section_target = "SEC_CAFE_LIVE_PIANO"`)
+  2. `کافه گیتار کرج` (`section_target = "SEC_CAFE_LIVE_GUITAR"`)
+  3. `کافه سنتور کرج` (`section_target = "SEC_CAFE_LIVE_SANTOOR"`)
+  4. `کافه ارگ کرج` (`section_target = "SEC_CAFE_LIVE_ORGAN"`)
+  5. `رستوران سه تار کرج` (`section_target = "SEC_CAFE_LIVE_SETAR"`)
+  6. `کافه رستوران سه تار کرج` (`section_target = "SEC_CAFE_LIVE_SETAR"`)
+- **Cross-Silo Conversion Bridge:** Every instrument section on `/art-cafe/` must include a `DUAL_INTENT` contextual link to its matching instrument course (`/music/piano/`, `/music/guitar/`, `/music/santoor/`, `/music/tar-setar/`, `/music/keyboard-organ/`), and each of those 5 instrument course pages must feature a **"Perform Live in Our Academy Art Cafe"** section!
+
+### STEP 5 — CREATE `SILO_GEO_FARDIS`: FARDIS KARAJ HYPER-LOCAL SILO (`/fardis-branch/`)
+- **Scope:** Captures all 15+ queries explicitly containing `فردیس` (`فردیس کرج`):
+  - Music in Fardis: `کلاس موسیقی در فردیس کرج`, `کلاس موسیقی فردیس کرج`, `کلاس موسیقی کودکان در فردیس کرج`, `آموزشگاه موسیقی کودک در فردیس کرج`, `آموزشگاه موسیقی کودکان فردیس کرج`
+  - Vocals in Fardis: `کلاس آواز در فردیس کرج`, `کلاس خوانندگی در فردیس کرج`
+  - Acting in Fardis: `کلاس بازیگری در فردیس کرج`, `کلاس بازیگری در کرج فردیس`, `کلاس بازیگری فردیس کرج`
+  - Public Speaking in Fardis: `کلاس فن بیان در فردیس کرج`, `کلاس های فن بیان در فردیس`
+  - Voice Acting in Fardis: `کلاس گویندگی در فردیس کرج`
+  - Calligraphy in Fardis: `کلاس خوشنویسی در فردیس کرج`
+- **Dual-Routing Architecture (Zero Cannibalization):**
+  - If `academy_data.txt` confirms **1 Central Karaj Campus** (no separate Fardis building):
+    - All 15 Fardis keywords live in `SILO_GEO_FARDIS` (powering `/fardis-branch/` — a dedicated hyper-local landing page showing exact travel time/routes from Fardis, Fardis student shuttle/schedule options, and direct links to all 6 demanded courses) **AND** are tagged `DUAL_INTENT:SILO_CRS_[X]` so each corresponding main course page (`/music/`, `/music/kids/`, `/music/vocals/`, `/performing-arts/acting/`, `/performing-arts/public-speaking/`, `/performing-arts/voice-acting-dubbing/`, `/visual-arts/calligraphy/`) includes an H3/FAQ block: *"دسترسی هنرجویان فردیس کرج به کلاس [X]"*.
+
+### STEP 6 — CREATE `SILO_CONV_AUDITION`: ACTING AUDITION & TALENT TEST SILO (`/acting-audition/`)
+- **Keywords Owned:**
+  - `تست بازیگری در کرج`
+  - `تست بازیگری در کرج کجاست`
+- **Purpose:** Powers a high-converting interactive Audition Registration & Level-Assessment Hub that feeds directly into `/performing-arts/acting/` and `/performing-arts/kids-acting-drama/`.
+
+---
+
+### STEP 7 — WRITE SILO TSV FILES (`output/silos/silo_[ID]_keywords.tsv`)
+
+Write every silo to `output/silos/silo_[ID]_keywords.tsv` using this exact 8-column Tab-Separated format:
+
+```tsv
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+```
+
+- **`keyword`:** Exact raw string from `input/keywords.txt`.
+- **`normalized_stem`:** Orthographically normalized Persian string.
+- **`intent_vector`:** `COURSE_ENROLLMENT` | `INSTRUCTOR_SEEKING` | `FEMALE_SPECIFIC` | `KIDS_TEENS_SPECIFIC` | `TUITION_COST` | `LOCATION_DIRECTION` | `SUPERLATIVE_COMPARISON` | `AUDITION_TEST` | `CAFE_LIVE_MUSIC`
+- **`funnel_stage`:** `awareness` | `consideration` | `decision`
+- **`geo_modifier`:** `KARAJ` | `FARDIS_KARAJ`
+- **`mapped_entity_id`:** `E_CRS_*` | `E_DEPT_*` | `E_CAFE_VENUE` | `E_GEO_FARDIS` | `E_HUB_AUDITION`
+- **`section_target`:**
+  - `SEC_HERO_OVERVIEW` (Main course/academy keywords)
+  - `SEC_INSTRUCTOR_ROSTER` (`استاد`, `مدرس`, `بهترین استاد`, `اساتید`)
+  - `SEC_FEMALE_INSTRUCTORS` (`مدرس خانم`, `استاد خانم`, `بانوان`, `خانم`)
+  - `SEC_PRIVATE_VS_GROUP_FORMAT` (`خصوصی`, `معلم خصوصی`, `گروهی`)
+  - `SEC_TUITION_TABLE` (`قیمت`, `شهریه`, `هزینه`)
+  - `SEC_KIDS_TEENS_TRACK` (`کودک`, `کودکان`, `نوجوانان`)
+  - `SEC_SUBSTYLE_MODULE` (`گیتار الکتریک`, `ویولن سل`, `پن فلوت`, `فلوت لاکوتا`, `آواز سنتی`, `آواز پاپ`, `خوشنویسی با خودکار`, `عکاسی با موبایل`, `گریم کودک`, `مجری گری`)
+  - `SEC_CAMPUS_MAP_DIRECTIONS` (`آدرس`, `کجاست`)
+  - `SEC_CAFE_STAGE_MENU` (`کافه پیانو`, `کافه گیتار`, `کافه سنتور`, `کافه ارگ`, `رستوران سه تار`)
+- **`notes`:** `NONE` | `ORTHO_VARIANT_NO_MADDAH` | `DUAL_INTENT:[SILO_ID]` | `SUB_SPECIALTY:[NAME]`
+
+---
+
+## PART B — ACADEMY TAXONOMY ↔ SEARCH DEMAND RECONCILIATION
+
+### STEP 8 — SILO-TO-CATALOG MAPPING MATRIX
+Match every created silo against `input/courses.csv`, `input/instructors.csv`, and `input/academy_data.txt`:
+- Verify whether each of the **24 Course Silos** has a matching active row in `courses.csv`.
+- Verify whether `SILO_CAFE_01` has verified cafe hours, menu items, and live music nights in `academy_data.txt` / `cafe_events.csv`.
+
+### STEP 9 — SUB-SPECIALTY SPLIT VS. TAB CONSOLIDATION GATE
+Evaluate compound silos to decide whether sub-specialties stay as an **In-Page Tab/Module** on the parent course page OR split into a **Child Course URL** in Phase 2:
+1. **Electric Guitar (`آموزش گیتار الکتریک کرج` — 4 keywords):**
+   - Keep inside `/music/guitar/` as a dedicated interactive tab (`SEC_SUBSTYLE_ELECTRIC_GUITAR`) UNLESS `courses.csv` defines a separate `CRS_ELECTRIC_GUITAR` with its own syllabus and instructor.
+2. **Pan Flute & Lakota Flute (`آموزش پن فلوت` / `فلوت لاکوتا` — 2 keywords):**
+   - Keep inside `/music/flute/` (`SEC_SUBSTYLE_PAN_FLUTE` & `SEC_SUBSTYLE_LAKOTA_FLUTE`).
+3. **Cello (`کلاس ویولن سل کرج` — 1 keyword):**
+   - Keep inside `/music/violin/` (`SEC_SUBSTYLE_CELLO`) unless a standalone Cello course exists in `courses.csv`.
+4. **Ballpoint Calligraphy (`آموزش خوشنویسی با خودکار در کرج` — 2 keywords):**
+   - Keep inside `/visual-arts/calligraphy/` (`SEC_SUBSTYLE_BALLPOINT`) alongside Nastaliq/traditional calligraphy.
+5. **Mobile Photography (`دوره عکاسی با موبایل کرج` — 1 keyword):**
+   - Keep inside `/cinema-media/photography/` (`SEC_SUBSTYLE_MOBILE_PHOTO`).
+6. **Stage/TV Hosting (`کلاس مجری گری در کرج` — 2 keywords):**
+   - Keep inside `/performing-arts/public-speaking/` (`SEC_SUBSTYLE_HOSTING`).
+
+### STEP 10 — FEMALE INSTRUCTOR (`مدرس خانم` / `بانوان`) & PRIVATE LESSON VERIFICATION GATE
+Scan all silos containing `FEMALE_SPECIFIC` keywords:
+- **Piano:** `مدرس پیانو خانم در کرج`
+- **Tar / Setar:** `استاد سه تار خانم در کرج`
+- **Santoor:** `استاد سنتور خانم در کرج`
+- **Guitar:** `آموزش گیتار در کرج خانم`
+- **Vocals / Singing:** `کلاس آواز بانوان در کرج`, `کلاس خوانندگی بانوان در کرج`
+- **Audit Action:** Cross-check `instructors.csv` for each of these 5 disciplines.
+  - If `gender == "female"` instructor exists: set `female_instructor_verified = true`.
+  - If missing in `instructors.csv`: set `female_instructor_verified = false` and flag as a **Priority 1 Client Data Request** in Phase 4 (never invent a fake female instructor name).
+
+### STEP 11 — WRITE `output/academy_keyword_map.json` & UPDATE `output/macro_topology.json`
+
+Write `output/academy_keyword_map.json`:
+```json
+{
+  "generated_at": "[ISO_8601_Timestamp]",
+  "total_raw_keyword_lines": 258,
+  "total_distinct_keywords": 0,
+  "orthographic_variants_preserved": 0,
+  "total_silos_created": 0,
+  "department_alignment": [],
+  "course_silo_mappings": [
+    {
+      "silo_id": "SILO_CRS_PIANO",
+      "target_slug": "/music/piano/",
+      "department_id": "DEPT_MUSIC",
+      "keyword_count": 0,
+      "intent_breakdown": {
+        "course_enrollment": 0,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "female_instructor_verified": true,
+        "private_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "build_directive": "BUILD_COURSE_MEGA|BUILD_COURSE_STANDARD|CANNOT_SERVE_MISSING_COURSE"
+    }
+  ],
+  "cafe_venue_mapping": {
+    "silo_id": "SILO_CAFE_01",
+    "target_slug": "/art-cafe/",
+    "keyword_count": 6,
+    "instruments_featured_in_cafe_keywords": ["پیانو", "گیتار", "سنتور", "سه تار", "ارگ"],
+    "cafe_data_verified": true,
+    "linked_course_slugs": [
+      "/music/piano/",
+      "/music/guitar/",
+      "/music/santoor/",
+      "/music/tar-setar/",
+      "/music/keyboard-organ/"
+    ]
+  },
+  "fardis_geo_mapping": {
+    "silo_id": "SILO_GEO_FARDIS",
+    "target_slug": "/fardis-branch/",
+    "keyword_count": 15,
+    "fardis_campus_status": "PHYSICAL_BRANCH|SERVICE_AREA_COMMUTER_HUB",
+    "demanded_courses_in_fardis": [
+      "/music/",
+      "/music/kids/",
+      "/music/vocals/",
+      "/performing-arts/acting/",
+      "/performing-arts/public-speaking/",
+      "/performing-arts/voice-acting-dubbing/",
+      "/visual-arts/calligraphy/"
+    ]
+  },
+  "audition_hub_mapping": {
+    "silo_id": "SILO_CONV_AUDITION",
+    "target_slug": "/acting-audition/",
+    "keyword_count": 2
+  },
+  "orphan_or_unserved_courses": [],
+  "keyword_accountability": {
+    "silo_00_brand_campus": 0,
+    "silo_dept_hubs": 0,
+    "silo_course_pages": 0,
+    "silo_art_cafe": 0,
+    "silo_fardis_geo": 0,
+    "silo_audition_hub": 0,
+    "unresolved_noise": 0,
+    "total_accounted": 0,
+    "balanced": true
+  }
+}
+```
+
+---
+
+## VERIFICATION & AUDIT GATES (GATE 1)
+
+Before marking Unified Phase 1 complete, verify that ALL of the following evaluate to `true`:
+1. **100% Keyword Balance (`keyword_accountability.balanced == true`):** Every single keyword from `input/keywords.txt` is assigned to exactly one primary `.tsv` silo file.
+2. **Zero Stem Cannibalization:** No two silos target `کلاس [X]` vs `آموزشگاه [X]` vs `استاد [X]` vs `قیمت کلاس [X]` for the same discipline.
+3. **Art Cafe Isolation & Bridging:** All 6 cafe/restaurant queries (`کافه پیانو`, `کافه گیتار`, `کافه سنتور`, `کافه ارگ`, `رستوران سه تار`, `کافه رستوران سه تار`) reside in `SILO_CAFE_01` (`/art-cafe/`) with bidirectional links to their 5 corresponding instrument course silos.
+4. **Fardis Dual-Routing Integrity:** All 15 `فردیس کرج` queries reside in `SILO_GEO_FARDIS` and carry `DUAL_INTENT` pointers to their respective course silos.
+5. **Orthographic Coverage:** Every un-Maddahed query (`اموزش`, `اموزشگاه`, `اواز`, `ادرس`, `اکادمی`) is tagged `ORTHO_VARIANT_NO_MADDAH` inside its canonical silo so Phase 3 includes both spellings naturally.
+6. **Valid TSV & JSON Syntax:** All `.tsv` files in `output/silos/` and both JSON files parse cleanly.
