@@ -1,0 +1,156 @@
+{
+  "project": "SEO DOMINATOR AGENT — آموزشگاه سینمایی و بازیگری آنک (کرج)",
+  "created_at": "2026-10-21T21:47:30Z",
+  "current_phase": "PROJECT_COMPLETE",
+  "phases": {
+    "PHASE_0": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T21:47:30Z",
+      "artifacts": [
+        "output/macro_topology.json",
+        "output/academy_graph.json",
+        "output/academy_entity_map.json",
+        "output/progress_seo.json"
+      ],
+      "gates": {
+        "G0_1_keyword_ingestion_100pct": true,
+        "G0_2_cafe_vs_classroom_separation": true,
+        "G0_3_sub_specialty_preservation": true,
+        "G0_4_female_instructor_gate_evaluated": true,
+        "G0_5_fardis_truth_gate": true,
+        "G0_6_valid_json": true
+      },
+      "gates_passed": true
+    },
+    "PHASE_1": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T21:48:58Z",
+      "artifacts": [
+        "output/silos/*.tsv",
+        "output/academy_keyword_map.json",
+        "output/macro_topology.json"
+      ],
+      "gates": {
+        "G1_1_keyword_balance_100pct": true,
+        "G1_2_zero_stem_cannibalization": true,
+        "G1_3_cafe_isolation_and_bridging": true,
+        "G1_4_fardis_dual_routing_integrity": true,
+        "G1_5_orthographic_coverage": true,
+        "G1_6_valid_tsv_and_json": true
+      },
+      "gates_passed": true
+    },
+    "PHASE_2": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T21:53:12Z",
+      "artifacts": [
+        "output/page_map.json"
+      ],
+      "gates": {
+        "G2_1_keyword_accountability_balanced": true,
+        "G2_2_zero_primary_cannibalization": true,
+        "G2_3_cafe_bidirectional_bridge": true,
+        "G2_4_fardis_hub_and_course_bridge": true,
+        "G2_5_audition_bridge": true,
+        "G2_6_information_gain_min_30": true,
+        "G2_7_zero_orphan_pages": true
+      },
+      "gates_passed": true
+    },
+    "PHASE_3": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T22:18:40Z",
+      "artifacts": [
+        "seo_dossiers/*.md",
+        "output/page_content_plan.json",
+        "output/needed_media.md"
+      ],
+      "gates": {
+        "G3_1_every_page_has_dossier_with_end_marker": true,
+        "G3_2_required_modules_present_as_sections": true,
+        "G3_3_cafe_6_keywords_and_5_instrument_sections": true,
+        "G3_4_fardis_15_keywords_covered_and_mirrored": true,
+        "G3_5_needed_media_logged": true,
+        "G3_6_zero_unplaced_keywords": true
+      },
+      "gates_passed": true
+    },
+    "PHASE_4": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T22:18:40Z",
+      "artifacts": [
+        "output/navigation_plan.json",
+        "output/schema_blueprint.json",
+        "output/client_data_request.md",
+        "output/dossier_audit.md"
+      ],
+      "gates": {
+        "G4_1_navigation_plan_two_click_reachability": true,
+        "G4_2_schema_graph_every_page": true,
+        "G4_3_offer_and_event_safety": true,
+        "G4_4_fardis_nap_honesty": true,
+        "G4_5_client_data_request_written": true,
+        "G4_6_audit_14_of_14": true
+      },
+      "gates_passed": true
+    },
+    "CODER_PHASE_1": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T22:12:09Z",
+      "artifacts": [
+        "design_system/design_brief.json",
+        "dist/assets/css/design-system.css",
+        "dist/assets/js/app.js"
+      ],
+      "gates": {
+        "D1_1_three_artifacts_exist": true,
+        "D1_2_zero_physical_direction_props": true,
+        "D1_3_ten_named_components_styled": true,
+        "D1_4_vanilla_js_under_12kb_gz": true,
+        "D1_5_rtl_logical_tokens_present": true,
+        "D1_6_mobile_bar_and_megamenu_styled": true
+      },
+      "gates_passed": true
+    },
+    "CODER_PHASE_2": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T22:18:40Z",
+      "artifacts": [
+        "dist/**/index.html",
+        "dist/sitemap.xml",
+        "dist/robots.txt"
+      ],
+      "gates": {
+        "D2_1_all_pages_written": true,
+        "D2_2_sitemap_and_robots": true
+      },
+      "gates_passed": true
+    },
+    "CODER_PHASE_3_AUDIT": {
+      "status": "COMPLETE",
+      "completed_at": "2026-10-21T22:18:40Z",
+      "artifacts": [
+        "output/final_code_audit.md"
+      ],
+      "gates": {
+        "V1": true,
+        "V2": true,
+        "V3": true,
+        "V4": true,
+        "V5": true,
+        "V6": true,
+        "V7": true,
+        "V8": true,
+        "V9": true,
+        "V10": true,
+        "V11": true,
+        "V12": true,
+        "V13": true,
+        "V14": true,
+        "V15": true
+      },
+      "gates_passed": true
+    }
+  },
+  "updated_at": "2026-10-21T22:18:40Z"
+}

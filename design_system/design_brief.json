@@ -1,0 +1,287 @@
+{
+  "generated_at": "2026-10-21T22:12:09Z",
+  "phase": "DESIGNER_PHASE_0",
+  "brand": {
+    "name_fa": "آموزشگاه سینمایی و بازیگری آنک",
+    "name_en": "Aanak Cinematic, Acting & Music Academy",
+    "tagline_fa": "قطب پرورش حرفه‌ای بازیگر سینمایی، تئاتر و موسیقی در استان البرز",
+    "city": "کرج",
+    "locale": "fa-IR",
+    "direction": "rtl",
+    "sub_district": "فردیس کرج",
+    "domain": "https://aanak.ir"
+  },
+  "ingested_sources": [
+    "output/macro_topology.json",
+    "output/academy_graph.json",
+    "output/page_map.json",
+    "output/navigation_plan.json",
+    "output/schema_blueprint.json",
+    "output/page_content_plan.json",
+    "seo_dossiers/*.md"
+  ],
+  "scale": {
+    "faculties": 4,
+    "courses": 24,
+    "buildable_pages": 34,
+    "nav_pillars": 7
+  },
+  "color_palette": {
+    "academy_primary": {
+      "hex": "#141B2D",
+      "role": "Conservatory deep indigo — authority, stage depth"
+    },
+    "academy_primary_700": {
+      "hex": "#1E2A45",
+      "role": "elevated primary surfaces"
+    },
+    "artistic_accent": {
+      "hex": "#C89B3C",
+      "role": "warm brass / acoustic gold — instruments, spotlights"
+    },
+    "accent_soft": {
+      "hex": "#EBD8AC",
+      "role": "accent borders"
+    },
+    "accent_tint": {
+      "hex": "#FBF4E4",
+      "role": "accent wash backgrounds"
+    },
+    "cta_primary": {
+      "hex": "#0F766E",
+      "role": "Persian emerald — رزرو تعیین سطح رایگان"
+    },
+    "cta_alt": {
+      "hex": "#B45309",
+      "role": "terracotta — رزرو میز کافه"
+    },
+    "canvas": {
+      "hex": "#FAF8F5",
+      "role": "warm ivory alabaster page background"
+    },
+    "card": {
+      "hex": "#FFFFFF",
+      "role": "pure card surface"
+    },
+    "section_alt": {
+      "hex": "#F3EFEA",
+      "role": "subtle warm stone alternating section"
+    },
+    "cafe_dark_bg": {
+      "hex": "#1C1613",
+      "role": "espresso acoustic wood — /art-cafe/ hero"
+    },
+    "cafe_dark_text": {
+      "hex": "#F5E6D3",
+      "role": "warm amber text on cafe dark sections"
+    },
+    "contrast_notes": "CTA #0F766E on #FFFFFF ≈ 5.1:1; #141B2D on #FAF8F5 ≈ 15.3:1; #F5E6D3 on #1C1613 ≈ 13.4:1 — all ≥ WCAG AA."
+  },
+  "typography": {
+    "font_stack": [
+      "VazirmatnLocal",
+      "Vazirmatn",
+      "IRANSansX",
+      "IRANSans",
+      "Peyda",
+      "Sahel",
+      "Tahoma",
+      "system-ui",
+      "sans-serif"
+    ],
+    "loading_strategy": "@font-face with src: local(...) only — zero network requests, font-display: swap, no render-blocking external stylesheet",
+    "headings": {
+      "weight": 800,
+      "line_height": 1.45,
+      "letter_spacing": "0",
+      "scale": "clamp() fluid, H1 1.5→2.35rem"
+    },
+    "body": {
+      "font_size": "1.0625rem",
+      "line_height": 1.85,
+      "measure": "68ch"
+    },
+    "numerals": {
+      "display": "Persian ۰۱۲۳۴۵۶۷۸۹",
+      "css": "font-variant-numeric: tabular-nums (applied on body + all tuition tables)"
+    }
+  },
+  "spacing_scale": [
+    "--space-xs",
+    "--space-sm",
+    "--space-md",
+    "--space-lg",
+    "--space-xl",
+    "--space-2xl",
+    "--space-3xl"
+  ],
+  "rtl_policy": {
+    "document": "<html lang=\"fa\" dir=\"rtl\">",
+    "allowed": [
+      "margin-inline",
+      "margin-inline-start/end",
+      "padding-inline",
+      "border-inline-start/end",
+      "inset-inline",
+      "inset-block",
+      "text-align: start/end",
+      "float: inline-start/end"
+    ],
+    "forbidden": [
+      "margin-left",
+      "margin-right",
+      "padding-left",
+      "padding-right",
+      "border-left",
+      "border-right",
+      "left:",
+      "right:",
+      "text-align: left",
+      "text-align: right"
+    ],
+    "keyboard_note": "Sub-specialty tablists invert arrow keys for RTL (ArrowLeft = next)."
+  },
+  "components": [
+    {
+      "name": "compact-course-hero",
+      "selector": ".compact-course-hero",
+      "purpose": "Viewport-1 header: breadcrumb + H1 + 40–55 word BLUF + stat badges + jump pills + CTA + media",
+      "responsive": "2-col desktop → 1-col ≤880px with media promoted above copy"
+    },
+    {
+      "name": "instructor-roster-grid",
+      "selector": ".instructor-roster-grid .instructor-card",
+      "purpose": "Verified maestro cards: 4/5 portrait with explicit width/height (CLS 0), verified badge, gender tag (استاد خانم / استاد آقا), specialty pills, audio/video sample trigger, schedule days",
+      "responsive": "auto-fill minmax(248px, 1fr)"
+    },
+    {
+      "name": "female-instructor-spotlight",
+      "selector": ".female-instructor-spotlight",
+      "purpose": "SEC_FEMALE_INSTRUCTORS high-trust callout for مدرس پیانو خانم / استاد سه تار خانم / استاد سنتور خانم / آموزش گیتار در کرج خانم / کلاس آواز بانوان در کرج",
+      "responsive": "grid, nested roster collapses to 220px min"
+    },
+    {
+      "name": "format-comparison-matrix",
+      "selector": ".format-comparison-matrix",
+      "purpose": "خصوصی (تک‌نفره) vs گروهی و کارگاهی vs ویژه کودکان semantic <table>",
+      "responsive": "horizontal scroll ≥720px, .stacked-table card stack below"
+    },
+    {
+      "name": "sub-specialty-tabs",
+      "selector": ".sub-specialty-tabs",
+      "purpose": "ARIA role=tablist for گیتار الکتریک / ویولن سل / پن فلوت / فلوت لاکوتا / آواز سنتی و پاپ / مجری‌گری / عکاسی با موبایل / گریم کودک / خوشنویسی با خودکار",
+      "indexability": "every panel is rendered in the static DOM; .no-js reveals all panels"
+    },
+    {
+      "name": "tuition-transparent-table",
+      "selector": ".tuition-transparent-table",
+      "purpose": "قیمت، شهریه و هزینه کلاس با اعداد فارسی tabular-nums + مشاوره شهریه CTA",
+      "responsive": "price cards + stacked table"
+    },
+    {
+      "name": "art-cafe-stage-banner",
+      "selector": ".art-cafe-stage-banner",
+      "purpose": "Espresso dark acoustic stage banner for /art-cafe/ hero and course bridges",
+      "responsive": "fluid padding, radial spotlight overlay"
+    },
+    {
+      "name": "cafe-live-schedule-grid",
+      "selector": ".cafe-live-schedule-grid .cafe-night-card",
+      "purpose": "کافه پیانو / گیتار / سنتور / سه‌تار / ارگ nights with verified days, hours, performer, booking",
+      "responsive": "auto-fit minmax(260px, 1fr)"
+    },
+    {
+      "name": "fardis-commuter-box",
+      "selector": ".fardis-commuter-box",
+      "purpose": "Fardis → Karaj campus route & travel-time matrix + Thursday/Friday compact shift badges",
+      "responsive": "stacked list, logical border-inline-start accent"
+    },
+    {
+      "name": "audition-step-cards",
+      "selector": ".audition-step-cards .audition-step-card",
+      "purpose": "تست بازیگری در کرج 4-step preparation and slot booking funnel",
+      "responsive": "auto-fit minmax(220px, 1fr)"
+    }
+  ],
+  "chrome": {
+    "header": {
+      "selector": ".site-header",
+      "pillars": [
+        "دانشکده موسیقی",
+        "بازیگری، فن بیان و گویندگی",
+        "سینما، عکاسی، تدوین و گریم",
+        "نقاشی و خوشنویسی",
+        "کافه هنر و موسیقی زنده",
+        "اساتید و شهریه",
+        "فردیس و تماس"
+      ],
+      "primary_action_fa": "رزرو تعیین سطح رایگان",
+      "click_to_call": "026-32205016"
+    },
+    "mobile_conversion_bar": {
+      "selector": ".mobile-conversion-bar",
+      "breakpoint": "max-width: 768px",
+      "anchoring": "inset-block-end: 0 + padding-block-end: env(safe-area-inset-bottom)",
+      "actions": [
+        "مشاوره و تعیین سطح",
+        "تماس فوری",
+        "واتساپ",
+        "context-aware: رزرو میز کافه / ثبت‌نام تست بازیگری / استعلام شهریه"
+      ]
+    },
+    "footer": {
+      "selector": ".site-footer",
+      "columns": 4,
+      "includes": [
+        "4 faculty hubs",
+        "24 courses",
+        "/art-cafe/",
+        "/fardis-branch/",
+        "/acting-audition/",
+        "verified NAP",
+        "license badge",
+        "map links"
+      ]
+    }
+  },
+  "core_web_vitals_budget": {
+    "LCP": "< 1.8s — hero image loading=eager fetchpriority=high with explicit width/height; CSS is a single same-origin file; no webfont network request",
+    "CLS": "0.00 — every <img> carries width/height; media placeholders reserve aspect-ratio boxes",
+    "INP": "< 100ms — vanilla delegated listeners only; no framework runtime",
+    "js_budget": "< 12KB gzipped"
+  },
+  "accessibility": {
+    "skip_link": "پرش به محتوای اصلی",
+    "focus_ring": "3px solid #C89B3C, offset 2px, :focus-visible only",
+    "reduced_motion": "prefers-reduced-motion disables smooth scroll and transitions",
+    "landmarks": [
+      "header",
+      "nav",
+      "main",
+      "footer"
+    ],
+    "aria": [
+      "role=tablist/tab/tabpanel",
+      "aria-expanded on nav triggers",
+      "aria-pressed on filter chips",
+      "native <details> for FAQ"
+    ]
+  },
+  "schema_injection": {
+    "engine": "scripts/coder_phase2_build.py reads output/schema_blueprint.json",
+    "rule": "exactly one <script type=\"application/ld+json\"> per page, single @context + @graph root",
+    "id_pointers": [
+      "#academy",
+      "#website",
+      "/art-cafe/#cafe",
+      "/instructors/#[instructor_id]",
+      "[course]/#course"
+    ],
+    "guards": [
+      "no Offer when price <= 0",
+      "no AggregateRating without verified reviews",
+      "no Fardis PostalAddress while SERVICE_AREA_COMMUTER_HUB",
+      "no MusicEvent.startDate without a verified calendar date"
+    ]
+  }
+}

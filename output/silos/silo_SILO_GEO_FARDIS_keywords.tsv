@@ -1,0 +1,15 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+کلاس آواز در فردیس کرج	کلاس آواز در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_VOCALS
+کلاس بازیگری در فردیس کرج	کلاس بازیگری در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_ACTING
+کلاس بازیگری در کرج فردیس	کلاس بازیگری در کرج فردیس	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_ACTING
+کلاس بازیگری فردیس کرج	کلاس بازیگری فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_ACTING
+کلاس خوانندگی در فردیس کرج	کلاس خوانندگی در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_VOCALS
+کلاس خوشنویسی در فردیس کرج	کلاس خوشنویسی در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_CALLIGRAPHY
+کلاس فن بیان در فردیس کرج	کلاس فن بیان در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_SPEECH
+کلاس موسیقی در فردیس کرج	کلاس موسیقی در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_DEPT_01_MUSIC
+کلاس موسیقی فردیس کرج	کلاس موسیقی فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_DEPT_01_MUSIC
+کلاس های فن بیان در فردیس	کلاس های فن بیان در فردیس	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_SPEECH
+کلاس گویندگی در فردیس کرج	کلاس گویندگی در فردیس کرج	COURSE_ENROLLMENT	awareness	FARDIS_KARAJ	E_GEO_FARDIS	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_VOICE_DUBBING
+آموزشگاه موسیقی کودک در فردیس کرج	آموزشگاه موسیقی کودک در فردیس کرج	KIDS_TEENS_SPECIFIC	consideration	FARDIS_KARAJ	E_GEO_FARDIS	SEC_KIDS_TEENS_TRACK	DUAL_INTENT:SILO_CRS_KIDS_MUSIC
+آموزشگاه موسیقی کودکان فردیس کرج	آموزشگاه موسیقی کودکان فردیس کرج	KIDS_TEENS_SPECIFIC	consideration	FARDIS_KARAJ	E_GEO_FARDIS	SEC_KIDS_TEENS_TRACK	DUAL_INTENT:SILO_CRS_KIDS_MUSIC
+کلاس موسیقی کودکان در فردیس کرج	کلاس موسیقی کودکان در فردیس کرج	KIDS_TEENS_SPECIFIC	consideration	FARDIS_KARAJ	E_GEO_FARDIS	SEC_KIDS_TEENS_TRACK	DUAL_INTENT:SILO_CRS_KIDS_MUSIC

@@ -1,0 +1,3 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش ارگ در کرج	آموزش ارگ در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_ORGAN	SEC_HERO_OVERVIEW	NONE
+اموزش ارگ کرج	آموزش ارگ کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_ORGAN	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH

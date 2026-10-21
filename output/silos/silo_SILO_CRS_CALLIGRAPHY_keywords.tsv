@@ -1,0 +1,13 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+ادرس کلاس خوشنویسی در کرج	آدرس کلاس خوشنویسی در کرج	LOCATION_DIRECTION	decision	KARAJ	E_CRS_CALLIGRAPHY	SEC_CAMPUS_MAP_DIRECTIONS	ORTHO_VARIANT_NO_MADDAH;DUAL_INTENT:SILO_00
+آموزش خوشنویسی با خودکار در کرج	آموزش خوشنویسی با خودکار در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	SUB_SPECIALTY:BALLPOINT_CALLIGRAPHY
+آموزش خوشنویسی در کرج	آموزش خوشنویسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزش خوشنویسی کرج	آموزش خوشنویسی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزشگاه خوشنویسی در کرج	آموزشگاه خوشنویسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزشگاه خوشنویسی کرج	آموزشگاه خوشنویسی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس خط کرج	کلاس خط کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس خطاطی در کرج	کلاس خطاطی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	SUB_SPECIALTY:KHAT_TAHRIRI
+کلاس خوشنویسی با خودکار در کرج	کلاس خوشنویسی با خودکار در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	SUB_SPECIALTY:BALLPOINT_CALLIGRAPHY
+کلاس خوشنویسی در کرج	کلاس خوشنویسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس های خوشنویسی در کرج	کلاس های خوشنویسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_CALLIGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس خوشنویسی کودکان در کرج	کلاس خوشنویسی کودکان در کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_CALLIGRAPHY	SEC_KIDS_TEENS_TRACK	NONE

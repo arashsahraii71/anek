@@ -1,0 +1,1634 @@
+{
+  "generated_at": "2026-10-21T21:48:58Z",
+  "phase": "PHASE_1",
+  "total_raw_keyword_lines": 296,
+  "total_distinct_keywords": 295,
+  "orthographic_variants_preserved": 32,
+  "total_silos_created": 32,
+  "silo_files": [
+    "output/silos/silo_SILO_00_keywords.tsv",
+    "output/silos/silo_SILO_DEPT_01_MUSIC_keywords.tsv",
+    "output/silos/silo_SILO_DEPT_02_PERFORMING_keywords.tsv",
+    "output/silos/silo_SILO_DEPT_03_CINEMA_keywords.tsv",
+    "output/silos/silo_SILO_DEPT_04_VISUAL_keywords.tsv",
+    "output/silos/silo_SILO_CRS_PIANO_keywords.tsv",
+    "output/silos/silo_SILO_CRS_GUITAR_keywords.tsv",
+    "output/silos/silo_SILO_CRS_VIOLIN_keywords.tsv",
+    "output/silos/silo_SILO_CRS_VOCALS_keywords.tsv",
+    "output/silos/silo_SILO_CRS_TAR_SETAR_keywords.tsv",
+    "output/silos/silo_SILO_CRS_SANTOOR_keywords.tsv",
+    "output/silos/silo_SILO_CRS_TONBAK_keywords.tsv",
+    "output/silos/silo_SILO_CRS_DAF_keywords.tsv",
+    "output/silos/silo_SILO_CRS_KAMANCHEH_keywords.tsv",
+    "output/silos/silo_SILO_CRS_TANBOUR_keywords.tsv",
+    "output/silos/silo_SILO_CRS_FLUTE_keywords.tsv",
+    "output/silos/silo_SILO_CRS_HANGDRUM_keywords.tsv",
+    "output/silos/silo_SILO_CRS_ORGAN_keywords.tsv",
+    "output/silos/silo_SILO_CRS_KIDS_MUSIC_keywords.tsv",
+    "output/silos/silo_SILO_CRS_ACTING_keywords.tsv",
+    "output/silos/silo_SILO_CRS_KIDS_ACTING_keywords.tsv",
+    "output/silos/silo_SILO_CRS_SPEECH_keywords.tsv",
+    "output/silos/silo_SILO_CRS_VOICE_DUBBING_keywords.tsv",
+    "output/silos/silo_SILO_CRS_PHOTOGRAPHY_keywords.tsv",
+    "output/silos/silo_SILO_CRS_FILM_EDITING_keywords.tsv",
+    "output/silos/silo_SILO_CRS_DIRECTING_SCRIPT_keywords.tsv",
+    "output/silos/silo_SILO_CRS_MAKEUP_keywords.tsv",
+    "output/silos/silo_SILO_CRS_PAINTING_keywords.tsv",
+    "output/silos/silo_SILO_CRS_CALLIGRAPHY_keywords.tsv",
+    "output/silos/silo_SILO_CAFE_01_keywords.tsv",
+    "output/silos/silo_SILO_GEO_FARDIS_keywords.tsv",
+    "output/silos/silo_SILO_CONV_AUDITION_keywords.tsv"
+  ],
+  "serp_lock_mode": "USE_DETERMINISTIC_PERSIAN_STEM_RULES",
+  "department_alignment": [
+    {
+      "silo_id": "SILO_DEPT_01_MUSIC",
+      "department_id": "DEPT_MUSIC",
+      "target_slug": "/music/",
+      "name_fa": "دانشکده موسیقی و آواز",
+      "own_keyword_count": 11,
+      "child_course_silos": [
+        "SILO_CRS_PIANO",
+        "SILO_CRS_GUITAR",
+        "SILO_CRS_VIOLIN",
+        "SILO_CRS_VOCALS",
+        "SILO_CRS_TAR_SETAR",
+        "SILO_CRS_SANTOOR",
+        "SILO_CRS_TONBAK",
+        "SILO_CRS_DAF",
+        "SILO_CRS_KAMANCHEH",
+        "SILO_CRS_TANBOUR",
+        "SILO_CRS_FLUTE",
+        "SILO_CRS_HANGDRUM",
+        "SILO_CRS_ORGAN",
+        "SILO_CRS_KIDS_MUSIC"
+      ],
+      "child_keyword_count": 153,
+      "build_directive": "BUILD_DEPARTMENT_HUB",
+      "primary_keyword_source": "DATASET"
+    },
+    {
+      "silo_id": "SILO_DEPT_02_PERFORMING",
+      "department_id": "DEPT_PERFORMING",
+      "target_slug": "/performing-arts/",
+      "name_fa": "دانشکده بازیگری، فن بیان و گویندگی",
+      "own_keyword_count": 0,
+      "child_course_silos": [
+        "SILO_CRS_ACTING",
+        "SILO_CRS_KIDS_ACTING",
+        "SILO_CRS_SPEECH",
+        "SILO_CRS_VOICE_DUBBING"
+      ],
+      "child_keyword_count": 60,
+      "build_directive": "BUILD_DEPARTMENT_HUB_NAVIGATIONAL",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY"
+    },
+    {
+      "silo_id": "SILO_DEPT_03_CINEMA",
+      "department_id": "DEPT_CINEMA",
+      "target_slug": "/cinema-media/",
+      "name_fa": "دانشکده سینما، عکاسی، تدوین و گریم",
+      "own_keyword_count": 0,
+      "child_course_silos": [
+        "SILO_CRS_PHOTOGRAPHY",
+        "SILO_CRS_FILM_EDITING",
+        "SILO_CRS_DIRECTING_SCRIPT",
+        "SILO_CRS_MAKEUP"
+      ],
+      "child_keyword_count": 32,
+      "build_directive": "BUILD_DEPARTMENT_HUB_NAVIGATIONAL",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY"
+    },
+    {
+      "silo_id": "SILO_DEPT_04_VISUAL",
+      "department_id": "DEPT_VISUAL",
+      "target_slug": "/visual-arts/",
+      "name_fa": "دانشکده هنرهای تجسمی و خوشنویسی",
+      "own_keyword_count": 0,
+      "child_course_silos": [
+        "SILO_CRS_PAINTING",
+        "SILO_CRS_CALLIGRAPHY"
+      ],
+      "child_keyword_count": 17,
+      "build_directive": "BUILD_DEPARTMENT_HUB_NAVIGATIONAL",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY"
+    }
+  ],
+  "course_silo_mappings": [
+    {
+      "silo_id": "SILO_CRS_PIANO",
+      "target_slug": "/music/piano/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_PIANO",
+      "course_name_fa": "کلاس و آموزش پیانو",
+      "keyword_count": 18,
+      "intent_breakdown": {
+        "course_enrollment": 9,
+        "instructor_seeking": 7,
+        "female_specific": 1,
+        "kids_teens_specific": 1,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 8,
+        "SEC_INSTRUCTOR_ROSTER": 6,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 2,
+        "SEC_FEMALE_INSTRUCTORS": 1,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 1,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [
+          "INST_10"
+        ],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": true,
+        "female_data_gap": true,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "آکادمی",
+          "اساتید",
+          "استاد",
+          "تدریس",
+          "مدرس",
+          "مدرسه",
+          "معلم",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_GUITAR",
+      "target_slug": "/music/guitar/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_GUITAR",
+      "course_name_fa": "کلاس و آموزش گیتار (کلاسیک، پاپ و الکتریک)",
+      "keyword_count": 16,
+      "intent_breakdown": {
+        "course_enrollment": 7,
+        "instructor_seeking": 6,
+        "female_specific": 1,
+        "kids_teens_specific": 0,
+        "tuition_cost": 1,
+        "location_direction": 0,
+        "superlative_comparison": 1
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 7,
+        "SEC_INSTRUCTOR_ROSTER": 6,
+        "SEC_FEMALE_INSTRUCTORS": 1,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1,
+        "SEC_TUITION_TABLE": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 2,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [
+          "INST_11",
+          "INST_12"
+        ],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": true,
+        "female_data_gap": true,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "ELECTRIC_GUITAR"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "استاد",
+          "بهترین",
+          "قیمت",
+          "مدرس",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_VIOLIN",
+      "target_slug": "/music/violin/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_VIOLIN",
+      "course_name_fa": "کلاس و آموزش ویولن و ویولن سل",
+      "keyword_count": 16,
+      "intent_breakdown": {
+        "course_enrollment": 5,
+        "instructor_seeking": 9,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 1,
+        "location_direction": 0,
+        "superlative_comparison": 1
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 6,
+        "SEC_INSTRUCTOR_ROSTER": 9,
+        "SEC_TUITION_TABLE": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 1,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [
+          "INST_13"
+        ],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "CELLO"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "اساتید",
+          "استاد",
+          "بهترین",
+          "قیمت",
+          "مدرس",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_VOCALS",
+      "target_slug": "/music/vocals/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_VOCALS",
+      "course_name_fa": "کلاس آموزش آواز و خوانندگی",
+      "keyword_count": 21,
+      "intent_breakdown": {
+        "course_enrollment": 13,
+        "instructor_seeking": 0,
+        "female_specific": 2,
+        "kids_teens_specific": 2,
+        "tuition_cost": 2,
+        "location_direction": 0,
+        "superlative_comparison": 2
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 14,
+        "SEC_TUITION_TABLE": 2,
+        "SEC_FEMALE_INSTRUCTORS": 2,
+        "SEC_KIDS_TEENS_TRACK": 2,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 1,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [
+          "INST_14"
+        ],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": true,
+        "female_data_gap": true,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "VOCALS_GROUP_CHOIR",
+        "VOCALS_POP",
+        "VOCALS_SONNATI"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "بهترین",
+          "هزینه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_TAR_SETAR",
+      "target_slug": "/music/tar-setar/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_TAR_SETAR",
+      "course_name_fa": "کلاس آموزش تار و سه‌تار",
+      "keyword_count": 13,
+      "intent_breakdown": {
+        "course_enrollment": 7,
+        "instructor_seeking": 4,
+        "female_specific": 1,
+        "kids_teens_specific": 0,
+        "tuition_cost": 1,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 6,
+        "SEC_TUITION_TABLE": 1,
+        "SEC_INSTRUCTOR_ROSTER": 4,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1,
+        "SEC_FEMALE_INSTRUCTORS": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 1,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [
+          "INST_15"
+        ],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": true,
+        "female_data_gap": true,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "استاد",
+          "بهترین",
+          "هزینه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_SANTOOR",
+      "target_slug": "/music/santoor/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_SANTOOR",
+      "course_name_fa": "کلاس و آموزش سنتور",
+      "keyword_count": 11,
+      "intent_breakdown": {
+        "course_enrollment": 4,
+        "instructor_seeking": 5,
+        "female_specific": 1,
+        "kids_teens_specific": 0,
+        "tuition_cost": 1,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 4,
+        "SEC_INSTRUCTOR_ROSTER": 5,
+        "SEC_FEMALE_INSTRUCTORS": 1,
+        "SEC_TUITION_TABLE": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 1,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [
+          "INST_16"
+        ],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": true,
+        "female_data_gap": true,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "استاد",
+          "بهترین",
+          "قیمت",
+          "مدرس",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_TONBAK",
+      "target_slug": "/music/tonbak/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_TONBAK",
+      "course_name_fa": "کلاس و آموزش تنبک",
+      "keyword_count": 9,
+      "intent_breakdown": {
+        "course_enrollment": 3,
+        "instructor_seeking": 5,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 1,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 3,
+        "SEC_INSTRUCTOR_ROSTER": 5,
+        "SEC_TUITION_TABLE": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "اساتید",
+          "استاد",
+          "بهترین",
+          "هزینه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_DAF",
+      "target_slug": "/music/daf/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_DAF",
+      "course_name_fa": "کلاس آموزش دف و دف‌زنی",
+      "keyword_count": 8,
+      "intent_breakdown": {
+        "course_enrollment": 5,
+        "instructor_seeking": 2,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 1,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 5,
+        "SEC_INSTRUCTOR_ROSTER": 2,
+        "SEC_TUITION_TABLE": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "DAF_ZANI"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "استاد",
+          "بهترین",
+          "قیمت",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_KAMANCHEH",
+      "target_slug": "/music/kamancheh/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_KAMANCHEH",
+      "course_name_fa": "کلاس و آموزش کمانچه",
+      "keyword_count": 6,
+      "intent_breakdown": {
+        "course_enrollment": 3,
+        "instructor_seeking": 3,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 3,
+        "SEC_INSTRUCTOR_ROSTER": 3
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "استاد",
+          "بهترین",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_TANBOUR",
+      "target_slug": "/music/tanbour/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_TANBOUR",
+      "course_name_fa": "کلاس و آموزش تنبور",
+      "keyword_count": 3,
+      "intent_breakdown": {
+        "course_enrollment": 2,
+        "instructor_seeking": 1,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 2,
+        "SEC_INSTRUCTOR_ROSTER": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "استاد",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_FLUTE",
+      "target_slug": "/music/flute/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_FLUTE",
+      "course_name_fa": "کلاس آموزش فلوت، پن‌فلوت و فلوت لاکوتا",
+      "keyword_count": 5,
+      "intent_breakdown": {
+        "course_enrollment": 5,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 5
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "LAKOTA_FLUTE",
+        "PAN_FLUTE"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_HANGDRUM",
+      "target_slug": "/music/hang-drum/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_HANGDRUM",
+      "course_name_fa": "کلاس و آموزش هنگ‌درام",
+      "keyword_count": 11,
+      "intent_breakdown": {
+        "course_enrollment": 6,
+        "instructor_seeking": 3,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 2,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 6,
+        "SEC_INSTRUCTOR_ROSTER": 3,
+        "SEC_TUITION_TABLE": 2
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "استاد",
+          "بهترین",
+          "قیمت",
+          "هزینه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_ORGAN",
+      "target_slug": "/music/keyboard-organ/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_ORGAN",
+      "course_name_fa": "کلاس آموزش ارگ و کیبورد",
+      "keyword_count": 2,
+      "intent_breakdown": {
+        "course_enrollment": 2,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 2
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_KIDS_MUSIC",
+      "target_slug": "/music/kids/",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_KIDS_MUSIC",
+      "course_name_fa": "آموزشگاه و کلاس موسیقی کودک (ارف)",
+      "keyword_count": 14,
+      "intent_breakdown": {
+        "course_enrollment": 0,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 15,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_KIDS_TEENS_TRACK": 15
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "بهترین",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_ACTING",
+      "target_slug": "/performing-arts/acting/",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_ACTING",
+      "course_name_fa": "کلاس و آموزش بازیگری سینما و تئاتر",
+      "keyword_count": 12,
+      "intent_breakdown": {
+        "course_enrollment": 4,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 3,
+        "location_direction": 2,
+        "superlative_comparison": 3
+      },
+      "section_target_breakdown": {
+        "SEC_CAMPUS_MAP_DIRECTIONS": 2,
+        "SEC_HERO_OVERVIEW": 7,
+        "SEC_TUITION_TABLE": 3
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 3,
+        "verified_instructor_count": 3,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": true,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "بهترین",
+          "شهریه",
+          "قیمت",
+          "هزینه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_KIDS_ACTING",
+      "target_slug": "/performing-arts/kids-acting-drama/",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_KIDS_ACTING",
+      "course_name_fa": "کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان",
+      "keyword_count": 8,
+      "intent_breakdown": {
+        "course_enrollment": 1,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 7,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_KIDS_TEENS_TRACK": 7,
+        "SEC_HERO_OVERVIEW": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 5,
+        "verified_instructor_count": 5,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": true,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": false,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_SPEECH",
+      "target_slug": "/performing-arts/public-speaking/",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_SPEECH",
+      "course_name_fa": "کلاس آموزش فن بیان، سخنوری و مجری‌گری",
+      "keyword_count": 23,
+      "intent_breakdown": {
+        "course_enrollment": 15,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 3,
+        "tuition_cost": 1,
+        "location_direction": 2,
+        "superlative_comparison": 2
+      },
+      "section_target_breakdown": {
+        "SEC_CAMPUS_MAP_DIRECTIONS": 2,
+        "SEC_HERO_OVERVIEW": 16,
+        "SEC_TUITION_TABLE": 1,
+        "SEC_KIDS_TEENS_TRACK": 3,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 2,
+        "verified_instructor_count": 2,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "STAGE_HOSTING"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "بهترین",
+          "دوره",
+          "هزینه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_VOICE_DUBBING",
+      "target_slug": "/performing-arts/voice-acting-dubbing/",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_VOICE_DUBBING",
+      "course_name_fa": "کلاس آموزش گویندگی، دوبلاژ و دوبلوری",
+      "keyword_count": 17,
+      "intent_breakdown": {
+        "course_enrollment": 15,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 1,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 1
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 16,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "DUBBING"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "بهترین",
+          "دوره",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_PHOTOGRAPHY",
+      "target_slug": "/cinema-media/photography/",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_PHOTOGRAPHY",
+      "course_name_fa": "کلاس آموزش عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل",
+      "keyword_count": 14,
+      "intent_breakdown": {
+        "course_enrollment": 14,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 14
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 2,
+        "verified_instructor_count": 2,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "MOBILE_PHOTOGRAPHY",
+        "VIDEOGRAPHY"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "دوره",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    },
+    {
+      "silo_id": "SILO_CRS_FILM_EDITING",
+      "target_slug": "/cinema-media/film-editing/",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_FILM_EDITING",
+      "course_name_fa": "کلاس آموزش تدوین فیلم و ادیت حرفه‌ای",
+      "keyword_count": 7,
+      "intent_breakdown": {
+        "course_enrollment": 7,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 7
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 1,
+        "verified_instructor_count": 1,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "VIDEO_EDITING_REELS"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_DIRECTING_SCRIPT",
+      "target_slug": "/cinema-media/directing-screenwriting/",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_DIRECTING_SCRIPT",
+      "course_name_fa": "کلاس آموزش کارگردانی سینما و فیلمنامه‌نویسی",
+      "keyword_count": 3,
+      "intent_breakdown": {
+        "course_enrollment": 3,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 3
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 4,
+        "verified_instructor_count": 4,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": true,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "DIRECTING",
+        "SCREENWRITING"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_MAKEUP",
+      "target_slug": "/cinema-media/cinematic-makeup/",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_MAKEUP",
+      "course_name_fa": "کلاس آموزش گریم سینمایی، میکاپ و گریم کودک",
+      "keyword_count": 8,
+      "intent_breakdown": {
+        "course_enrollment": 7,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 1,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 7,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": false,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "BEAUTY_MAKEUP",
+        "CINEMATIC_MAKEUP",
+        "KIDS_MAKEUP"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_PAINTING",
+      "target_slug": "/visual-arts/drawing-painting/",
+      "department_id": "DEPT_VISUAL",
+      "course_id": "CRS_PAINTING",
+      "course_name_fa": "کلاس آموزش طراحی و نقاشی حرفه‌ای",
+      "keyword_count": 5,
+      "intent_breakdown": {
+        "course_enrollment": 5,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 0,
+        "tuition_cost": 0,
+        "location_direction": 0,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 5
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [],
+      "sub_specialty_split_decision": {
+        "decision": "NOT_APPLICABLE",
+        "reason": "زیرتخصص اختصاصی در کلیدواژه‌ها یافت نشد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_STANDARD"
+    },
+    {
+      "silo_id": "SILO_CRS_CALLIGRAPHY",
+      "target_slug": "/visual-arts/calligraphy/",
+      "department_id": "DEPT_VISUAL",
+      "course_id": "CRS_CALLIGRAPHY",
+      "course_name_fa": "کلاس آموزش خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان)",
+      "keyword_count": 12,
+      "intent_breakdown": {
+        "course_enrollment": 10,
+        "instructor_seeking": 0,
+        "female_specific": 0,
+        "kids_teens_specific": 1,
+        "tuition_cost": 0,
+        "location_direction": 1,
+        "superlative_comparison": 0
+      },
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 10,
+        "SEC_CAMPUS_MAP_DIRECTIONS": 1,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "catalog_verification": {
+        "course_exists_in_csv": true,
+        "instructor_count": 0,
+        "verified_instructor_count": 0,
+        "pending_instructor_placeholders": [],
+        "female_instructor_verified": false,
+        "female_instructor_demanded_by_keywords": false,
+        "female_data_gap": false,
+        "private_format_verified": true,
+        "group_format_verified": true,
+        "kids_track_verified": true,
+        "tuition_data_verified": true
+      },
+      "sub_specialties_merged": [
+        "BALLPOINT_CALLIGRAPHY",
+        "KHAT_TAHRIRI"
+      ],
+      "sub_specialty_split_decision": {
+        "decision": "KEEP_AS_IN_PAGE_MODULE",
+        "reason": "courses.csv هیچ course_id مستقلی برای این زیرتخصص‌ها تعریف نکرده و سرفصل مجزا با ≥۴ ماژول ندارد."
+      },
+      "stem_lock": {
+        "stems_merged": [
+          "آموزش",
+          "آموزشگاه",
+          "کلاس"
+        ],
+        "directive": "MERGE_INTO_MASTER_COURSE_PAGE"
+      },
+      "build_directive": "BUILD_COURSE_MEGA"
+    }
+  ],
+  "cafe_venue_mapping": {
+    "silo_id": "SILO_CAFE_01",
+    "target_slug": "/art-cafe/",
+    "keyword_count": 6,
+    "keywords": [
+      "کافه ارگ کرج",
+      "کافه پیانو کرج",
+      "رستوران سه تار کرج",
+      "کافه رستوران سه تار کرج",
+      "کافه سنتور کرج",
+      "کافه گیتار کرج"
+    ],
+    "instruments_featured_in_cafe_keywords": [
+      "پیانو",
+      "گیتار",
+      "سنتور",
+      "سه تار",
+      "ارگ"
+    ],
+    "cafe_data_verified": true,
+    "cafe_events_verified": 5,
+    "cafe_menu_verified": false,
+    "cafe_menu_status": "[INTERNAL_DATA_NEEDED] — منوی کافه در ورودی‌ها نیست؛ بخش منو با اسلات خالی ساخته می‌شود.",
+    "linked_course_slugs": [
+      "/music/piano/",
+      "/music/guitar/",
+      "/music/santoor/",
+      "/music/tar-setar/",
+      "/music/keyboard-organ/"
+    ],
+    "bidirectional_bridge": [
+      {
+        "cafe_section": "SEC_CAFE_LIVE_PIANO",
+        "instrument_fa": "پیانو",
+        "course_slug": "/music/piano/",
+        "course_silo": "SILO_CRS_PIANO",
+        "reciprocal_module_on_course_page": "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "verified_event_ids": [
+          "CAFE_EVT_01"
+        ]
+      },
+      {
+        "cafe_section": "SEC_CAFE_LIVE_GUITAR",
+        "instrument_fa": "گیتار",
+        "course_slug": "/music/guitar/",
+        "course_silo": "SILO_CRS_GUITAR",
+        "reciprocal_module_on_course_page": "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "verified_event_ids": [
+          "CAFE_EVT_02"
+        ]
+      },
+      {
+        "cafe_section": "SEC_CAFE_LIVE_SANTOOR",
+        "instrument_fa": "سنتور",
+        "course_slug": "/music/santoor/",
+        "course_silo": "SILO_CRS_SANTOOR",
+        "reciprocal_module_on_course_page": "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "verified_event_ids": [
+          "CAFE_EVT_03"
+        ]
+      },
+      {
+        "cafe_section": "SEC_CAFE_LIVE_SETAR",
+        "instrument_fa": "سه تار",
+        "course_slug": "/music/tar-setar/",
+        "course_silo": "SILO_CRS_TAR_SETAR",
+        "reciprocal_module_on_course_page": "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "verified_event_ids": [
+          "CAFE_EVT_04"
+        ]
+      },
+      {
+        "cafe_section": "SEC_CAFE_LIVE_ORGAN",
+        "instrument_fa": "ارگ",
+        "course_slug": "/music/keyboard-organ/",
+        "course_silo": "SILO_CRS_ORGAN",
+        "reciprocal_module_on_course_page": "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "verified_event_ids": [
+          "CAFE_EVT_05"
+        ]
+      }
+    ]
+  },
+  "fardis_geo_mapping": {
+    "silo_id": "SILO_GEO_FARDIS",
+    "target_slug": "/fardis-branch/",
+    "keyword_count": 14,
+    "fardis_campus_status": "SERVICE_AREA_COMMUTER_HUB",
+    "nap_safety_rule": "NEVER_EMIT_FARDIS_STREET_ADDRESS",
+    "demanded_courses_in_fardis": [
+      "/music/",
+      "/music/kids/",
+      "/music/vocals/",
+      "/performing-arts/acting/",
+      "/performing-arts/public-speaking/",
+      "/performing-arts/voice-acting-dubbing/",
+      "/visual-arts/calligraphy/"
+    ],
+    "dual_intent_routes": [
+      {
+        "keyword": "کلاس آواز در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_VOCALS",
+        "course_slug": "/music/vocals/"
+      },
+      {
+        "keyword": "کلاس بازیگری در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_ACTING",
+        "course_slug": "/performing-arts/acting/"
+      },
+      {
+        "keyword": "کلاس بازیگری در کرج فردیس",
+        "dual_intent_silo": "SILO_CRS_ACTING",
+        "course_slug": "/performing-arts/acting/"
+      },
+      {
+        "keyword": "کلاس بازیگری فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_ACTING",
+        "course_slug": "/performing-arts/acting/"
+      },
+      {
+        "keyword": "کلاس خوشنویسی در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_CALLIGRAPHY",
+        "course_slug": "/visual-arts/calligraphy/"
+      },
+      {
+        "keyword": "کلاس فن بیان در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_SPEECH",
+        "course_slug": "/performing-arts/public-speaking/"
+      },
+      {
+        "keyword": "کلاس موسیقی در فردیس کرج",
+        "dual_intent_silo": "SILO_DEPT_01_MUSIC",
+        "course_slug": "/music/"
+      },
+      {
+        "keyword": "کلاس موسیقی فردیس کرج",
+        "dual_intent_silo": "SILO_DEPT_01_MUSIC",
+        "course_slug": "/music/"
+      },
+      {
+        "keyword": "کلاس موسیقی کودکان در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_KIDS_MUSIC",
+        "course_slug": "/music/kids/"
+      },
+      {
+        "keyword": "کلاس های فن بیان در فردیس",
+        "dual_intent_silo": "SILO_CRS_SPEECH",
+        "course_slug": "/performing-arts/public-speaking/"
+      },
+      {
+        "keyword": "کلاس گویندگی در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_VOICE_DUBBING",
+        "course_slug": "/performing-arts/voice-acting-dubbing/"
+      },
+      {
+        "keyword": "کلاس خوانندگی در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_VOCALS",
+        "course_slug": "/music/vocals/"
+      },
+      {
+        "keyword": "آموزشگاه موسیقی کودک در فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_KIDS_MUSIC",
+        "course_slug": "/music/kids/"
+      },
+      {
+        "keyword": "آموزشگاه موسیقی کودکان فردیس کرج",
+        "dual_intent_silo": "SILO_CRS_KIDS_MUSIC",
+        "course_slug": "/music/kids/"
+      }
+    ],
+    "reciprocal_module_on_course_pages": "SEC_FARDIS_COMMUTER_ACCESS",
+    "verified_transit_routes": [
+      "از فردیس و ملارد: دسترسی سریع با مترو کرج؛ آموزشگاه تنها ۵ دقیقه پیاده از ایستگاه مترو کرج فاصله دارد.",
+      "از گوهردشت و جهانشهر: حدود ۱۵ دقیقه مسافت؛ دسترسی مستقیم با تاکسی‌های خطی به چهارراه طالقانی و سپس خیابان دانشکده جنوبی.",
+      "از عظیمیه: کمتر از ۱۰ دقیقه؛ مسیر سرراست از میدان طالقانی به سمت جنوب، مستقیم به خیابان دانشکده جنوبی.",
+      "از مهرشهر و گلشهر: ارتباط مستقیم از طریق اتوبان و بلوار شهید بهشتی به مرکز شهر و شاه عباسی.",
+      "از تهران: دسترسی مستقیم با مترو تهران-کرج تا ایستگاه کرج و ۵ دقیقه پیاده تا آموزشگاه.",
+      "از قم: دسترسی از طریق اتوبان قم-تهران-کرج؛ ویژه هنرجویان دوره‌های فشرده آخر هفته."
+    ]
+  },
+  "audition_hub_mapping": {
+    "silo_id": "SILO_CONV_AUDITION",
+    "target_slug": "/acting-audition/",
+    "keyword_count": 2,
+    "keywords": [
+      "تست بازیگری در کرج",
+      "تست بازیگری در کرج کجاست"
+    ],
+    "feeds_into": [
+      "/performing-arts/acting/",
+      "/performing-arts/kids-acting-drama/"
+    ],
+    "judging_faculty_source": "instructors.csv → CRS_ACTING | CRS_KIDS_ACTING"
+  },
+  "brand_silo_mapping": {
+    "silo_id": "SILO_00",
+    "target_slug": "/",
+    "keyword_count": 0,
+    "note": "همه پرس‌وجوهای «آدرس/کجاست» دو-قصدی هستند و طبق قانون Dual-Intent فاز ۱ در سیلوی دوره مربوطه با section_target=SEC_CAMPUS_MAP_DIRECTIONS و notes=DUAL_INTENT:SILO_00 قرار گرفته‌اند؛ بنابراین صفحه اصلی کلیدواژه انحصاریِ دیتاست ندارد و با کلیدواژه برند/تاکسونومی ساخته می‌شود.",
+    "dual_intent_inbound_keywords": [
+      "آدرس کلاس فن بیان در کرج",
+      "ادرس کلاس بازیگری در کرج",
+      "ادرس کلاس خوشنویسی در کرج",
+      "ادرس کلاس موسیقی در کرج",
+      "تست بازیگری در کرج کجاست",
+      "کلاس بازیگری در کرج کجاست",
+      "کلاس فن بیان در کرج کجاست"
+    ]
+  },
+  "female_instructor_gate": [
+    {
+      "silo_id": "SILO_CRS_PIANO",
+      "course_id": "CRS_PIANO",
+      "demanded": true,
+      "verified": false,
+      "priority_1_client_data_request": true
+    },
+    {
+      "silo_id": "SILO_CRS_GUITAR",
+      "course_id": "CRS_GUITAR",
+      "demanded": true,
+      "verified": false,
+      "priority_1_client_data_request": true
+    },
+    {
+      "silo_id": "SILO_CRS_VOCALS",
+      "course_id": "CRS_VOCALS",
+      "demanded": true,
+      "verified": false,
+      "priority_1_client_data_request": true
+    },
+    {
+      "silo_id": "SILO_CRS_TAR_SETAR",
+      "course_id": "CRS_TAR_SETAR",
+      "demanded": true,
+      "verified": false,
+      "priority_1_client_data_request": true
+    },
+    {
+      "silo_id": "SILO_CRS_SANTOOR",
+      "course_id": "CRS_SANTOOR",
+      "demanded": true,
+      "verified": false,
+      "priority_1_client_data_request": true
+    }
+  ],
+  "orphan_or_unserved_courses": [],
+  "unresolved_keywords": [],
+  "keyword_accountability": {
+    "silo_00_brand_campus": 0,
+    "silo_dept_hubs": 11,
+    "silo_course_pages": 262,
+    "silo_art_cafe": 6,
+    "silo_fardis_geo": 14,
+    "silo_audition_hub": 2,
+    "unresolved_noise": 0,
+    "total_accounted": 295,
+    "total_distinct_keywords": 295,
+    "total_raw_lines": 296,
+    "duplicate_lines_collapsed": 1,
+    "balanced": true
+  }
+}

@@ -1,0 +1,6 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش نقاشی حرفه ای در کرج	آموزش نقاشی حرفه ای در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PAINTING	SEC_HERO_OVERVIEW	NONE
+آموزشگاه طراحی در کرج	آموزشگاه طراحی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PAINTING	SEC_HERO_OVERVIEW	NONE
+آموزشگاه طراحی و نقاشی کرج	آموزشگاه طراحی و نقاشی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PAINTING	SEC_HERO_OVERVIEW	NONE
+کلاس طراحی و نقاشی در کرج	کلاس طراحی و نقاشی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PAINTING	SEC_HERO_OVERVIEW	NONE
+کلاس نقاشی و طراحی کرج	کلاس نقاشی و طراحی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PAINTING	SEC_HERO_OVERVIEW	NONE

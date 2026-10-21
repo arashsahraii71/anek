@@ -1,0 +1,6 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش فلوت در کرج	آموزش فلوت در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FLUTE	SEC_HERO_OVERVIEW	NONE
+آموزش فلوت لاکوتا در کرج	آموزش فلوت لاکوتا در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FLUTE	SEC_HERO_OVERVIEW	SUB_SPECIALTY:LAKOTA_FLUTE
+آموزش پن فلوت در کرج	آموزش پن فلوت در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FLUTE	SEC_HERO_OVERVIEW	SUB_SPECIALTY:PAN_FLUTE
+کلاس فلوت در کرج	کلاس فلوت در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FLUTE	SEC_HERO_OVERVIEW	NONE
+کلاس فلوت کرج	کلاس فلوت کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FLUTE	SEC_HERO_OVERVIEW	NONE

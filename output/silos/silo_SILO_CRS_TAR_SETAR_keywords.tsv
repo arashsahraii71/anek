@@ -1,0 +1,14 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+استاد سه تار خانم در کرج	استاد سه تار خانم در کرج	FEMALE_SPECIFIC	decision	KARAJ	E_CRS_TAR_SETAR	SEC_FEMALE_INSTRUCTORS	NONE
+آموزش تار کرج	آموزش تار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TAR_SETAR	SEC_HERO_OVERVIEW	NONE
+آموزش سه تار کرج	آموزش سه تار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TAR_SETAR	SEC_HERO_OVERVIEW	NONE
+اموزش تار کرج	آموزش تار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TAR_SETAR	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس تار کرج	کلاس تار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TAR_SETAR	SEC_HERO_OVERVIEW	NONE
+کلاس سه تار در کرج	کلاس سه تار در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TAR_SETAR	SEC_HERO_OVERVIEW	NONE
+کلاس سه تار کرج	کلاس سه تار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TAR_SETAR	SEC_HERO_OVERVIEW	NONE
+استاد تار در کرج	استاد تار در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TAR_SETAR	SEC_INSTRUCTOR_ROSTER	NONE
+استاد تار کرج	استاد تار کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TAR_SETAR	SEC_INSTRUCTOR_ROSTER	NONE
+استاد سه تار کرج	استاد سه تار کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TAR_SETAR	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد تار در کرج	بهترین استاد تار در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TAR_SETAR	SEC_INSTRUCTOR_ROSTER	NONE
+آموزش خصوصی تار در کرج	آموزش خصوصی تار در کرج	COURSE_ENROLLMENT	decision	KARAJ	E_CRS_TAR_SETAR	SEC_PRIVATE_VS_GROUP_FORMAT	NONE
+هزینه آموزش سه تار کرج	هزینه آموزش سه تار کرج	TUITION_COST	decision	KARAJ	E_CRS_TAR_SETAR	SEC_TUITION_TABLE	NONE

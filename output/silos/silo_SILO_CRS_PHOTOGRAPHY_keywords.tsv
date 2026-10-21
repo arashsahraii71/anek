@@ -1,0 +1,15 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش عکاسی حرفه ای در کرج	آموزش عکاسی حرفه ای در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزش عکاسی در کرج	آموزش عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزش عکاسی و فیلمبرداری در کرج	آموزش عکاسی و فیلمبرداری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	SUB_SPECIALTY:VIDEOGRAPHY
+آموزش عکاسی کرج	آموزش عکاسی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزشگاه عکاسی در کرج	آموزشگاه عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+آموزشگاه عکاسی و فیلمبرداری در کرج	آموزشگاه عکاسی و فیلمبرداری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	SUB_SPECIALTY:VIDEOGRAPHY
+آموزشگاه عکاسی کرج	آموزشگاه عکاسی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+اموزشگاه های عکاسی در کرج	آموزشگاه های عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+دوره عکاسی با موبایل کرج	دوره عکاسی با موبایل کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	SUB_SPECIALTY:MOBILE_PHOTOGRAPHY
+دوره عکاسی در کرج	دوره عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+دوره های عکاسی کرج	دوره های عکاسی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس آموزش عکاسی در کرج	کلاس آموزش عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس عکاسی در کرج	کلاس عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE
+کلاس های آموزش عکاسی در کرج	کلاس های آموزش عکاسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PHOTOGRAPHY	SEC_HERO_OVERVIEW	NONE

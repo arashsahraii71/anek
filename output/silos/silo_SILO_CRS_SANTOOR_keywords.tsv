@@ -1,0 +1,12 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+استاد سنتور خانم در کرج	استاد سنتور خانم در کرج	FEMALE_SPECIFIC	decision	KARAJ	E_CRS_SANTOOR	SEC_FEMALE_INSTRUCTORS	NONE
+اموزش سنتور کرج	آموزش سنتور کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SANTOOR	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزشگاه سنتور کرج	آموزشگاه سنتور کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SANTOOR	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس سنتور در کرج	کلاس سنتور در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SANTOOR	SEC_HERO_OVERVIEW	NONE
+کلاس سنتور کرج	کلاس سنتور کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SANTOOR	SEC_HERO_OVERVIEW	NONE
+استاد سنتور خوب در کرج	استاد سنتور خوب در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_SANTOOR	SEC_INSTRUCTOR_ROSTER	NONE
+استاد سنتور در کرج	استاد سنتور در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_SANTOOR	SEC_INSTRUCTOR_ROSTER	NONE
+استاد سنتور کرج	استاد سنتور کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_SANTOOR	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد سنتور کرج	بهترین استاد سنتور کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_SANTOOR	SEC_INSTRUCTOR_ROSTER	NONE
+مدرس سنتور کرج	مدرس سنتور کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_SANTOOR	SEC_INSTRUCTOR_ROSTER	NONE
+قیمت کلاس سنتور در کرج	قیمت کلاس سنتور در کرج	TUITION_COST	decision	KARAJ	E_CRS_SANTOOR	SEC_TUITION_TABLE	NONE

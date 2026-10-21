@@ -1,0 +1,4 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+اموزش تنبور در کرج	آموزش تنبور در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TANBOUR	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس تنبور کرج	کلاس تنبور کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TANBOUR	SEC_HERO_OVERVIEW	NONE
+استاد تنبور در کرج	استاد تنبور در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TANBOUR	SEC_INSTRUCTOR_ROSTER	NONE

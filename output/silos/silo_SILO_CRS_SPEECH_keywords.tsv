@@ -1,0 +1,24 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آدرس کلاس فن بیان در کرج	آدرس کلاس فن بیان در کرج	LOCATION_DIRECTION	decision	KARAJ	E_CRS_SPEECH	SEC_CAMPUS_MAP_DIRECTIONS	DUAL_INTENT:SILO_00
+کلاس فن بیان در کرج کجاست	کلاس فن بیان در کرج کجاست	LOCATION_DIRECTION	decision	KARAJ	E_CRS_SPEECH	SEC_CAMPUS_MAP_DIRECTIONS	DUAL_INTENT:SILO_00
+آموزش فن بیان و سخنوری در کرج	آموزش فن بیان و سخنوری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+آموزشگاه فن بیان در کرج	آموزشگاه فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+اموزش فن بیان در کرج	آموزش فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزشگاه فن بیان کرج	آموزشگاه فن بیان کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+بهترین اموزشگاه فن بیان کرج	بهترین آموزشگاه فن بیان کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+بهترین کلاس فن بیان کرج	بهترین کلاس فن بیان کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+دوره فن بیان در کرج	دوره فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس آموزش فن بیان در کرج	کلاس آموزش فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس فن بیان در کرج	کلاس فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس فن بیان و سخنوری در کرج	کلاس فن بیان و سخنوری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس مجری گری در کرج	کلاس مجری گری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	SUB_SPECIALTY:STAGE_HOSTING
+کلاس های سخنوری و فن بیان در کرج	کلاس های سخنوری و فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس های فن بیان در کرج	کلاس های فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس های فن بیان کرج	کلاس های فن بیان کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	NONE
+کلاس های مجری گری در کرج	کلاس های مجری گری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	SUB_SPECIALTY:STAGE_HOSTING
+کلاسهای فن بیان در کرج	کلاس های فن بیان در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_SPEECH	SEC_HERO_OVERVIEW	ORTHO_VARIANT_SPACING
+کلاس فن بیان برای نوجوانان در کرج	کلاس فن بیان برای نوجوانان در کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_SPEECH	SEC_KIDS_TEENS_TRACK	NONE
+کلاس فن بیان برای کودکان در کرج	کلاس فن بیان برای کودکان در کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_SPEECH	SEC_KIDS_TEENS_TRACK	NONE
+کلاس فن بیان کودکان در کرج	کلاس فن بیان کودکان در کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_SPEECH	SEC_KIDS_TEENS_TRACK	NONE
+کلاس فن بیان حضوری در کرج	کلاس فن بیان حضوری در کرج	COURSE_ENROLLMENT	decision	KARAJ	E_CRS_SPEECH	SEC_PRIVATE_VS_GROUP_FORMAT	NONE
+هزینه کلاس فن بیان در کرج	هزینه کلاس فن بیان در کرج	TUITION_COST	decision	KARAJ	E_CRS_SPEECH	SEC_TUITION_TABLE	NONE

@@ -1,0 +1,3820 @@
+{
+  "generated_at": "2026-10-21T21:53:12Z",
+  "phase": "PHASE_2",
+  "domain": "https://aanak.ir",
+  "serp_evidence_mode": "NO_LIVE_SERP_EGRESS_BLOCKED",
+  "total_raw_keyword_lines": 296,
+  "total_distinct_keywords": 295,
+  "total_buildable_pages": 34,
+  "tier_summary": {
+    "tier_0_home": 1,
+    "tier_1_department_hubs": 4,
+    "tier_2_course_pages": 24,
+    "tier_3_art_cafe_hub": 1,
+    "tier_4_local_and_conversion_hubs": 4,
+    "tier_5_editorial_guides": 0,
+    "excluded_unserved_courses": 0
+  },
+  "pages": [
+    {
+      "page_id": "HOME_ROOT",
+      "tier": "0",
+      "url_slug": "/",
+      "build_status": "BUILD_HOME_MASTER",
+      "silo_id": "SILO_00",
+      "department_id": null,
+      "course_id": null,
+      "primary_keyword": "آموزشگاه سینمایی و بازیگری آنک",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY (academy_data.txt → BRAND_NAME)",
+      "secondary_keywords": [],
+      "dual_intent_supporting_keywords": [
+        "آدرس کلاس فن بیان در کرج",
+        "ادرس کلاس بازیگری در کرج",
+        "ادرس کلاس خوشنویسی در کرج",
+        "ادرس کلاس موسیقی در کرج",
+        "تست بازیگری در کرج کجاست",
+        "کلاس بازیگری در کرج کجاست",
+        "کلاس فن بیان در کرج کجاست"
+      ],
+      "owned_dataset_keyword_count": 0,
+      "orthographic_variants_assigned": [],
+      "user_task": "انتخاب دانشکده/دوره مناسب از میان ۲۴ رشته، مشاهده کافه هنر، ثبت‌نام تست بازیگری و یافتن آدرس پردیس کرج در یک کلیک.",
+      "search_intent": "brand_navigational_and_discovery",
+      "funnel_stage": "awareness",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_01",
+          "INST_02",
+          "INST_03",
+          "INST_04",
+          "INST_05",
+          "INST_06",
+          "INST_07",
+          "INST_08",
+          "INST_09"
+        ],
+        "cafe_verified": true,
+        "fardis_status": "SERVICE_AREA_COMMUTER_HUB"
+      },
+      "required_onpage_modules": [
+        "SEC_HOME_HERO_MULTIFACULTY",
+        "SEC_COURSE_FINDER_24",
+        "SEC_ART_CAFE_SHOWCASE",
+        "SEC_FEATURED_INSTRUCTORS",
+        "SEC_LICENSES_AND_FACILITIES",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_HOME_FAQ"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "۴ دانشکده و ۲۴ دوره فعال",
+          "۵ شب اجرای زنده تأییدشده در کافه هنر"
+        ],
+        "unique_equipment_or_studio": [
+          "گارانتی رضایت در جلسه اول و مشاوره و تعیین سطح رایگان",
+          "بیش از ۲۰ سال سابقه فعالیت رسمی در کرج و استان البرز"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 85
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "آموزشگاه سینمایی و بازیگری آنک با 20 سال سابقه رسمی، در ۲۴ رشته موسیقی، بازیگری، فن بیان، گویندگی، عکاسی، تدوین، گریم، نقاشی و خوشنویسی در کرج آموزش می‌دهد و کافه هنر و موسیقی زنده اختصاصی دارد. مشاوره و تعیین سطح رایگان است و دسترسی مستقیم از فردیس، ملارد و تهران وجود دارد.",
+        "featured_snippet_format": "multi_faculty_entity_summary"
+      },
+      "schema_types_planned": [
+        "WebSite",
+        "WebPage",
+        "EducationalOrganization",
+        "MusicSchool",
+        "PerformingArtsTheater",
+        "LocalBusiness",
+        "CafeOrCoffeeShop",
+        "BreadcrumbList"
+      ],
+      "internal_links_to": [
+        "/acting-audition/",
+        "/art-cafe/",
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/",
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/",
+        "/music/daf/",
+        "/music/flute/",
+        "/music/guitar/",
+        "/music/hang-drum/",
+        "/music/kamancheh/",
+        "/music/keyboard-organ/",
+        "/music/kids/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tanbour/",
+        "/music/tar-setar/",
+        "/music/tonbak/",
+        "/music/violin/",
+        "/music/vocals/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/",
+        "/visual-arts/",
+        "/visual-arts/calligraphy/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "internal_links_from": [
+        "/art-cafe/",
+        "/cinema-media/",
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/",
+        "/performing-arts/",
+        "/visual-arts/"
+      ],
+      "click_depth_from_home": 0
+    },
+    {
+      "page_id": "DEPT_MUSIC_HUB",
+      "tier": "1",
+      "url_slug": "/music/",
+      "build_status": "BUILD_DEPARTMENT_HUB",
+      "silo_id": "SILO_DEPT_01_MUSIC",
+      "department_id": "DEPT_MUSIC",
+      "course_id": null,
+      "primary_keyword": "کلاس موسیقی در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس های موسیقی کرج",
+        "آموزش موسیقی در کرج",
+        "آموزش تئوری موسیقی در کرج",
+        "کلاس موسیقی خوب در کرج",
+        "بهترین کلاس موسیقی در کرج",
+        "شهریه کلاس موسیقی در کرج",
+        "هزینه کلاس موسیقی در کرج",
+        "بهترین کلاس های موسیقی کرج",
+        "قیمت کلاس موسیقی کرج",
+        "ادرس کلاس موسیقی در کرج"
+      ],
+      "owned_dataset_keyword_count": 11,
+      "orthographic_variants_assigned": [
+        "ادرس کلاس موسیقی در کرج"
+      ],
+      "user_task": "مقایسه همه دوره‌های دانشکده موسیقی و آواز در کرج، دیدن شهریه و اساتید و انتخاب رشته.",
+      "search_intent": "category_commercial_investigation",
+      "funnel_stage": "consideration",
+      "catalog_support": {
+        "course_verified": true,
+        "child_course_ids": [
+          "CRS_PIANO",
+          "CRS_GUITAR",
+          "CRS_VIOLIN",
+          "CRS_VOCALS",
+          "CRS_TAR_SETAR",
+          "CRS_SANTOOR",
+          "CRS_TONBAK",
+          "CRS_DAF",
+          "CRS_KAMANCHEH",
+          "CRS_TANBOUR",
+          "CRS_FLUTE",
+          "CRS_HANGDRUM",
+          "CRS_ORGAN",
+          "CRS_KIDS_MUSIC"
+        ],
+        "tuition_verified": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_COURSE_GRID_NAVIGATION",
+        "MOD_INST_GRID",
+        "MOD_MUSIC_TUITION_MATRIX",
+        "MOD_MUSIC_THEORY_SOLFEGE",
+        "MOD_CAFE_STAGE_CALLOUT",
+        "SEC_TUITION_TABLE",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_DEPT_FAQ",
+        "SEC_FARDIS_COMMUTER_ACCESS"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "جدول مقایسه شهریه ۱۴ دوره در یک صفحه"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 75
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "course_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList",
+        "FAQPage"
+      ],
+      "internal_links_to": [
+        "/",
+        "/art-cafe/",
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/daf/",
+        "/music/flute/",
+        "/music/guitar/",
+        "/music/hang-drum/",
+        "/music/kamancheh/",
+        "/music/keyboard-organ/",
+        "/music/kids/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tanbour/",
+        "/music/tar-setar/",
+        "/music/tonbak/",
+        "/music/violin/",
+        "/music/vocals/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/daf/",
+        "/music/flute/",
+        "/music/guitar/",
+        "/music/hang-drum/",
+        "/music/kamancheh/",
+        "/music/keyboard-organ/",
+        "/music/kids/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tanbour/",
+        "/music/tar-setar/",
+        "/music/tonbak/",
+        "/music/violin/",
+        "/music/vocals/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "DEPT_PERFORMING_HUB",
+      "tier": "1",
+      "url_slug": "/performing-arts/",
+      "build_status": "BUILD_DEPARTMENT_HUB_NAVIGATIONAL",
+      "silo_id": "SILO_DEPT_02_PERFORMING",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": null,
+      "primary_keyword": "آموزشگاه بازیگری، فن بیان و گویندگی در کرج",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY",
+      "secondary_keywords": [],
+      "owned_dataset_keyword_count": 0,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه همه دوره‌های دانشکده بازیگری، فن بیان و گویندگی در کرج، دیدن شهریه و اساتید و انتخاب رشته.",
+      "search_intent": "category_commercial_investigation",
+      "funnel_stage": "consideration",
+      "catalog_support": {
+        "course_verified": true,
+        "child_course_ids": [
+          "CRS_ACTING",
+          "CRS_KIDS_ACTING",
+          "CRS_SPEECH",
+          "CRS_VOICE_DUBBING"
+        ],
+        "tuition_verified": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_COURSE_GRID_NAVIGATION",
+        "SEC_TUITION_TABLE",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_DEPT_FAQ",
+        "SEC_AUDITION_BRIDGE"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "جدول مقایسه شهریه ۴ دوره در یک صفحه"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 75
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "course_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList",
+        "FAQPage"
+      ],
+      "internal_links_to": [
+        "/",
+        "/acting-audition/",
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/acting-audition/",
+        "/instructors/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "DEPT_CINEMA_HUB",
+      "tier": "1",
+      "url_slug": "/cinema-media/",
+      "build_status": "BUILD_DEPARTMENT_HUB_NAVIGATIONAL",
+      "silo_id": "SILO_DEPT_03_CINEMA",
+      "department_id": "DEPT_CINEMA",
+      "course_id": null,
+      "primary_keyword": "آموزشگاه سینمایی، عکاسی و گریم در کرج",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY",
+      "secondary_keywords": [],
+      "owned_dataset_keyword_count": 0,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه همه دوره‌های دانشکده سینما، عکاسی، تدوین و گریم در کرج، دیدن شهریه و اساتید و انتخاب رشته.",
+      "search_intent": "category_commercial_investigation",
+      "funnel_stage": "consideration",
+      "catalog_support": {
+        "course_verified": true,
+        "child_course_ids": [
+          "CRS_PHOTOGRAPHY",
+          "CRS_FILM_EDITING",
+          "CRS_DIRECTING_SCRIPT",
+          "CRS_MAKEUP"
+        ],
+        "tuition_verified": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_COURSE_GRID_NAVIGATION",
+        "SEC_TUITION_TABLE",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_DEPT_FAQ"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "جدول مقایسه شهریه ۴ دوره در یک صفحه"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 75
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "course_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList",
+        "FAQPage"
+      ],
+      "internal_links_to": [
+        "/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/",
+        "/contact/",
+        "/instructors/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/",
+        "/instructors/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "DEPT_VISUAL_HUB",
+      "tier": "1",
+      "url_slug": "/visual-arts/",
+      "build_status": "BUILD_DEPARTMENT_HUB_NAVIGATIONAL",
+      "silo_id": "SILO_DEPT_04_VISUAL",
+      "department_id": "DEPT_VISUAL",
+      "course_id": null,
+      "primary_keyword": "آموزشگاه طراحی، نقاشی و خوشنویسی در کرج",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY",
+      "secondary_keywords": [],
+      "owned_dataset_keyword_count": 0,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه همه دوره‌های دانشکده هنرهای تجسمی و خوشنویسی در کرج، دیدن شهریه و اساتید و انتخاب رشته.",
+      "search_intent": "category_commercial_investigation",
+      "funnel_stage": "consideration",
+      "catalog_support": {
+        "course_verified": true,
+        "child_course_ids": [
+          "CRS_PAINTING",
+          "CRS_CALLIGRAPHY"
+        ],
+        "tuition_verified": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_COURSE_GRID_NAVIGATION",
+        "SEC_TUITION_TABLE",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_DEPT_FAQ"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "جدول مقایسه شهریه ۲ دوره در یک صفحه"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 75
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "course_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList",
+        "FAQPage"
+      ],
+      "internal_links_to": [
+        "/",
+        "/contact/",
+        "/instructors/",
+        "/visual-arts/calligraphy/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/instructors/",
+        "/visual-arts/calligraphy/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_PIANO",
+      "tier": "2",
+      "url_slug": "/music/piano/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_PIANO",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_PIANO",
+      "primary_keyword": "کلاس پیانو در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس پیانو کرج",
+        "کلاس پیانو کودکان کرج",
+        "آموزش خصوصی پیانو در کرج",
+        "آموزش پیانو کرج",
+        "آموزشگاه پیانو کرج",
+        "آموزشگاه موسیقی پیانو کرج",
+        "مدرس پیانو خانم در کرج",
+        "معلم خصوصی پیانو در کرج",
+        "مدرس پیانو کرج",
+        "مدرسه پیانو کرج",
+        "استاد پیانو کرج",
+        "تدریس پیانو کرج",
+        "اساتید پیانو کرج",
+        "استاد پیانو خوب در کرج",
+        "اموزش پیانو کرج",
+        "اکادمی پیانو کرج",
+        "اموزشگاه پیانو کرج"
+      ],
+      "owned_dataset_keyword_count": 18,
+      "orthographic_variants_assigned": [
+        "اموزشگاه پیانو کرج",
+        "اموزش پیانو کرج",
+        "اکادمی پیانو کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش پیانو در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [
+          "INST_10"
+        ],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": true,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 8,
+        "SEC_INSTRUCTOR_ROSTER": 6,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 2,
+        "SEC_FEMALE_INSTRUCTORS": 1,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "پیانو کلاسیک",
+          "پیانو پاپ",
+          "پیانو کودک"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر فنی و حرفه‌ای / ارشاد"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 74
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس پیانو در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۶۰۰٬۰۰۰ تومان و خصوصی از ۱٬۲۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/art-cafe/",
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/guitar/",
+        "/music/kids/",
+        "/music/violin/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/music/",
+        "/music/keyboard-organ/",
+        "/music/kids/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_GUITAR",
+      "tier": "2",
+      "url_slug": "/music/guitar/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_GUITAR",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_GUITAR",
+      "primary_keyword": "کلاس گیتار کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس گیتار برقی کرج",
+        "آموزش خصوصی گیتار در کرج",
+        "آموزش گیتار کرج",
+        "کلاس گیتار خوب در کرج",
+        "آموزش گیتار الکتریک کرج",
+        "استاد گیتار در کرج",
+        "کلاس گیتار کرج قیمت",
+        "آموزش گیتار در کرج خانم",
+        "استاد گیتار کرج",
+        "مدرس گیتار الکتریک کرج",
+        "استاد گیتار الکتریک کرج",
+        "استاد گیتار خوب در کرج",
+        "بهترین استاد گیتار کرج",
+        "اموزش گیتار کرج",
+        "اموزشگاه گیتار کرج"
+      ],
+      "owned_dataset_keyword_count": 16,
+      "orthographic_variants_assigned": [
+        "اموزش گیتار کرج",
+        "اموزشگاه گیتار کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش گیتار (کلاسیک، پاپ و الکتریک) در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [
+          "INST_11",
+          "INST_12"
+        ],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": true,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_ELECTRIC_GUITAR",
+          "heading_fa": "آموزش گیتار الکتریک و برقی در کرج",
+          "keywords": [
+            "آموزش گیتار الکتریک کرج",
+            "مدرس گیتار الکتریک کرج",
+            "استاد گیتار الکتریک کرج",
+            "کلاس گیتار برقی کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 7,
+        "SEC_INSTRUCTOR_ROSTER": 6,
+        "SEC_FEMALE_INSTRUCTORS": 1,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1,
+        "SEC_TUITION_TABLE": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "گیتار کلاسیک",
+          "گیتار پاپ و آکوستیک",
+          "گیتار الکتریک و برقی",
+          "گیتار فلامنکو"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 74
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس گیتار (کلاسیک، پاپ و الکتریک) در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/art-cafe/",
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/kids/",
+        "/music/violin/",
+        "/music/vocals/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/music/",
+        "/music/kids/",
+        "/music/piano/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_VIOLIN",
+      "tier": "2",
+      "url_slug": "/music/violin/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_VIOLIN",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_VIOLIN",
+      "primary_keyword": "کلاس ویولن کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس ویولن سل کرج",
+        "کلاس موسیقی ویولن کرج",
+        "قیمت کلاس ویولن در کرج",
+        "مدرس ویولن در کرج",
+        "مدرس ویولن کرج",
+        "استاد ویولن کرج",
+        "اساتید ویولن کرج",
+        "استاد ویولن خوب در کرج",
+        "بهترین مدرس ویولن در کرج",
+        "بهترین استاد ویولن در کرج",
+        "بهترین آموزشگاه ویولن در کرج",
+        "بهترین استاد ویولن کرج",
+        "بهترین اساتید ویولن کرج",
+        "اموزش ویولن کرج",
+        "اموزشگاه ویولن کرج"
+      ],
+      "owned_dataset_keyword_count": 16,
+      "orthographic_variants_assigned": [
+        "اموزش ویولن کرج",
+        "اموزشگاه ویولن کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش ویولن و ویولن سل در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [
+          "INST_13"
+        ],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_CELLO",
+          "heading_fa": "کلاس ویولن سل (چلو) در کرج",
+          "keywords": [
+            "کلاس ویولن سل کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 6,
+        "SEC_INSTRUCTOR_ROSTER": 9,
+        "SEC_TUITION_TABLE": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "ویولن کلاسیک",
+          "ویولن ایرانی",
+          "ویولن سل (چلو)"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 68
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس ویولن و ویولن سل در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۵۰٬۰۰۰ تومان و خصوصی از ۱٬۱۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/kids/",
+        "/music/tar-setar/",
+        "/music/vocals/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/guitar/",
+        "/music/piano/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_VOCALS",
+      "tier": "2",
+      "url_slug": "/music/vocals/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_VOCALS",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_VOCALS",
+      "primary_keyword": "کلاس آواز در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس آواز پاپ در کرج",
+        "کلاس خوانندگی در کرج",
+        "کلاس آواز سنتی در کرج",
+        "کلاس آواز خوانی در کرج",
+        "کلاس های آموزش آواز در کرج",
+        "کلاس های آواز کرج",
+        "کلاس خوانندگی کرج",
+        "کلاس آواز بانوان در کرج",
+        "کلاس خوانندگی بانوان در کرج",
+        "کلاس خوانندگی کودکان در کرج",
+        "آموزشگاه آواز در کرج",
+        "کلاس آواز کودکان کرج",
+        "آموزش آواز سنتی کرج",
+        "بهترین کلاس آواز در کرج",
+        "بهترین کلاس خوانندگی در کرج",
+        "هزینه کلاس آواز در کرج",
+        "هزینه کلاس خوانندگی در کرج",
+        "کلاس اواز گروهی در کرج",
+        "اموزش اواز در کرج",
+        "اموزش خوانندگی کرج"
+      ],
+      "owned_dataset_keyword_count": 21,
+      "orthographic_variants_assigned": [
+        "اموزش اواز در کرج",
+        "کلاس اواز گروهی در کرج",
+        "اموزش خوانندگی کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش آواز و خوانندگی در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [
+          "INST_14"
+        ],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_GROUP_CHOIR",
+          "heading_fa": "کلاس آواز گروهی و کر در کرج",
+          "keywords": [
+            "کلاس اواز گروهی در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_POP",
+          "heading_fa": "کلاس آواز پاپ در کرج",
+          "keywords": [
+            "کلاس آواز پاپ در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_SONNATI",
+          "heading_fa": "آموزش آواز سنتی در کرج",
+          "keywords": [
+            "آموزش آواز سنتی کرج",
+            "کلاس آواز سنتی در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 14,
+        "SEC_TUITION_TABLE": 2,
+        "SEC_FEMALE_INSTRUCTORS": 2,
+        "SEC_KIDS_TEENS_TRACK": 2,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آواز سنتی ایرانی",
+          "آواز پاپ و کلاسیک",
+          "آواز ویژه بانوان",
+          "آواز کودکان",
+          "آواز گروهی (کر)"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 73
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس آواز و خوانندگی در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۴۵ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/",
+        "/music/kids/",
+        "/music/santoor/",
+        "/music/tar-setar/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/fardis-branch/",
+        "/music/",
+        "/music/guitar/",
+        "/music/violin/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_TAR_SETAR",
+      "tier": "2",
+      "url_slug": "/music/tar-setar/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_TAR_SETAR",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_TAR_SETAR",
+      "primary_keyword": "کلاس سه تار کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس سه تار در کرج",
+        "کلاس تار کرج",
+        "آموزش خصوصی تار در کرج",
+        "آموزش تار کرج",
+        "آموزش سه تار کرج",
+        "استاد تار در کرج",
+        "استاد سه تار خانم در کرج",
+        "استاد تار کرج",
+        "استاد سه تار کرج",
+        "بهترین استاد تار در کرج",
+        "هزینه آموزش سه تار کرج",
+        "اموزش تار کرج"
+      ],
+      "owned_dataset_keyword_count": 13,
+      "orthographic_variants_assigned": [
+        "اموزش تار کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش تار و سه‌تار در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [
+          "INST_15"
+        ],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": true,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 6,
+        "SEC_TUITION_TABLE": 1,
+        "SEC_INSTRUCTOR_ROSTER": 4,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1,
+        "SEC_FEMALE_INSTRUCTORS": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آموزش سه‌تار",
+          "آموزش تار ایرانی",
+          "ردیف‌نوازی"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 74
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس تار و سه‌تار در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/art-cafe/",
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/santoor/",
+        "/music/tonbak/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/music/",
+        "/music/violin/",
+        "/music/vocals/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_SANTOOR",
+      "tier": "2",
+      "url_slug": "/music/santoor/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_SANTOOR",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_SANTOOR",
+      "primary_keyword": "کلاس سنتور در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس سنتور کرج",
+        "قیمت کلاس سنتور در کرج",
+        "استاد سنتور در کرج",
+        "استاد سنتور خانم در کرج",
+        "مدرس سنتور کرج",
+        "استاد سنتور کرج",
+        "استاد سنتور خوب در کرج",
+        "بهترین استاد سنتور کرج",
+        "اموزش سنتور کرج",
+        "اموزشگاه سنتور کرج"
+      ],
+      "owned_dataset_keyword_count": 11,
+      "orthographic_variants_assigned": [
+        "اموزش سنتور کرج",
+        "اموزشگاه سنتور کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش سنتور در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [
+          "INST_16"
+        ],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": true,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 4,
+        "SEC_INSTRUCTOR_ROSTER": 5,
+        "SEC_FEMALE_INSTRUCTORS": 1,
+        "SEC_TUITION_TABLE": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "سنتورنوازی مقدماتی تا عالی",
+          "ردیف میرزاعبدالله"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 74
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس سنتور در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر پایان دوره ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/art-cafe/",
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/daf/",
+        "/music/tonbak/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/music/",
+        "/music/tar-setar/",
+        "/music/vocals/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_TONBAK",
+      "tier": "2",
+      "url_slug": "/music/tonbak/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_TONBAK",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_TONBAK",
+      "primary_keyword": "کلاس تنبک در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس تنبک کرج",
+        "آموزش تنبک کرج",
+        "هزینه کلاس تنبک در کرج",
+        "استاد تنبک در کرج",
+        "استاد تنبک کرج",
+        "بهترین استاد تنبک در کرج",
+        "بهترین استاد تنبک کرج",
+        "بهترین اساتید تنبک کرج"
+      ],
+      "owned_dataset_keyword_count": 9,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش تنبک در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": false,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 3,
+        "SEC_INSTRUCTOR_ROSTER": 5,
+        "SEC_TUITION_TABLE": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "تنبک‌نوازی سنتی و مدرن",
+          "ریتم‌خوانی"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 68
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس تنبک در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۴۰۰٬۰۰۰ تومان و خصوصی از ۸۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر پایان دوره ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/daf/",
+        "/music/kamancheh/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/santoor/",
+        "/music/tar-setar/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_DAF",
+      "tier": "2",
+      "url_slug": "/music/daf/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_DAF",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_DAF",
+      "primary_keyword": "کلاس دف در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس دف زنی در کرج",
+        "کلاس دف کرج",
+        "آموزش دف کرج",
+        "قیمت کلاس دف در کرج",
+        "استاد دف در کرج",
+        "بهترین استاد دف در کرج",
+        "اموزش دف کرج"
+      ],
+      "owned_dataset_keyword_count": 8,
+      "orthographic_variants_assigned": [
+        "اموزش دف کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش دف و دف‌زنی در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_DAF_ZANI",
+          "heading_fa": "کلاس دف‌زنی در کرج",
+          "keywords": [
+            "کلاس دف زنی در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 5,
+        "SEC_INSTRUCTOR_ROSTER": 2,
+        "SEC_TUITION_TABLE": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "دف‌نوازی سنتی و خانقاهی",
+          "گروه‌نوازی دف"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 68
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس دف و دف‌زنی در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۴۵ دقیقه‌ای است و شهریه گروهی از ۴۰۰٬۰۰۰ تومان و خصوصی از ۸۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/kamancheh/",
+        "/music/tanbour/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/santoor/",
+        "/music/tonbak/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_KAMANCHEH",
+      "tier": "2",
+      "url_slug": "/music/kamancheh/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_KAMANCHEH",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_KAMANCHEH",
+      "primary_keyword": "کلاس کمانچه کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "آموزش کمانچه کرج",
+        "استاد کمانچه در کرج",
+        "استاد کمانچه کرج",
+        "بهترین استاد کمانچه در کرج",
+        "اموزش کمانچه کرج"
+      ],
+      "owned_dataset_keyword_count": 6,
+      "orthographic_variants_assigned": [
+        "اموزش کمانچه کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش کمانچه در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": false,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 3,
+        "SEC_INSTRUCTOR_ROSTER": 3
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "کمانچه‌نوازی ایرانی و لری"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 63
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس کمانچه در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۵۰٬۰۰۰ تومان و خصوصی از ۱٬۱۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر پایان دوره ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/flute/",
+        "/music/tanbour/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/daf/",
+        "/music/tonbak/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_TANBOUR",
+      "tier": "2",
+      "url_slug": "/music/tanbour/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_TANBOUR",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_TANBOUR",
+      "primary_keyword": "کلاس تنبور کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "استاد تنبور در کرج",
+        "اموزش تنبور در کرج"
+      ],
+      "owned_dataset_keyword_count": 3,
+      "orthographic_variants_assigned": [
+        "اموزش تنبور در کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش تنبور در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": false,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 2,
+        "SEC_INSTRUCTOR_ROSTER": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "تنبورنوازی مقامی و سنتی"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 63
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس تنبور در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۵۰٬۰۰۰ تومان و خصوصی از ۱٬۱۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر پایان دوره ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/flute/",
+        "/music/hang-drum/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/daf/",
+        "/music/kamancheh/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_FLUTE",
+      "tier": "2",
+      "url_slug": "/music/flute/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_FLUTE",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_FLUTE",
+      "primary_keyword": "کلاس فلوت در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس فلوت کرج",
+        "آموزش فلوت در کرج",
+        "آموزش پن فلوت در کرج",
+        "آموزش فلوت لاکوتا در کرج"
+      ],
+      "owned_dataset_keyword_count": 5,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش فلوت، پن‌فلوت و فلوت لاکوتا در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_LAKOTA_FLUTE",
+          "heading_fa": "آموزش فلوت لاکوتا در کرج",
+          "keywords": [
+            "آموزش فلوت لاکوتا در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_PAN_FLUTE",
+          "heading_fa": "آموزش پن فلوت در کرج",
+          "keywords": [
+            "آموزش پن فلوت در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 5
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "فلوت کلیددار کلاسیک",
+          "فلوت ریکوردر",
+          "پن فلوت",
+          "فلوت لاکوتا (سرخپوستی)"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 68
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس فلوت، پن‌فلوت و فلوت لاکوتا در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/hang-drum/",
+        "/music/keyboard-organ/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/kamancheh/",
+        "/music/tanbour/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_HANGDRUM",
+      "tier": "2",
+      "url_slug": "/music/hang-drum/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_HANGDRUM",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_HANGDRUM",
+      "primary_keyword": "کلاس هنگ درام در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس هنگ درام کرج",
+        "آموزش هنگ درام کرج",
+        "آموزشگاه موسیقی هنگ درام کرج",
+        "قیمت کلاس هنگ درام در کرج",
+        "هزینه کلاس هنگ درام در کرج",
+        "استاد هنگ درام در کرج",
+        "استاد هنگ درام کرج",
+        "بهترین استاد هنگ درام در کرج",
+        "اموزش هنگ درام کرج",
+        "اموزشگاه هنگ درام کرج"
+      ],
+      "owned_dataset_keyword_count": 11,
+      "orthographic_variants_assigned": [
+        "اموزش هنگ درام کرج",
+        "اموزشگاه هنگ درام کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش هنگ‌درام در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 6,
+        "SEC_INSTRUCTOR_ROSTER": 3,
+        "SEC_TUITION_TABLE": 2
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "هنگ‌درام مقدماتی تا پیشرفته",
+          "بداهه‌نوازی"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 68
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس هنگ‌درام در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۴۵ دقیقه‌ای است و شهریه گروهی از ۴۵۰٬۰۰۰ تومان و خصوصی از ۹۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر پایان دوره ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/keyboard-organ/",
+        "/music/kids/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/music/",
+        "/music/flute/",
+        "/music/tanbour/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_ORGAN",
+      "tier": "2",
+      "url_slug": "/music/keyboard-organ/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_ORGAN",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_ORGAN",
+      "primary_keyword": "آموزش ارگ در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "اموزش ارگ کرج"
+      ],
+      "owned_dataset_keyword_count": 2,
+      "orthographic_variants_assigned": [
+        "اموزش ارگ کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش ارگ و کیبورد در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": false,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": true,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAFE_PERFORMANCE_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 2
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آموزش ارگ مجلسی و پاپ",
+          "کیبورد و آکوردشناسی"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر پایان دوره"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 74
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس ارگ و کیبورد در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۳۰ دقیقه‌ای است و شهریه گروهی از ۴۵۰٬۰۰۰ تومان و خصوصی از ۹۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر پایان دوره ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/art-cafe/",
+        "/contact/",
+        "/instructors/",
+        "/music/",
+        "/music/kids/",
+        "/music/piano/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/music/",
+        "/music/flute/",
+        "/music/hang-drum/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_KIDS_MUSIC",
+      "tier": "2",
+      "url_slug": "/music/kids/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_KIDS_MUSIC",
+      "department_id": "DEPT_MUSIC",
+      "course_id": "CRS_KIDS_MUSIC",
+      "primary_keyword": "آموزشگاه موسیقی کودک کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس موسیقی کودک در کرج",
+        "کلاس موسیقی کودکان در کرج",
+        "کلاس موسیقی در کرج برای کودکان",
+        "کلاس موسیقی در کرج برای کودکان",
+        "کلاس موسیقی کودک کرج",
+        "کلاس موسیقی کودکان کرج",
+        "موسیقی کودک در کرج",
+        "آموزشگاه موسیقی کودک در کرج",
+        "آموزشگاه موسیقی کودکان در کرج",
+        "موسیقی کودکان کرج",
+        "آموزشگاه موسیقی کودکان کرج",
+        "بهترین آموزشگاه موسیقی کودک در کرج",
+        "بهترین آموزشگاه موسیقی کودک کرج",
+        "اموزشگاه موسیقی کودک کرج"
+      ],
+      "owned_dataset_keyword_count": 14,
+      "orthographic_variants_assigned": [
+        "اموزشگاه موسیقی کودک کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف آموزشگاه و کلاس موسیقی کودک (ارف) در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_KIDS_TEENS_TRACK": 15
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "موسیقی کودک ارف (بلز، فلوت ریکوردر، طبلک)",
+          "ریتم و بازی‌های موزیکال"
+        ],
+        "unique_equipment_or_studio": [
+          "گواهی پایان دوره کودک"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 73
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس موسیقی کودک (ارف) در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان برگزار می‌شود. هر ترم ۸ جلسه ۴۵ دقیقه‌ای است و شهریه گروهی از ۳۵۰٬۰۰۰ تومان و خصوصی از ۷۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره گواهی پایان دوره کودک ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/",
+        "/music/guitar/",
+        "/music/piano/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/fardis-branch/",
+        "/music/",
+        "/music/guitar/",
+        "/music/hang-drum/",
+        "/music/keyboard-organ/",
+        "/music/piano/",
+        "/music/violin/",
+        "/music/vocals/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_ACTING",
+      "tier": "2",
+      "url_slug": "/performing-arts/acting/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_ACTING",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_ACTING",
+      "primary_keyword": "کلاس بازیگری در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس بازیگری کرج",
+        "کلاس های بازیگری کرج",
+        "کلاس بازیگری خوب در کرج",
+        "بهترین کلاس بازیگری در کرج",
+        "قیمت کلاس بازیگری در کرج",
+        "شهریه کلاس بازیگری در کرج",
+        "هزینه کلاس بازیگری در کرج",
+        "کلاس بازیگری در کرج کجاست",
+        "بهترین کلاس های بازیگری کرج",
+        "اموزشگاه بازیگری کرج",
+        "ادرس کلاس بازیگری در کرج"
+      ],
+      "owned_dataset_keyword_count": 12,
+      "orthographic_variants_assigned": [
+        "ادرس کلاس بازیگری در کرج",
+        "اموزشگاه بازیگری کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس و آموزش بازیگری سینما و تئاتر در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_03",
+          "INST_04",
+          "INST_05"
+        ],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": true,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_AUDITION_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_CAMPUS_MAP_DIRECTIONS": 2,
+        "SEC_HERO_OVERVIEW": 7,
+        "SEC_TUITION_TABLE": 3
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "بازیگری مقابل دوربین",
+          "بازیگری تئاتر و صحنه",
+          "بدن و بیان بازیگر"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر سینمایی / ارشاد"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 76
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس بازیگری سینما و تئاتر در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۲ جلسه ۱۲۰ دقیقه‌ای است و شهریه گروهی از ۸۰۰٬۰۰۰ تومان و خصوصی از ۱٬۵۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/acting-audition/",
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/performing-arts/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/acting-audition/",
+        "/fardis-branch/",
+        "/performing-arts/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_KIDS_ACTING",
+      "tier": "2",
+      "url_slug": "/performing-arts/kids-acting-drama/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_KIDS_ACTING",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_KIDS_ACTING",
+      "primary_keyword": "کلاس بازیگری کودکان در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس نمایش خلاق در کرج",
+        "کلاس بازیگری کودک در کرج",
+        "کلاس های بازیگری کودکان در کرج",
+        "کلاس بازیگری در کرج برای کودکان",
+        "کلاس بازیگری در کرج برای نوجوانان",
+        "کلاس نمایش خلاق برای کودکان در کرج",
+        "آموزشگاه بازیگری و تئاتر کودک در کرج"
+      ],
+      "owned_dataset_keyword_count": 8,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_01",
+          "INST_03",
+          "INST_05",
+          "INST_07",
+          "INST_08"
+        ],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": true,
+        "has_private_classes": false,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_AUDITION_BRIDGE",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_KIDS_TEENS_TRACK": 7,
+        "SEC_HERO_OVERVIEW": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "بازیگری کودک و نوجوان",
+          "نمایش خلاق برای کودکان",
+          "اعتمادبه‌نفس صحنه‌ای"
+        ],
+        "unique_equipment_or_studio": [
+          "گواهی پایان دوره بازیگری کودک"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 76
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت گروهی ویژه کودکان، نوجوانان برگزار می‌شود. هر ترم ۱۰ جلسه ۹۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/acting-audition/",
+        "/contact/",
+        "/instructors/",
+        "/performing-arts/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/acting-audition/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/voice-acting-dubbing/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_SPEECH",
+      "tier": "2",
+      "url_slug": "/performing-arts/public-speaking/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_SPEECH",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_SPEECH",
+      "primary_keyword": "کلاس فن بیان در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس مجری گری در کرج",
+        "کلاس های فن بیان در کرج",
+        "کلاس های مجری گری در کرج",
+        "کلاس آموزش فن بیان در کرج",
+        "کلاس فن بیان حضوری در کرج",
+        "کلاس فن بیان و سخنوری در کرج",
+        "کلاس های سخنوری و فن بیان در کرج",
+        "کلاس های فن بیان کرج",
+        "کلاس فن بیان کودکان در کرج",
+        "کلاس فن بیان برای کودکان در کرج",
+        "کلاس فن بیان برای نوجوانان در کرج",
+        "دوره فن بیان در کرج",
+        "آموزشگاه فن بیان در کرج",
+        "آموزش فن بیان و سخنوری در کرج",
+        "بهترین کلاس فن بیان کرج",
+        "آدرس کلاس فن بیان در کرج",
+        "هزینه کلاس فن بیان در کرج",
+        "کلاس فن بیان در کرج کجاست",
+        "کلاسهای فن بیان در کرج",
+        "اموزش فن بیان در کرج",
+        "اموزشگاه فن بیان کرج",
+        "بهترین اموزشگاه فن بیان کرج"
+      ],
+      "owned_dataset_keyword_count": 23,
+      "orthographic_variants_assigned": [
+        "اموزش فن بیان در کرج",
+        "اموزشگاه فن بیان کرج",
+        "بهترین اموزشگاه فن بیان کرج",
+        "کلاسهای فن بیان در کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش فن بیان، سخنوری و مجری‌گری در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_04",
+          "INST_05"
+        ],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_STAGE_HOSTING",
+          "heading_fa": "کلاس مجری‌گری استیج و تلویزیون در کرج",
+          "keywords": [
+            "کلاس مجری گری در کرج",
+            "کلاس های مجری گری در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_CAMPUS_MAP_DIRECTIONS": 2,
+        "SEC_HERO_OVERVIEW": 16,
+        "SEC_TUITION_TABLE": 1,
+        "SEC_KIDS_TEENS_TRACK": 3,
+        "SEC_PRIVATE_VS_GROUP_FORMAT": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "فن بیان و سخنوری بزرگسالان",
+          "فن بیان کودکان و نوجوانان",
+          "آموزش مجری‌گری استیج و تلویزیون"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر فن بیان و سخنوری"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 81
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس فن بیان، سخنوری و مجری‌گری در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۰ جلسه ۹۰ دقیقه‌ای است و شهریه گروهی از ۴۵۰٬۰۰۰ تومان و خصوصی از ۹۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/voice-acting-dubbing/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/fardis-branch/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_VOICE_DUBBING",
+      "tier": "2",
+      "url_slug": "/performing-arts/voice-acting-dubbing/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_VOICE_DUBBING",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": "CRS_VOICE_DUBBING",
+      "primary_keyword": "کلاس گویندگی در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس دوبله در کرج",
+        "کلاس دوبلاژ در کرج",
+        "کلاس دوبلوری در کرج",
+        "کلاس های گویندگی در کرج",
+        "کلاس گویندگی و دوبله در کرج",
+        "کلاس های دوبلوری کرج",
+        "کلاس فن بیان و گویندگی کرج",
+        "کلاس گویندگی کودکان در کرج",
+        "آموزش دوبلوری در کرج",
+        "آموزش گویندگی در کرج",
+        "آموزشگاه دوبله در کرج",
+        "آموزشگاه گویندگی در کرج",
+        "دوره گویندگی کرج",
+        "کلاسهای گویندگی در کرج",
+        "بهترین آموزشگاه گویندگی در کرج",
+        "اموزشگاه گویندگی کرج"
+      ],
+      "owned_dataset_keyword_count": 17,
+      "orthographic_variants_assigned": [
+        "اموزشگاه گویندگی کرج",
+        "کلاسهای گویندگی در کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش گویندگی، دوبلاژ و دوبلوری در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_DUBBING",
+          "heading_fa": "آموزش دوبلاژ، دوبله و دوبلوری در کرج",
+          "keywords": [
+            "آموزش دوبلوری در کرج",
+            "آموزشگاه دوبله در کرج",
+            "کلاس دوبلاژ در کرج",
+            "کلاس دوبله در کرج",
+            "کلاس دوبلوری در کرج",
+            "کلاس های دوبلوری کرج",
+            "کلاس گویندگی و دوبله در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 16,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آموزش گویندگی رادیو، پادکست و نریشن",
+          "آموزش دوبلاژ، دوبله و دوبلوری انیمیشن و فیلم",
+          "گویندگی کودکان"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر گویندگی و دوبله"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 73
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس گویندگی، دوبلاژ و دوبلوری در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۰ جلسه ۹۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/fardis-branch/",
+        "/performing-arts/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_PHOTOGRAPHY",
+      "tier": "2",
+      "url_slug": "/cinema-media/photography/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_PHOTOGRAPHY",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_PHOTOGRAPHY",
+      "primary_keyword": "کلاس عکاسی در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس آموزش عکاسی در کرج",
+        "کلاس های آموزش عکاسی در کرج",
+        "دوره عکاسی در کرج",
+        "آموزش عکاسی در کرج",
+        "آموزشگاه عکاسی در کرج",
+        "آموزش عکاسی حرفه ای در کرج",
+        "آموزش عکاسی و فیلمبرداری در کرج",
+        "آموزشگاه عکاسی و فیلمبرداری در کرج",
+        "آموزش عکاسی کرج",
+        "آموزشگاه عکاسی کرج",
+        "دوره های عکاسی کرج",
+        "دوره عکاسی با موبایل کرج",
+        "اموزشگاه های عکاسی در کرج"
+      ],
+      "owned_dataset_keyword_count": 14,
+      "orthographic_variants_assigned": [
+        "اموزشگاه های عکاسی در کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_06",
+          "INST_09"
+        ],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_MOBILE_PHOTO",
+          "heading_fa": "دوره عکاسی با موبایل در کرج",
+          "keywords": [
+            "دوره عکاسی با موبایل کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_VIDEOGRAPHY",
+          "heading_fa": "آموزش عکاسی و فیلمبرداری در کرج",
+          "keywords": [
+            "آموزش عکاسی و فیلمبرداری در کرج",
+            "آموزشگاه عکاسی و فیلمبرداری در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 14
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "عکاسی حرفه‌ای دیجیتال و پرتره",
+          "آموزش عکاسی و فیلمبرداری",
+          "دوره عکاسی با موبایل"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر عکاسی و تصویربرداری"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 71
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۰ جلسه ۹۰ دقیقه‌ای است و شهریه گروهی از ۶۰۰٬۰۰۰ تومان و خصوصی از ۱٬۲۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/cinema-media/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/",
+        "/contact/",
+        "/instructors/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_FILM_EDITING",
+      "tier": "2",
+      "url_slug": "/cinema-media/film-editing/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_FILM_EDITING",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_FILM_EDITING",
+      "primary_keyword": "کلاس تدوین در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس ادیت در کرج",
+        "کلاس آموزش تدوین در کرج",
+        "آموزش تدوین در کرج",
+        "آموزش تدوین فیلم در کرج",
+        "آموزشگاه تدوین فیلم در کرج",
+        "اموزشگاه تدوین در کرج"
+      ],
+      "owned_dataset_keyword_count": 7,
+      "orthographic_variants_assigned": [
+        "اموزشگاه تدوین در کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش تدوین فیلم و ادیت حرفه‌ای در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_09"
+        ],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": false,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_EDIT_REELS",
+          "heading_fa": "کلاس ادیت ویدیو و ریلز در کرج",
+          "keywords": [
+            "کلاس ادیت در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 7
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آموزش تدوین سینمایی (Premiere & DaVinci)",
+          "ادیت ویدیو و ریلز"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر تدوین فیلم"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 71
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس تدوین فیلم و ادیت حرفه‌ای در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۰ جلسه ۹۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر تدوین فیلم ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/",
+        "/contact/",
+        "/instructors/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/photography/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_DIRECTING_SCRIPT",
+      "tier": "2",
+      "url_slug": "/cinema-media/directing-screenwriting/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_DIRECTING_SCRIPT",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_DIRECTING_SCRIPT",
+      "primary_keyword": "کلاس کارگردانی در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس فیلمنامه نویسی در کرج",
+        "کلاس های فیلمنامه نویسی در کرج"
+      ],
+      "owned_dataset_keyword_count": 3,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش کارگردانی سینما و فیلمنامه‌نویسی در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [
+          "INST_01",
+          "INST_02",
+          "INST_04",
+          "INST_09"
+        ],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": false,
+        "female_instructor_name_verified": true,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_DIRECTING",
+          "heading_fa": "کلاس کارگردانی سینما در کرج",
+          "keywords": [
+            "کلاس کارگردانی در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_SCREENWRITING",
+          "heading_fa": "کلاس فیلمنامه‌نویسی در کرج",
+          "keywords": [
+            "کلاس فیلمنامه نویسی در کرج",
+            "کلاس های فیلمنامه نویسی در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 3
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آموزش کارگردانی فیلم کوتاه و سینما",
+          "کلاس فیلمنامه‌نویسی و دراماتورژی"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر کارگردانی و فیلمنامه‌نویسی"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 71
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس کارگردانی سینما و فیلمنامه‌نویسی در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۲ جلسه ۱۲۰ دقیقه‌ای است و شهریه گروهی از ۸۰۰٬۰۰۰ تومان و خصوصی از ۱٬۵۰۰٬۰۰۰ تومان شروع می‌شود. پایان دوره مدرک معتبر کارگردانی و فیلمنامه‌نویسی ارائه می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/photography/",
+        "/contact/",
+        "/instructors/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/cinema-media/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_MAKEUP",
+      "tier": "2",
+      "url_slug": "/cinema-media/cinematic-makeup/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_MAKEUP",
+      "department_id": "DEPT_CINEMA",
+      "course_id": "CRS_MAKEUP",
+      "primary_keyword": "کلاس گریم در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس گریم سینمایی در کرج",
+        "آموزش گریم در کرج",
+        "آموزشگاه گریم در کرج",
+        "آموزش میکاپ و گریم در کرج",
+        "آموزش گریم سینمایی در کرج",
+        "آموزشگاه گریم سینمایی در کرج",
+        "آموزش گریم کودک در کرج"
+      ],
+      "owned_dataset_keyword_count": 8,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش گریم سینمایی، میکاپ و گریم کودک در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": false,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_BEAUTY_MAKEUP",
+          "heading_fa": "آموزش میکاپ و گریم تخصصی در کرج",
+          "keywords": [
+            "آموزش میکاپ و گریم در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_CINEMATIC_MAKEUP",
+          "heading_fa": "آموزش گریم سینمایی در کرج",
+          "keywords": [
+            "آموزش گریم سینمایی در کرج",
+            "آموزشگاه گریم سینمایی در کرج",
+            "کلاس گریم سینمایی در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_KIDS_MAKEUP",
+          "heading_fa": "آموزش گریم کودک در کرج",
+          "keywords": [
+            "آموزش گریم کودک در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 7,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "آموزش گریم سینمایی و چهره‌پردازی سه‌بعدی",
+          "آموزش میکاپ و گریم تخصصی",
+          "آموزش گریم کودک"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر چهره‌پردازی و گریم"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 63
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس گریم سینمایی، میکاپ و گریم کودک در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۱۰ جلسه ۱۲۰ دقیقه‌ای است و شهریه گروهی از ۵۰۰٬۰۰۰ تومان و خصوصی از ۱٬۰۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/cinema-media/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/",
+        "/contact/",
+        "/instructors/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/cinema-media/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_PAINTING",
+      "tier": "2",
+      "url_slug": "/visual-arts/drawing-painting/",
+      "build_status": "BUILD_COURSE_STANDARD",
+      "silo_id": "SILO_CRS_PAINTING",
+      "department_id": "DEPT_VISUAL",
+      "course_id": "CRS_PAINTING",
+      "primary_keyword": "کلاس طراحی و نقاشی در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس نقاشی و طراحی کرج",
+        "آموزشگاه طراحی در کرج",
+        "آموزش نقاشی حرفه ای در کرج",
+        "آموزشگاه طراحی و نقاشی کرج"
+      ],
+      "owned_dataset_keyword_count": 5,
+      "orthographic_variants_assigned": [],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش طراحی و نقاشی حرفه‌ای در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": false
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 5
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "طراحی پایه و سیاه‌قلم",
+          "نقاشی رنگ‌روغن، آبرنگ و اکریلیک"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر هنرهای تجسمی"
+        ],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 68
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس طراحی و نقاشی حرفه‌ای در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۹۰ دقیقه‌ای است و شهریه گروهی از ۴۰۰٬۰۰۰ تومان و خصوصی از ۸۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/instructors/",
+        "/visual-arts/",
+        "/visual-arts/calligraphy/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/visual-arts/",
+        "/visual-arts/calligraphy/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CRS_CALLIGRAPHY",
+      "tier": "2",
+      "url_slug": "/visual-arts/calligraphy/",
+      "build_status": "BUILD_COURSE_MEGA",
+      "silo_id": "SILO_CRS_CALLIGRAPHY",
+      "department_id": "DEPT_VISUAL",
+      "course_id": "CRS_CALLIGRAPHY",
+      "primary_keyword": "کلاس خوشنویسی در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس خطاطی در کرج",
+        "کلاس های خوشنویسی در کرج",
+        "کلاس خوشنویسی با خودکار در کرج",
+        "کلاس خط کرج",
+        "کلاس خوشنویسی کودکان در کرج",
+        "آموزش خوشنویسی در کرج",
+        "آموزشگاه خوشنویسی در کرج",
+        "آموزش خوشنویسی با خودکار در کرج",
+        "آموزش خوشنویسی کرج",
+        "آموزشگاه خوشنویسی کرج",
+        "ادرس کلاس خوشنویسی در کرج"
+      ],
+      "owned_dataset_keyword_count": 12,
+      "orthographic_variants_assigned": [
+        "ادرس کلاس خوشنویسی در کرج"
+      ],
+      "user_task": "مقایسه اساتید (از جمله استاد خانم)، فرمت خصوصی/گروهی، مسیر کودکان و بزرگسالان و شهریه شفاف کلاس آموزش خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان) در کرج و رزرو جلسه تعیین سطح رایگان.",
+      "search_intent": "transactional_enrollment",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "course_verified": true,
+        "instructor_ids": [],
+        "pending_instructor_placeholders": [],
+        "has_female_instructor": true,
+        "female_instructor_name_verified": false,
+        "has_private_classes": true,
+        "has_group_classes": true,
+        "has_kids_track": true,
+        "tuition_verified": true,
+        "performed_in_art_cafe": false,
+        "fardis_demand_linked": true
+      },
+      "required_onpage_modules": [
+        "SEC_HERO_BLUF_OVERVIEW",
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_PRIVATE_VS_GROUP_FORMAT",
+        "SEC_SUBSTYLE_TABS",
+        "SEC_KIDS_TEENS_TRACK",
+        "SEC_TUITION_TABLE",
+        "SEC_SYLLABUS_ROADMAP",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_COURSE_FAQ"
+      ],
+      "sub_specialty_modules": [
+        {
+          "module_id": "MOD_SUB_BALLPOINT_CALLIGRAPHY",
+          "heading_fa": "آموزش خوشنویسی با خودکار (خط تحریری) در کرج",
+          "keywords": [
+            "آموزش خوشنویسی با خودکار در کرج",
+            "کلاس خوشنویسی با خودکار در کرج"
+          ]
+        },
+        {
+          "module_id": "MOD_SUB_KHATATI",
+          "heading_fa": "کلاس خطاطی در کرج",
+          "keywords": [
+            "کلاس خطاطی در کرج"
+          ]
+        }
+      ],
+      "section_target_breakdown": {
+        "SEC_HERO_OVERVIEW": 10,
+        "SEC_CAMPUS_MAP_DIRECTIONS": 1,
+        "SEC_KIDS_TEENS_TRACK": 1
+      },
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "خوشنویسی با قلم‌نی (نستعلیق و شکسته)",
+          "آموزش خوشنویسی با خودکار (خط تحریری)",
+          "خوشنویسی ویژه کودکان"
+        ],
+        "unique_equipment_or_studio": [
+          "مدرک معتبر انجمن خوشنویسان / آموزشگاه"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 73
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کلاس خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان) در کرج در آموزشگاه سینمایی و بازیگری آنک با اساتید مجرب خانم و آقا و به‌صورت خصوصی و گروهی ویژه کودکان، نوجوانان، بزرگسالان برگزار می‌شود. هر ترم ۸ جلسه ۶۰ دقیقه‌ای است و شهریه گروهی از ۳۵۰٬۰۰۰ تومان و خصوصی از ۷۰۰٬۰۰۰ تومان شروع می‌شود.",
+        "featured_snippet_format": "tuition_and_format_comparison_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "Course",
+        "CourseInstance",
+        "Person (Instructors)",
+        "FAQPage",
+        "BreadcrumbList",
+        "Offer"
+      ],
+      "internal_links_to": [
+        "/contact/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/visual-arts/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/fardis-branch/",
+        "/visual-arts/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CAFE_VENUE_HUB",
+      "tier": "3",
+      "url_slug": "/art-cafe/",
+      "build_status": "BUILD_VENUE_HUB",
+      "silo_id": "SILO_CAFE_01",
+      "department_id": null,
+      "course_id": null,
+      "primary_keyword": "کافه پیانو کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کافه ارگ کرج",
+        "کافه سنتور کرج",
+        "کافه گیتار کرج",
+        "رستوران سه تار کرج",
+        "کافه رستوران سه تار کرج"
+      ],
+      "owned_dataset_keyword_count": 6,
+      "orthographic_variants_assigned": [],
+      "user_task": "دیدن برنامه شب‌های اجرای زنده پیانو، گیتار، سنتور، سه‌تار و ارگ و رزرو میز در کافه هنر آنک کرج.",
+      "search_intent": "local_hospitality_live_music",
+      "funnel_stage": "consideration",
+      "catalog_support": {
+        "cafe_verified": true,
+        "verified_event_ids": [
+          "CAFE_EVT_01",
+          "CAFE_EVT_02",
+          "CAFE_EVT_03",
+          "CAFE_EVT_04",
+          "CAFE_EVT_05"
+        ],
+        "menu_verified": false,
+        "menu_status": "[INTERNAL_DATA_NEEDED]"
+      },
+      "required_onpage_modules": [
+        "SEC_CAFE_HERO",
+        "SEC_LIVE_NIGHTS_BY_INSTRUMENT",
+        "SEC_CAFE_MENU",
+        "SEC_STUDENT_RECITAL_STAGE",
+        "SEC_CAFE_RESERVATION_MAP",
+        "SEC_CAFE_FAQ"
+      ],
+      "cafe_instrument_blocks": [
+        {
+          "anchor": "cafe-piano",
+          "section_id": "SEC_CAFE_LIVE_PIANO",
+          "instrument_fa": "پیانو",
+          "linked_course_slug": "/music/piano/",
+          "keywords": [
+            "کافه پیانو کرج"
+          ],
+          "verified_events": [
+            {
+              "event_id": "CAFE_EVT_01",
+              "instrument_focus_fa": "پیانو",
+              "title_fa": "شب‌های اجرای زنده پیانو در کافه هنر آنک",
+              "target_keywords": "کافه پیانو کرج",
+              "days_of_week_fa": "پنجشنبه‌ها و جمعه‌ها",
+              "time_range_fa": "۱۹:۰۰ تا ۲۲:۰۰",
+              "performer_name_fa": "مژگان حق‌منش",
+              "reservation_required": "true",
+              "linked_course_slug": "/music/piano/"
+            }
+          ]
+        },
+        {
+          "anchor": "cafe-guitar",
+          "section_id": "SEC_CAFE_LIVE_GUITAR",
+          "instrument_fa": "گیتار",
+          "linked_course_slug": "/music/guitar/",
+          "keywords": [
+            "کافه گیتار کرج"
+          ],
+          "verified_events": [
+            {
+              "event_id": "CAFE_EVT_02",
+              "instrument_focus_fa": "گیتار",
+              "title_fa": "عصرهای گیتار آکوستیک و فلامنکو",
+              "target_keywords": "کافه گیتار کرج",
+              "days_of_week_fa": "چهارشنبه‌ها",
+              "time_range_fa": "۱۸:۰۰ تا ۲۱:۰۰",
+              "performer_name_fa": "کریم خدادادی",
+              "reservation_required": "true",
+              "linked_course_slug": "/music/guitar/"
+            }
+          ]
+        },
+        {
+          "anchor": "cafe-santoor",
+          "section_id": "SEC_CAFE_LIVE_SANTOOR",
+          "instrument_fa": "سنتور",
+          "linked_course_slug": "/music/santoor/",
+          "keywords": [
+            "کافه سنتور کرج"
+          ],
+          "verified_events": [
+            {
+              "event_id": "CAFE_EVT_03",
+              "instrument_focus_fa": "سنتور",
+              "title_fa": "شب‌های سنتورنوازی و موسیقی اصیل ایرانی",
+              "target_keywords": "کافه سنتور کرج",
+              "days_of_week_fa": "دوشنبه‌ها",
+              "time_range_fa": "۱۹:۰۰ تا ۲۱:۳۰",
+              "performer_name_fa": "ماهور منصوری‌فرد",
+              "reservation_required": "true",
+              "linked_course_slug": "/music/santoor/"
+            }
+          ]
+        },
+        {
+          "anchor": "cafe-setar",
+          "section_id": "SEC_CAFE_LIVE_SETAR",
+          "instrument_fa": "سه تار",
+          "linked_course_slug": "/music/tar-setar/",
+          "keywords": [
+            "رستوران سه تار کرج",
+            "کافه رستوران سه تار کرج"
+          ],
+          "verified_events": [
+            {
+              "event_id": "CAFE_EVT_04",
+              "instrument_focus_fa": "سه‌تار و تار",
+              "title_fa": "شب‌های دلنشین سه‌تار همراه با منوی شام و دمنوش",
+              "target_keywords": "رستوران سه تار کرج|کافه رستوران سه تار کرج",
+              "days_of_week_fa": "سه‌شنبه‌ها و جمعه‌ها",
+              "time_range_fa": "۲۰:۰۰ تا ۲۲:۳۰",
+              "performer_name_fa": "سپیده کیانی",
+              "reservation_required": "true",
+              "linked_course_slug": "/music/tar-setar/"
+            }
+          ]
+        },
+        {
+          "anchor": "cafe-organ",
+          "section_id": "SEC_CAFE_LIVE_ORGAN",
+          "instrument_fa": "ارگ",
+          "linked_course_slug": "/music/keyboard-organ/",
+          "keywords": [
+            "کافه ارگ کرج"
+          ],
+          "verified_events": [
+            {
+              "event_id": "CAFE_EVT_05",
+              "instrument_focus_fa": "ارگ و کیبورد",
+              "title_fa": "شب‌های خاطره‌انگیز تکنوازی ارگ و کیبورد",
+              "target_keywords": "کافه ارگ کرج",
+              "days_of_week_fa": "شنبه‌ها",
+              "time_range_fa": "۱۹:۰۰ تا ۲۱:۰۰",
+              "performer_name_fa": "علیرضا شکیبا",
+              "reservation_required": "false",
+              "linked_course_slug": "/music/keyboard-organ/"
+            }
+          ]
+        }
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "۵ شب اجرای زنده تأییدشده با نام نوازنده و ساعت دقیق"
+        ],
+        "unique_equipment_or_studio": [
+          "نام کافه: کافه هنر و موسیقی آموزشگاه آنک (کافه پیانو، گیتار، سنتور، ارگ و سه‌تار در کرج)",
+          "کاربری: فضای کافه هنری داخل مجموعه جهت دورهمی هنرجویان، اجرای زنده پیانو، گیتار، سنتور، سه‌تار و ارگ، و تمرین اجراهای صحنه‌ای"
+        ],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 80
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "کافه هنر و موسیقی آموزشگاه آنک در کرج، فضای کافه هنری داخل مجموعه است که میزبان اجرای زنده پیانو، گیتار، سنتور، سه‌تار و ارگ توسط اساتید و هنرجویان است؛ رزرو میز شب‌های موسیقی زنده با تماس یا واتساپ و دسترسی از مرکز کرج و فردیس.",
+        "featured_snippet_format": "weekly_live_music_schedule_table"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "CafeOrCoffeeShop",
+        "EventVenue",
+        "MusicEvent",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_to": [
+        "/",
+        "/contact/",
+        "/music/",
+        "/music/guitar/",
+        "/music/keyboard-organ/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tar-setar/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/contact/",
+        "/music/",
+        "/music/guitar/",
+        "/music/keyboard-organ/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tar-setar/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "GEO_FARDIS_HUB",
+      "tier": "4",
+      "url_slug": "/fardis-branch/",
+      "build_status": "BUILD_HYPERLOCAL_HUB",
+      "silo_id": "SILO_GEO_FARDIS",
+      "department_id": null,
+      "course_id": null,
+      "primary_keyword": "کلاس موسیقی در فردیس کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "کلاس بازیگری در کرج فردیس",
+        "کلاس موسیقی فردیس کرج",
+        "کلاس آواز در فردیس کرج",
+        "کلاس بازیگری فردیس کرج",
+        "کلاس بازیگری در فردیس کرج",
+        "کلاس فن بیان در فردیس کرج",
+        "کلاس گویندگی در فردیس کرج",
+        "کلاس خوشنویسی در فردیس کرج",
+        "کلاس خوانندگی در فردیس کرج",
+        "کلاس های فن بیان در فردیس",
+        "کلاس موسیقی کودکان در فردیس کرج",
+        "آموزشگاه موسیقی کودکان فردیس کرج",
+        "آموزشگاه موسیقی کودک در فردیس کرج"
+      ],
+      "owned_dataset_keyword_count": 14,
+      "orthographic_variants_assigned": [],
+      "user_task": "فهمیدن دقیق مسیر و زمان رسیدن از فردیس به پردیس کرج، دیدن ۷ رشته پرتقاضای فردیس و شیفت‌های فشرده آخر هفته.",
+      "search_intent": "hyperlocal_commercial",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "fardis_campus_status": "SERVICE_AREA_COMMUTER_HUB",
+        "nap_rule": "NEVER_EMIT_FARDIS_STREET_ADDRESS",
+        "verified_transit_routes": 6
+      },
+      "required_onpage_modules": [
+        "SEC_FARDIS_HERO",
+        "SEC_FARDIS_DEMANDED_PROGRAMS",
+        "SEC_FARDIS_ROUTE_MATRIX",
+        "SEC_FARDIS_WEEKEND_COMPACT_SHIFTS",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_FARDIS_FAQ"
+      ],
+      "fardis_program_cards": [
+        {
+          "course_slug": "/music/",
+          "keywords": [
+            "کلاس موسیقی در فردیس کرج",
+            "کلاس موسیقی فردیس کرج"
+          ]
+        },
+        {
+          "course_slug": "/music/kids/",
+          "keywords": [
+            "کلاس موسیقی کودکان در فردیس کرج",
+            "آموزشگاه موسیقی کودک در فردیس کرج",
+            "آموزشگاه موسیقی کودکان فردیس کرج"
+          ]
+        },
+        {
+          "course_slug": "/music/vocals/",
+          "keywords": [
+            "کلاس آواز در فردیس کرج",
+            "کلاس خوانندگی در فردیس کرج"
+          ]
+        },
+        {
+          "course_slug": "/performing-arts/acting/",
+          "keywords": [
+            "کلاس بازیگری در فردیس کرج",
+            "کلاس بازیگری در کرج فردیس",
+            "کلاس بازیگری فردیس کرج"
+          ]
+        },
+        {
+          "course_slug": "/performing-arts/public-speaking/",
+          "keywords": [
+            "کلاس فن بیان در فردیس کرج",
+            "کلاس های فن بیان در فردیس"
+          ]
+        },
+        {
+          "course_slug": "/performing-arts/voice-acting-dubbing/",
+          "keywords": [
+            "کلاس گویندگی در فردیس کرج"
+          ]
+        },
+        {
+          "course_slug": "/visual-arts/calligraphy/",
+          "keywords": [
+            "کلاس خوشنویسی در فردیس کرج"
+          ]
+        }
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "۶ مسیر رفت‌وآمد تأییدشده از academy_data.txt"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 72
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "هنرجویان فردیس کرج با مترو کرج تنها ۵ دقیقه پیاده تا پردیس مرکزی آموزشگاه سینمایی و بازیگری آنک فاصله دارند. کلاس موسیقی، موسیقی کودک، آواز و خوانندگی، بازیگری، فن بیان، گویندگی و خوشنویسی با شیفت‌های فشرده پنجشنبه و جمعه ویژه هنرجویان فردیس برگزار می‌شود و مشاوره و تعیین سطح آن رایگان است.",
+        "featured_snippet_format": "commuter_route_and_time_matrix"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internal_links_to": [
+        "/",
+        "/contact/",
+        "/music/",
+        "/music/kids/",
+        "/music/vocals/",
+        "/performing-arts/acting/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/",
+        "/visual-arts/calligraphy/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/contact/",
+        "/music/",
+        "/music/kids/",
+        "/music/vocals/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/",
+        "/visual-arts/calligraphy/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "CONV_AUDITION_HUB",
+      "tier": "4",
+      "url_slug": "/acting-audition/",
+      "build_status": "BUILD_CONVERSION_HUB",
+      "silo_id": "SILO_CONV_AUDITION",
+      "department_id": "DEPT_PERFORMING",
+      "course_id": null,
+      "primary_keyword": "تست بازیگری در کرج",
+      "primary_keyword_source": "DATASET",
+      "secondary_keywords": [
+        "تست بازیگری در کرج کجاست"
+      ],
+      "owned_dataset_keyword_count": 2,
+      "orthographic_variants_assigned": [],
+      "user_task": "فهمیدن اینکه تست بازیگری در کرج کجاست، چه مراحلی دارد و رزرو نوبت تست و تعیین سطح.",
+      "search_intent": "action_audition_booking",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "judging_faculty": [
+          "INST_01",
+          "INST_03",
+          "INST_04",
+          "INST_05",
+          "INST_07",
+          "INST_08"
+        ]
+      },
+      "required_onpage_modules": [
+        "SEC_AUDITION_HERO",
+        "SEC_AUDITION_PROCESS_STEPS",
+        "SEC_AUDITION_AGE_CRITERIA",
+        "SEC_AUDITION_PREP_GUIDE",
+        "SEC_JUDGING_PANEL",
+        "SEC_AUDITION_BOOKING_FORM",
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_AUDITION_FAQ"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "۴ مرحله تست و تعیین سطح با داوری اساتید تأییدشده بازیگری"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "HIGH",
+        "gain_percentage_estimate": 70
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "تست بازیگری در کرج در پردیس آموزشگاه سینمایی و بازیگری آنک، خیابان دانشکده جنوبی روبروی کتابخانه امیرکبیر برگزار می‌شود؛ شامل مصاحبه اولیه، اجرای مونولوگ، تست مقابل دوربین و تعیین سطح رایگان برای کودکان، نوجوانان و بزرگسالان با داوری اساتید تأییدشده بازیگری و امکان رزرو نوبت با واتساپ.",
+        "featured_snippet_format": "step_by_step_audition_process"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage",
+        "Event"
+      ],
+      "internal_links_to": [
+        "/instructors/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/contact/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "HUB_INSTRUCTORS",
+      "tier": "4",
+      "url_slug": "/instructors/",
+      "build_status": "BUILD_TRUST_HUB",
+      "silo_id": "SILO_00",
+      "department_id": null,
+      "course_id": null,
+      "primary_keyword": "اساتید آموزشگاه آنک کرج",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY",
+      "secondary_keywords": [],
+      "owned_dataset_keyword_count": 0,
+      "orthographic_variants_assigned": [],
+      "user_task": "بررسی سوابق، مدارک و رشته تدریس همه اساتید و انتخاب استاد مناسب (خانم/آقا).",
+      "search_intent": "trust_eeat",
+      "funnel_stage": "consideration",
+      "catalog_support": {
+        "verified_instructors": [
+          "INST_01",
+          "INST_02",
+          "INST_03",
+          "INST_04",
+          "INST_05",
+          "INST_06",
+          "INST_07",
+          "INST_08",
+          "INST_09"
+        ],
+        "pending_placeholders": [
+          "INST_10",
+          "INST_11",
+          "INST_12",
+          "INST_13",
+          "INST_14",
+          "INST_15",
+          "INST_16"
+        ]
+      },
+      "required_onpage_modules": [
+        "SEC_INSTRUCTOR_ROSTER",
+        "SEC_FEMALE_INSTRUCTORS",
+        "SEC_INSTRUCTOR_FILTERS"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "مدارک و افتخارات verbatim از instructors.csv"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 60
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "faculty_directory"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "CollectionPage",
+        "Person",
+        "BreadcrumbList"
+      ],
+      "internal_links_to": [
+        "/",
+        "/cinema-media/",
+        "/contact/",
+        "/music/",
+        "/performing-arts/",
+        "/visual-arts/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/acting-audition/",
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/",
+        "/contact/",
+        "/music/",
+        "/music/daf/",
+        "/music/flute/",
+        "/music/guitar/",
+        "/music/hang-drum/",
+        "/music/kamancheh/",
+        "/music/keyboard-organ/",
+        "/music/kids/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tanbour/",
+        "/music/tar-setar/",
+        "/music/tonbak/",
+        "/music/violin/",
+        "/music/vocals/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/",
+        "/visual-arts/",
+        "/visual-arts/calligraphy/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "click_depth_from_home": 1
+    },
+    {
+      "page_id": "HUB_CONTACT",
+      "tier": "4",
+      "url_slug": "/contact/",
+      "build_status": "BUILD_CONTACT_HUB",
+      "silo_id": "SILO_00",
+      "department_id": null,
+      "course_id": null,
+      "primary_keyword": "آدرس و تماس آموزشگاه آنک کرج",
+      "primary_keyword_source": "DERIVED_BRAND_TAXONOMY",
+      "secondary_keywords": [],
+      "owned_dataset_keyword_count": 0,
+      "orthographic_variants_assigned": [],
+      "user_task": "یافتن آدرس دقیق، ساعات کاری، مسیر مترو/خودرو و تماس فوری یا واتساپ برای ثبت‌نام.",
+      "search_intent": "local_contact",
+      "funnel_stage": "decision",
+      "catalog_support": {
+        "nap_verified": true
+      },
+      "required_onpage_modules": [
+        "SEC_CAMPUS_MAP_DIRECTIONS",
+        "SEC_CONTACT_CHANNELS",
+        "SEC_OPENING_HOURS",
+        "SEC_FARDIS_COMMUTER_ACCESS",
+        "SEC_TUITION_TABLE"
+      ],
+      "information_gain_delta": {
+        "unique_curriculum_facts": [
+          "کتابخانه امیرکبیر (۱ دقیقه / ۱۰۰ متر)",
+          "ایستگاه مترو کرج (۵ دقیقه پیاده / ۱.۵ کیلومتر)",
+          "میدان و چهارراه طالقانی (۵ دقیقه / ۲ کیلومتر)",
+          "بلوار شهید بهشتی (۳ دقیقه / ۱ کیلومتر)"
+        ],
+        "unique_equipment_or_studio": [],
+        "gain_score": "MEDIUM",
+        "gain_percentage_estimate": 55
+      },
+      "serp_and_ai_targets": {
+        "bluf_answer_target": "",
+        "featured_snippet_format": "nap_and_hours_card"
+      },
+      "schema_types_planned": [
+        "WebPage",
+        "ContactPage",
+        "LocalBusiness",
+        "BreadcrumbList"
+      ],
+      "internal_links_to": [
+        "/",
+        "/acting-audition/",
+        "/art-cafe/",
+        "/fardis-branch/",
+        "/instructors/"
+      ],
+      "internal_links_from": [
+        "/",
+        "/art-cafe/",
+        "/cinema-media/",
+        "/cinema-media/cinematic-makeup/",
+        "/cinema-media/directing-screenwriting/",
+        "/cinema-media/film-editing/",
+        "/cinema-media/photography/",
+        "/fardis-branch/",
+        "/instructors/",
+        "/music/",
+        "/music/daf/",
+        "/music/flute/",
+        "/music/guitar/",
+        "/music/hang-drum/",
+        "/music/kamancheh/",
+        "/music/keyboard-organ/",
+        "/music/kids/",
+        "/music/piano/",
+        "/music/santoor/",
+        "/music/tanbour/",
+        "/music/tar-setar/",
+        "/music/tonbak/",
+        "/music/violin/",
+        "/music/vocals/",
+        "/performing-arts/",
+        "/performing-arts/acting/",
+        "/performing-arts/kids-acting-drama/",
+        "/performing-arts/public-speaking/",
+        "/performing-arts/voice-acting-dubbing/",
+        "/visual-arts/",
+        "/visual-arts/calligraphy/",
+        "/visual-arts/drawing-painting/"
+      ],
+      "click_depth_from_home": 1
+    }
+  ],
+  "keyword_accountability": {
+    "tier_0_home": 0,
+    "tier_1_department_hubs": 11,
+    "tier_2_course_pages": 262,
+    "tier_3_art_cafe": 6,
+    "tier_4_fardis_and_audition": 16,
+    "tier_5_editorial": 0,
+    "excluded_unserved": 0,
+    "total_keywords_accounted": 295,
+    "total_distinct_keywords": 295,
+    "balanced": true
+  },
+  "bidirectional_bridges": {
+    "art_cafe": [
+      {
+        "cafe": "/art-cafe/",
+        "course": "/music/piano/",
+        "cafe_links_to_course": true,
+        "course_links_to_cafe": true,
+        "course_has_bridge_module": true
+      },
+      {
+        "cafe": "/art-cafe/",
+        "course": "/music/guitar/",
+        "cafe_links_to_course": true,
+        "course_links_to_cafe": true,
+        "course_has_bridge_module": true
+      },
+      {
+        "cafe": "/art-cafe/",
+        "course": "/music/santoor/",
+        "cafe_links_to_course": true,
+        "course_links_to_cafe": true,
+        "course_has_bridge_module": true
+      },
+      {
+        "cafe": "/art-cafe/",
+        "course": "/music/tar-setar/",
+        "cafe_links_to_course": true,
+        "course_links_to_cafe": true,
+        "course_has_bridge_module": true
+      },
+      {
+        "cafe": "/art-cafe/",
+        "course": "/music/keyboard-organ/",
+        "cafe_links_to_course": true,
+        "course_links_to_cafe": true,
+        "course_has_bridge_module": true
+      }
+    ],
+    "fardis": [
+      {
+        "hub": "/fardis-branch/",
+        "course": "/music/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      },
+      {
+        "hub": "/fardis-branch/",
+        "course": "/music/kids/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      },
+      {
+        "hub": "/fardis-branch/",
+        "course": "/music/vocals/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      },
+      {
+        "hub": "/fardis-branch/",
+        "course": "/performing-arts/acting/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      },
+      {
+        "hub": "/fardis-branch/",
+        "course": "/performing-arts/public-speaking/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      },
+      {
+        "hub": "/fardis-branch/",
+        "course": "/performing-arts/voice-acting-dubbing/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      },
+      {
+        "hub": "/fardis-branch/",
+        "course": "/visual-arts/calligraphy/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true,
+        "course_has_module": true
+      }
+    ],
+    "audition": [
+      {
+        "hub": "/acting-audition/",
+        "course": "/performing-arts/acting/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true
+      },
+      {
+        "hub": "/acting-audition/",
+        "course": "/performing-arts/kids-acting-drama/",
+        "hub_links_to_course": true,
+        "course_links_to_hub": true
+      }
+    ]
+  },
+  "orphan_page_warnings": [],
+  "cannibalization_warnings": [],
+  "max_click_depth": 1
+}

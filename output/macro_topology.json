@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-10-21T21:47:30Z",
+  "phase": "PHASE_1",
+  "academy_name_fa": "آموزشگاه سینمایی و بازیگری آنک",
+  "academy_name_en": "Aanak Cinematic, Acting & Music Academy",
+  "tagline_fa": "قطب پرورش حرفه‌ای بازیگر سینمایی، تئاتر و موسیقی در استان البرز",
+  "site_language": "fa",
+  "site_direction": "rtl",
+  "market": "IR",
+  "domain": "https://aanak.ir",
+  "primary_city": "کرج",
+  "province": "البرز",
+  "campus_topology": {
+    "model": "BRICK_AND_MORTAR",
+    "campus_count": 1,
+    "main_campus_address_fa": "کرج، شاه عباسی، خیابان دانشکده جنوبی، روبروی کتابخانه امیرکبیر، بن‌بست کیهان، آموزشگاه سینمایی آنک",
+    "geo_coordinates_google": "35.80863297938904, 51.002943619051706",
+    "geo_coordinates_routing": "35.83266, 50.99155",
+    "postal_code": "31417",
+    "service_radius_meters": "10000",
+    "served_cities": [
+      "کرج",
+      "فردیس",
+      "تهران",
+      "قم",
+      "ملارد"
+    ],
+    "served_neighborhoods": [
+      "شاه عباسی",
+      "گوهردشت",
+      "جهانشهر",
+      "فردیس",
+      "ملارد",
+      "عظیمیه",
+      "مهرشهر",
+      "گلشهر",
+      "چهارراه طالقانی"
+    ],
+    "fardis_status": "SERVICE_AREA_COMMUTER_HUB",
+    "fardis_truth_note": "هیچ آدرس خیابانی مستقلی برای فردیس در academy_data.txt وجود ندارد؛ فردیس به‌عنوان منطقه خدمات‌دهی/هاب رفت‌وآمد پردیس مرکزی کرج مدل می‌شود و هیچ NAP جعلی برای فردیس تولید نمی‌شود.",
+    "landmarks": [
+      "کتابخانه امیرکبیر (۱ دقیقه / ۱۰۰ متر)",
+      "ایستگاه مترو کرج (۵ دقیقه پیاده / ۱.۵ کیلومتر)",
+      "میدان و چهارراه طالقانی (۵ دقیقه / ۲ کیلومتر)",
+      "بلوار شهید بهشتی (۳ دقیقه / ۱ کیلومتر)"
+    ],
+    "transit_and_commuter_routes": [
+      "از فردیس و ملارد: دسترسی سریع با مترو کرج؛ آموزشگاه تنها ۵ دقیقه پیاده از ایستگاه مترو کرج فاصله دارد.",
+      "از گوهردشت و جهانشهر: حدود ۱۵ دقیقه مسافت؛ دسترسی مستقیم با تاکسی‌های خطی به چهارراه طالقانی و سپس خیابان دانشکده جنوبی.",
+      "از عظیمیه: کمتر از ۱۰ دقیقه؛ مسیر سرراست از میدان طالقانی به سمت جنوب، مستقیم به خیابان دانشکده جنوبی.",
+      "از مهرشهر و گلشهر: ارتباط مستقیم از طریق اتوبان و بلوار شهید بهشتی به مرکز شهر و شاه عباسی.",
+      "از تهران: دسترسی مستقیم با مترو تهران-کرج تا ایستگاه کرج و ۵ دقیقه پیاده تا آموزشگاه.",
+      "از قم: دسترسی از طریق اتوبان قم-تهران-کرج؛ ویژه هنرجویان دوره‌های فشرده آخر هفته."
+    ]
+  },
+  "art_cafe_profile": {
+    "status": "VERIFIED_ON_SITE_VENUE",
+    "verbatim_lines": [
+      "نام کافه: کافه هنر و موسیقی آموزشگاه آنک (کافه پیانو، گیتار، سنتور، ارگ و سه‌تار در کرج)",
+      "کاربری: فضای کافه هنری داخل مجموعه جهت دورهمی هنرجویان، اجرای زنده پیانو، گیتار، سنتور، سه‌تار و ارگ، و تمرین اجراهای صحنه‌ای"
+    ],
+    "live_instruments_verified": [
+      "ارگ و کیبورد",
+      "سنتور",
+      "سه‌تار و تار",
+      "پیانو",
+      "گیتار"
+    ],
+    "events_in_cafe_events_csv": 5,
+    "menu_items_verified_in_inputs": 0,
+    "menu_data_gap": "منوی کافه در هیچ فایل ورودی موجود نیست → [INTERNAL_DATA_NEEDED]"
+  },
+  "official_licenses": [
+    "دارای مجوز رسمی از وزارت فرهنگ و ارشاد اسلامی و ثبت در اداره آموزش فنی و حرفه‌ای"
+  ],
+  "guarantees_and_proof": [
+    "گارانتی رضایت در جلسه اول و مشاوره و تعیین سطح رایگان",
+    "بیش از ۲۰ سال سابقه فعالیت رسمی در کرج و استان البرز",
+    "برنده مسابقات منطقه‌ای و استانی تئاتر و جشنواره‌های فیلم کوتاه",
+    "همکاری با سینماهای کرج، دانشگاه‌های هنر و شبکه‌های تلویزیونی"
+  ],
+  "contact": {
+    "phone_display": "026-32205016",
+    "phone_e164": "+982632205016",
+    "mobile_whatsapp": "09125728170 (+989125728170)",
+    "whatsapp_url": "https://wa.me/989125728170",
+    "instagram_url": "https://instagram.com/aanak.94",
+    "email": "arashsahraii71@gmail.com",
+    "opening_hours": "همه‌روزه از ساعت ۱۰:۰۰ صبح تا ۲۰:۰۰ شب (پاسخگویی روزهای تعطیل در واتساپ و تلگرام)",
+    "maps_url": "https://maps.google.com/?q=35.80863297938904,51.002943619051706",
+    "neshan_url": "https://neshan.org/maps/routing?destination=35.83266,50.99155",
+    "balad_url": "https://balad.ir/route?dest=35.83266,50.99155",
+    "waze_url": "https://waze.com/ul?ll=35.83266,50.99155&navigate=yes"
+  },
+  "validation_counts": {
+    "total_raw_keyword_lines": 296,
+    "total_distinct_keywords": 295,
+    "duplicate_lines": 1,
+    "orthographic_variants_detected": 32,
+    "courses_in_csv": 24,
+    "active_courses": 24,
+    "instructors_in_csv": 16,
+    "verified_instructors": 9,
+    "pending_instructor_placeholders": 7,
+    "cafe_events": 5,
+    "silos_planned": 32
+  },
+  "serp_evidence": {
+    "matrix_present": true,
+    "serp_evidence_mode": "NO_LIVE_SERP_EGRESS_BLOCKED",
+    "live_queries_collected": 0,
+    "downstream_directive": "USE_DETERMINISTIC_PERSIAN_STEM_RULES",
+    "clusters_decoded": 28,
+    "note": "ماتریس SERP زنده در این اجرا در دسترس نبود (خروجی شبکه مسدود). هیچ داده رقیبی ساخته نشده است؛ ادغام/تفکیک سیلوها بر پایه قواعد قطعی ریشه‌های فارسی انجام شد."
+  },
+  "updated_at": "2026-10-21T21:48:58Z",
+  "silo_summary": {
+    "total_silos": 32,
+    "silos_with_keywords": 28,
+    "silos_navigational_only": [
+      "SILO_00",
+      "SILO_DEPT_02_PERFORMING",
+      "SILO_DEPT_03_CINEMA",
+      "SILO_DEPT_04_VISUAL"
+    ],
+    "keyword_accountability": {
+      "silo_00_brand_campus": 0,
+      "silo_dept_hubs": 11,
+      "silo_course_pages": 262,
+      "silo_art_cafe": 6,
+      "silo_fardis_geo": 14,
+      "silo_audition_hub": 2,
+      "unresolved_noise": 0,
+      "total_accounted": 295,
+      "total_distinct_keywords": 295,
+      "total_raw_lines": 296,
+      "duplicate_lines_collapsed": 1,
+      "balanced": true
+    }
+  }
+}

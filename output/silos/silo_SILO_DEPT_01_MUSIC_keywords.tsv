@@ -1,0 +1,12 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+ادرس کلاس موسیقی در کرج	آدرس کلاس موسیقی در کرج	LOCATION_DIRECTION	decision	KARAJ	E_DEPT_MUSIC	SEC_CAMPUS_MAP_DIRECTIONS	ORTHO_VARIANT_NO_MADDAH;DUAL_INTENT:SILO_00
+آموزش تئوری موسیقی در کرج	آموزش تئوری موسیقی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	SUB_SPECIALTY:MUSIC_THEORY
+آموزش موسیقی در کرج	آموزش موسیقی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	NONE
+بهترین کلاس موسیقی در کرج	بهترین کلاس موسیقی در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	NONE
+بهترین کلاس های موسیقی کرج	بهترین کلاس های موسیقی کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	NONE
+کلاس موسیقی خوب در کرج	کلاس موسیقی خوب در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	NONE
+کلاس موسیقی در کرج	کلاس موسیقی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	NONE
+کلاس های موسیقی کرج	کلاس های موسیقی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_DEPT_MUSIC	SEC_HERO_OVERVIEW	NONE
+شهریه کلاس موسیقی در کرج	شهریه کلاس موسیقی در کرج	TUITION_COST	decision	KARAJ	E_DEPT_MUSIC	SEC_TUITION_TABLE	NONE
+قیمت کلاس موسیقی کرج	قیمت کلاس موسیقی کرج	TUITION_COST	decision	KARAJ	E_DEPT_MUSIC	SEC_TUITION_TABLE	NONE
+هزینه کلاس موسیقی در کرج	هزینه کلاس موسیقی در کرج	TUITION_COST	decision	KARAJ	E_DEPT_MUSIC	SEC_TUITION_TABLE	NONE

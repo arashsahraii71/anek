@@ -1,0 +1,4 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+کلاس فیلمنامه نویسی در کرج	کلاس فیلمنامه نویسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_DIRECTING_SCRIPT	SEC_HERO_OVERVIEW	SUB_SPECIALTY:SCREENWRITING
+کلاس های فیلمنامه نویسی در کرج	کلاس های فیلمنامه نویسی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_DIRECTING_SCRIPT	SEC_HERO_OVERVIEW	SUB_SPECIALTY:SCREENWRITING
+کلاس کارگردانی در کرج	کلاس کارگردانی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_DIRECTING_SCRIPT	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DIRECTING

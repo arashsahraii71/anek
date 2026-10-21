@@ -1,0 +1,3 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+تست بازیگری در کرج کجاست	تست بازیگری در کرج کجاست	AUDITION_TEST	decision	KARAJ	E_HUB_AUDITION	SEC_CAMPUS_MAP_DIRECTIONS	DUAL_INTENT:SILO_CRS_ACTING
+تست بازیگری در کرج	تست بازیگری در کرج	AUDITION_TEST	decision	KARAJ	E_HUB_AUDITION	SEC_HERO_OVERVIEW	DUAL_INTENT:SILO_CRS_ACTING
