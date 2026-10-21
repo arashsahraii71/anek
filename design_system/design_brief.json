@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T22:12:09Z",
+  "generated_at": "2026-10-21T22:27:31Z",
   "phase": "DESIGNER_PHASE_0",
   "brand": {
     "name_fa": "آموزشگاه سینمایی و بازیگری آنک",
@@ -79,7 +79,6 @@
   },
   "typography": {
     "font_stack": [
-      "VazirmatnLocal",
       "Vazirmatn",
       "IRANSansX",
       "IRANSans",
@@ -89,7 +88,8 @@
       "system-ui",
       "sans-serif"
     ],
-    "loading_strategy": "@font-face with src: local(...) only — zero network requests, font-display: swap, no render-blocking external stylesheet",
+    "loading_strategy": "self-hosted same-origin variable woff2 (/assets/fonts/vazirmatn-var.woff2, 82KB, wght 100-900, subset to Arabic+Latin-1+ZWNJ), local() checked first, <link rel=preload as=font crossorigin> in <head>, font-display: swap, zero third-party requests",
+    "license": "Vazirmatn 33.0.3 — SIL Open Font License 1.1 (/assets/fonts/Vazirmatn-OFL.txt), redistributed with the build",
     "headings": {
       "weight": 800,
       "line_height": 1.45,

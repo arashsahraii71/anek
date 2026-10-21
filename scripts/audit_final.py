@@ -305,17 +305,33 @@ def main():
             v13.append((slug, "below-fold img not lazy"))
         if "<link rel=\"stylesheet\"" in d and "http" in d.split('<link rel="stylesheet" href="')[1][:12]:
             v13.append((slug, "external stylesheet"))
+        if 'rel="preload"' not in d or "vazirmatn-var.woff2" not in d:
+            v13.append((slug, "font not preloaded"))
+        for ext in re.findall(r'(?:href|src)="(https?://[^"]+)"', d):
+            host = ext.split("/")[2]
+            if host not in (domain.split("//")[1], "wa.me", "instagram.com", "maps.google.com",
+                            "neshan.org", "balad.ir", "waze.com", "schema.org", "www.sitemaps.org"):
+                v13.append((slug, "third-party asset host: " + host))
+    font_f = os.path.join(DIST, "assets", "fonts", "vazirmatn-var.woff2")
+    font_sz = os.path.getsize(font_f) if os.path.exists(font_f) else 0
+    if font_sz < 20000:
+        v13.append(("global", "self-hosted webfont missing"))
     total_imgs = sum(len(re.findall(r"<img\b", d)) for d in docs.values())
     R.append(("V13", "Core Web Vitals (LCP / CLS / INP)", not v13,
               f"{L.to_persian_digits(total_imgs)} تگ `<img>` همگی دارای `width` و `height` صریح (CLS = ۰)؛ "
               f"{L.to_persian_digits(hero_ok)} صفحه دقیقاً یک تصویر LCP با `loading=\"eager\" fetchpriority=\"high\"` "
               "دارند و بقیه `loading=\"lazy\"`؛ CSS تک‌فایل هم‌مبدأ، JS با `defer`، "
-              "فونت بدون درخواست شبکه (`src: local(...)`) و بدون هیچ وابستگی خارجی مسدودکننده رندر"))
+              f"فونت متغیر Vazirmatn خودمیزبان ({font_sz:,} بایت، وزن ۱۰۰ تا ۹۰۰) با "
+              "`rel=preload as=font crossorigin` و `font-display: swap` روی همان دامنه؛ "
+              "صفر دارایی شخص ثالث و صفر وابستگی مسدودکننده رندر"))
 
     # ---------------------------------------------------------------- V14
     v14 = []
     valid = set(pm_by_slug) | {"/assets/css/design-system.css", "/assets/js/app.js",
-                               "/sitemap.xml", "/robots.txt"}
+                               "/sitemap.xml", "/robots.txt", "/favicon.svg", "/favicon.ico",
+                               "/site.webmanifest", "/404.html",
+                               "/assets/fonts/vazirmatn-var.woff2",
+                               "/assets/fonts/Vazirmatn-OFL.txt"}
     for name in os.listdir(os.path.join(DIST, "assets", "img")):
         valid.add("/assets/img/" + name)
     for slug, d in docs.items():
@@ -403,6 +419,9 @@ def main():
            f"| سبک‌ترین صفحه | `{sizes[-1][0]}` — {sizes[-1][1]:,} بایت |",
            f"| design-system.css | {os.path.getsize(CSS):,} بایت |",
            f"| app.js | {os.path.getsize(os.path.join(DIST, 'assets', 'js', 'app.js')):,} بایت |",
+           f"| فونت Vazirmatn (خودمیزبان، OFL 1.1) | {font_sz:,} بایت |",
+           f"| favicon / manifest / 404 | "
+           f"{'✅ موجود' if all(os.path.exists(os.path.join(DIST, x)) for x in ('favicon.svg', 'favicon.ico', 'site.webmanifest', '404.html')) else '❌ ناقص'} |",
            f"| تصاویر SVG | {L.to_persian_digits(len(os.listdir(os.path.join(DIST, 'assets', 'img'))))} فایل |",
            f"| sitemap.xml | {L.to_persian_digits(len(page_map['pages']))} آدرس |",
            f"| وابستگی خارجی | ۰ |",

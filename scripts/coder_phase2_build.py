@@ -58,6 +58,40 @@ IMAGES = {
 }
 PORTRAIT = ("portrait-placeholder.svg", "تصویر استاد", "در انتظار دریافت از آموزشگاه", "#E3DCD2", "#F3EFEA")
 
+FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#141B2D"/>
+  <text x="32" y="43" font-family="Vazirmatn, Tahoma, sans-serif" font-size="30" font-weight="700"
+        fill="#C89B3C" text-anchor="middle">آ</text>
+</svg>
+"""
+
+
+def favicon_ico() -> bytes:
+    """32x32 32-bit ICO: navy rounded field with a brass disc. Written byte-by-byte,
+    no imaging dependency."""
+    import struct
+    w = h = 32
+    navy = (0x2D, 0x1B, 0x14, 0xFF)   # BGRA
+    gold = (0x3C, 0x9B, 0xC8, 0xFF)
+    rows = []
+    for y in range(h - 1, -1, -1):     # BMP is bottom-up
+        row = bytearray()
+        for x in range(w):
+            dx, dy = x - 15.5, y - 15.5
+            inside_disc = dx * dx + dy * dy <= 8.5 * 8.5
+            corner = (min(x, w - 1 - x) < 2 and min(y, h - 1 - y) < 2)
+            px = (0, 0, 0, 0) if corner else (gold if inside_disc else navy)
+            row += bytes(px)
+        rows.append(bytes(row))
+    pixels = b"".join(rows)
+    mask = b"\x00" * (w * h // 8)
+    dib = struct.pack("<IiiHHIIiiII", 40, w, h * 2, 1, 32, 0, len(pixels) + len(mask), 0, 0, 0, 0)
+    image = dib + pixels + mask
+    header = struct.pack("<HHH", 0, 1, 1)
+    entry = struct.pack("<BBBBHHII", w, h, 0, 0, 1, 32, len(image), 22)
+    return header + entry + image
+
+
 DEPT_HERO = {"DEPT_MUSIC": "hero-music.svg", "DEPT_PERFORMING": "hero-performing.svg",
              "DEPT_CINEMA": "hero-cinema.svg", "DEPT_VISUAL": "hero-visual.svg"}
 
@@ -69,6 +103,19 @@ def write_images():
         L.write_text(os.path.join(IMG_DIR, name), svg(t, s, c1, c2, fg=fg))
     L.write_text(os.path.join(IMG_DIR, PORTRAIT[0]),
                  svg(PORTRAIT[1], PORTRAIT[2], PORTRAIT[3], PORTRAIT[4], 800, 1000, fg="#5B6273"))
+    L.write_text(os.path.join(DIST, "favicon.svg"), FAVICON_SVG)
+    with open(os.path.join(DIST, "favicon.ico"), "wb") as fh:
+        fh.write(favicon_ico())
+    L.write_json(os.path.join(DIST, "site.webmanifest"), {
+        "name": "آموزشگاه سینمایی و بازیگری آنک",
+        "short_name": "آنک",
+        "lang": "fa-IR", "dir": "rtl",
+        "start_url": "/", "scope": "/", "display": "standalone",
+        "background_color": "#FAF8F5", "theme_color": "#141B2D",
+        "description": "آموزشگاه موسیقی، بازیگری، سینما، هنرهای تجسمی و کافه هنر در کرج",
+        "icons": [{"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"},
+                  {"src": "/favicon.ico", "sizes": "32x32", "type": "image/x-icon"}],
+    })
 
 
 # ================================================================= BUILDER
@@ -716,7 +763,11 @@ class Builder:
   <meta property="og:url" content="{attr(canonical)}">
   <meta property="og:image" content="{attr(og_img)}">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="/assets/fonts/vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/design-system.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="manifest" href="/site.webmanifest">
   <script type="application/ld+json">{ld}</script>
 </head>
 <body>
@@ -744,6 +795,56 @@ class Builder:
             L.ensure_dirs(os.path.dirname(path))
             L.write_text(path, self.render_page(entry))
             written.append((slug, path))
+        # ---- 404
+        nf = self.plan["pages"][0]
+        notfound = f"""<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>صفحه پیدا نشد (۴۰۴) | {e(self.p['brand_fa'])}</title>
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#141B2D">
+  <link rel="preload" href="/assets/fonts/vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/design-system.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">پرش به محتوای اصلی</a>
+  {self.header('/404')}
+  <main id="main">
+    <header class="compact-course-hero">
+      <div class="wrap">
+        <h1>صفحه مورد نظر پیدا نشد (خطای ۴۰۴)</h1>
+        <p class="bluf">آدرسی که وارد کرده‌اید وجود ندارد یا جابه‌جا شده است. از مسیرهای زیر
+        می‌توانید دوره مورد نظرتان را در آموزشگاه آنک کرج پیدا کنید، یا برای راهنمایی مستقیم
+        با {e(self.p['phone_display'])} تماس بگیرید.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="/">بازگشت به صفحه اصلی</a>
+          <a class="btn btn--ghost" href="tel:{attr(self.p['phone_e164'])}">تماس با آموزشگاه</a>
+        </div>
+      </div>
+    </header>
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head"><h2>پرمراجعه‌ترین بخش‌ها</h2></div>
+        <ul class="related-links">{''.join(
+            f'<li><a href="{attr(x)}">{e(self.title_of.get(x, x))}</a></li>'
+            for x in ('/music/', '/performing-arts/', '/cinema-media/', '/visual-arts/',
+                      '/art-cafe/', '/fardis-branch/', '/acting-audition/',
+                      '/instructors/', '/contact/'))}</ul>
+      </div>
+    </section>
+  </main>
+  {self.footer()}
+  {self.mobile_bar('/404')}
+  {self.dialogs()}
+  <script src="/assets/js/app.js" defer></script>
+</body>
+</html>
+"""
+        L.write_text(os.path.join(DIST, "404.html"), notfound)
+
         # ---- sitemap + robots
         today = date.today().isoformat()
         prio = {"0": "1.0", "1": "0.9", "2": "0.8", "3": "0.8", "4": "0.7"}
