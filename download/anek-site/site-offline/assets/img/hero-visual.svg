@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2A201B"/><stop offset="100%" stop-color="#C89B3C"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <g fill="#FFFFFF" font-family="Vazirmatn, Tahoma, sans-serif" text-anchor="middle">
+    <text x="600" y="327" font-size="48" font-weight="700">نقاشی و خوشنویسی</text>
+    <text x="600" y="387" font-size="28" opacity=".78">طراحی • نستعلیق • خط تحریری</text>
+  </g>
+</svg>

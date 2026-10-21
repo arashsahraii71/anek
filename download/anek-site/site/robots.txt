@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /assets/data/
+Sitemap: https://aanak.ir/sitemap.xml
