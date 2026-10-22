@@ -1,0 +1,19 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+مدرس پیانو خانم در کرج	مدرس پیانو خانم در کرج	FEMALE_SPECIFIC	decision	KARAJ	E_CRS_PIANO	SEC_FEMALE_INSTRUCTORS	NONE
+آموزش پیانو کرج	آموزش پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	NONE
+آموزشگاه موسیقی پیانو کرج	آموزشگاه موسیقی پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	NONE
+آموزشگاه پیانو کرج	آموزشگاه پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	NONE
+اموزش پیانو کرج	آموزش پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزشگاه پیانو کرج	آموزشگاه پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اکادمی پیانو کرج	آکادمی پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس پیانو در کرج	کلاس پیانو در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	NONE
+کلاس پیانو کرج	کلاس پیانو کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_PIANO	SEC_HERO_OVERVIEW	NONE
+اساتید پیانو کرج	اساتید پیانو کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_PIANO	SEC_INSTRUCTOR_ROSTER	NONE
+استاد پیانو خوب در کرج	استاد پیانو خوب در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_PIANO	SEC_INSTRUCTOR_ROSTER	NONE
+استاد پیانو کرج	استاد پیانو کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_PIANO	SEC_INSTRUCTOR_ROSTER	NONE
+تدریس پیانو کرج	تدریس پیانو کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_PIANO	SEC_INSTRUCTOR_ROSTER	NONE
+مدرس پیانو کرج	مدرس پیانو کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_PIANO	SEC_INSTRUCTOR_ROSTER	NONE
+مدرسه پیانو کرج	مدرسه پیانو کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_PIANO	SEC_INSTRUCTOR_ROSTER	NONE
+کلاس پیانو کودکان کرج	کلاس پیانو کودکان کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_PIANO	SEC_KIDS_TEENS_TRACK	NONE
+آموزش خصوصی پیانو در کرج	آموزش خصوصی پیانو در کرج	COURSE_ENROLLMENT	decision	KARAJ	E_CRS_PIANO	SEC_PRIVATE_VS_GROUP_FORMAT	NONE
+معلم خصوصی پیانو در کرج	معلم خصوصی پیانو در کرج	INSTRUCTOR_SEEKING	decision	KARAJ	E_CRS_PIANO	SEC_PRIVATE_VS_GROUP_FORMAT	NONE

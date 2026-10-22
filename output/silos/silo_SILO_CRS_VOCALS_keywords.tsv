@@ -1,0 +1,22 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+کلاس آواز بانوان در کرج	کلاس آواز بانوان در کرج	FEMALE_SPECIFIC	decision	KARAJ	E_CRS_VOCALS	SEC_FEMALE_INSTRUCTORS	NONE
+کلاس خوانندگی بانوان در کرج	کلاس خوانندگی بانوان در کرج	FEMALE_SPECIFIC	decision	KARAJ	E_CRS_VOCALS	SEC_FEMALE_INSTRUCTORS	NONE
+آموزش آواز سنتی کرج	آموزش آواز سنتی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	SUB_SPECIALTY:VOCALS_SONNATI
+آموزشگاه آواز در کرج	آموزشگاه آواز در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+اموزش اواز در کرج	آموزش آواز در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزش خوانندگی کرج	آموزش خوانندگی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+بهترین کلاس آواز در کرج	بهترین کلاس آواز در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+بهترین کلاس خوانندگی در کرج	بهترین کلاس خوانندگی در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس آواز خوانی در کرج	کلاس آواز خوانی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس آواز در کرج	کلاس آواز در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس آواز سنتی در کرج	کلاس آواز سنتی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	SUB_SPECIALTY:VOCALS_SONNATI
+کلاس آواز پاپ در کرج	کلاس آواز پاپ در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	SUB_SPECIALTY:VOCALS_POP
+کلاس خوانندگی در کرج	کلاس خوانندگی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس خوانندگی کرج	کلاس خوانندگی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس های آموزش آواز در کرج	کلاس های آموزش آواز در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس های آواز کرج	کلاس های آواز کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOCALS	SEC_HERO_OVERVIEW	NONE
+کلاس آواز کودکان کرج	کلاس آواز کودکان کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_VOCALS	SEC_KIDS_TEENS_TRACK	NONE
+کلاس خوانندگی کودکان در کرج	کلاس خوانندگی کودکان در کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_VOCALS	SEC_KIDS_TEENS_TRACK	NONE
+کلاس اواز گروهی در کرج	کلاس آواز گروهی در کرج	COURSE_ENROLLMENT	decision	KARAJ	E_CRS_VOCALS	SEC_PRIVATE_VS_GROUP_FORMAT	ORTHO_VARIANT_NO_MADDAH;SUB_SPECIALTY:VOCALS_GROUP_CHOIR
+هزینه کلاس آواز در کرج	هزینه کلاس آواز در کرج	TUITION_COST	decision	KARAJ	E_CRS_VOCALS	SEC_TUITION_TABLE	NONE
+هزینه کلاس خوانندگی در کرج	هزینه کلاس خوانندگی در کرج	TUITION_COST	decision	KARAJ	E_CRS_VOCALS	SEC_TUITION_TABLE	NONE

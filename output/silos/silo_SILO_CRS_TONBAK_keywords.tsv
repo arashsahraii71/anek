@@ -1,0 +1,10 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش تنبک کرج	آموزش تنبک کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TONBAK	SEC_HERO_OVERVIEW	NONE
+کلاس تنبک در کرج	کلاس تنبک در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TONBAK	SEC_HERO_OVERVIEW	NONE
+کلاس تنبک کرج	کلاس تنبک کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_TONBAK	SEC_HERO_OVERVIEW	NONE
+استاد تنبک در کرج	استاد تنبک در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TONBAK	SEC_INSTRUCTOR_ROSTER	NONE
+استاد تنبک کرج	استاد تنبک کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TONBAK	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین اساتید تنبک کرج	بهترین اساتید تنبک کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TONBAK	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد تنبک در کرج	بهترین استاد تنبک در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TONBAK	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد تنبک کرج	بهترین استاد تنبک کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_TONBAK	SEC_INSTRUCTOR_ROSTER	NONE
+هزینه کلاس تنبک در کرج	هزینه کلاس تنبک در کرج	TUITION_COST	decision	KARAJ	E_CRS_TONBAK	SEC_TUITION_TABLE	NONE

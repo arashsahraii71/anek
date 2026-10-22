@@ -1,0 +1,12 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش هنگ درام کرج	آموزش هنگ درام کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_HANGDRUM	SEC_HERO_OVERVIEW	NONE
+آموزشگاه موسیقی هنگ درام کرج	آموزشگاه موسیقی هنگ درام کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_HANGDRUM	SEC_HERO_OVERVIEW	NONE
+اموزش هنگ درام کرج	آموزش هنگ درام کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_HANGDRUM	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزشگاه هنگ درام کرج	آموزشگاه هنگ درام کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_HANGDRUM	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس هنگ درام در کرج	کلاس هنگ درام در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_HANGDRUM	SEC_HERO_OVERVIEW	NONE
+کلاس هنگ درام کرج	کلاس هنگ درام کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_HANGDRUM	SEC_HERO_OVERVIEW	NONE
+استاد هنگ درام در کرج	استاد هنگ درام در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_HANGDRUM	SEC_INSTRUCTOR_ROSTER	NONE
+استاد هنگ درام کرج	استاد هنگ درام کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_HANGDRUM	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد هنگ درام در کرج	بهترین استاد هنگ درام در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_HANGDRUM	SEC_INSTRUCTOR_ROSTER	NONE
+قیمت کلاس هنگ درام در کرج	قیمت کلاس هنگ درام در کرج	TUITION_COST	decision	KARAJ	E_CRS_HANGDRUM	SEC_TUITION_TABLE	NONE
+هزینه کلاس هنگ درام در کرج	هزینه کلاس هنگ درام در کرج	TUITION_COST	decision	KARAJ	E_CRS_HANGDRUM	SEC_TUITION_TABLE	NONE

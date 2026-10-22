@@ -1,0 +1,1768 @@
+{
+  "generated_at": "2026-10-21T21:47:30Z",
+  "phase": "PHASE_0",
+  "academy": {
+    "name_fa": "آموزشگاه سینمایی و بازیگری آنک",
+    "name_en": "Aanak Cinematic, Acting & Music Academy",
+    "entity_id": "E_ACADEMY_ROOT",
+    "domain": "https://aanak.ir",
+    "year_founded": "1385",
+    "years_in_operation": "20 سال",
+    "license_fa": "دارای مجوز رسمی از وزارت فرهنگ و ارشاد اسلامی و ثبت در اداره آموزش فنی و حرفه‌ای"
+  },
+  "departments": [
+    {
+      "entity_id": "E_DEPT_MUSIC",
+      "department_id": "DEPT_MUSIC",
+      "name_fa": "دانشکده موسیقی و آواز",
+      "url_slug": "/music/",
+      "silo_id": "SILO_DEPT_01_MUSIC",
+      "course_count": 14,
+      "course_ids": [
+        "CRS_PIANO",
+        "CRS_GUITAR",
+        "CRS_VIOLIN",
+        "CRS_VOCALS",
+        "CRS_TAR_SETAR",
+        "CRS_SANTOOR",
+        "CRS_TONBAK",
+        "CRS_DAF",
+        "CRS_KAMANCHEH",
+        "CRS_TANBOUR",
+        "CRS_FLUTE",
+        "CRS_HANGDRUM",
+        "CRS_ORGAN",
+        "CRS_KIDS_MUSIC"
+      ],
+      "own_keyword_demand": 11,
+      "total_keyword_demand": 165,
+      "avg_readiness_score": 59.9
+    },
+    {
+      "entity_id": "E_DEPT_PERFORMING",
+      "department_id": "DEPT_PERFORMING",
+      "name_fa": "دانشکده بازیگری، فن بیان و گویندگی",
+      "url_slug": "/performing-arts/",
+      "silo_id": "SILO_DEPT_02_PERFORMING",
+      "course_count": 4,
+      "course_ids": [
+        "CRS_ACTING",
+        "CRS_KIDS_ACTING",
+        "CRS_SPEECH",
+        "CRS_VOICE_DUBBING"
+      ],
+      "own_keyword_demand": 0,
+      "total_keyword_demand": 60,
+      "avg_readiness_score": 73.0
+    },
+    {
+      "entity_id": "E_DEPT_CINEMA",
+      "department_id": "DEPT_CINEMA",
+      "name_fa": "دانشکده سینما، عکاسی، تدوین و گریم",
+      "url_slug": "/cinema-media/",
+      "silo_id": "SILO_DEPT_03_CINEMA",
+      "course_count": 4,
+      "course_ids": [
+        "CRS_PHOTOGRAPHY",
+        "CRS_FILM_EDITING",
+        "CRS_DIRECTING_SCRIPT",
+        "CRS_MAKEUP"
+      ],
+      "own_keyword_demand": 0,
+      "total_keyword_demand": 32,
+      "avg_readiness_score": 71.0
+    },
+    {
+      "entity_id": "E_DEPT_VISUAL",
+      "department_id": "DEPT_VISUAL",
+      "name_fa": "دانشکده هنرهای تجسمی و خوشنویسی",
+      "url_slug": "/visual-arts/",
+      "silo_id": "SILO_DEPT_04_VISUAL",
+      "course_count": 2,
+      "course_ids": [
+        "CRS_PAINTING",
+        "CRS_CALLIGRAPHY"
+      ],
+      "own_keyword_demand": 0,
+      "total_keyword_demand": 17,
+      "avg_readiness_score": 60.0
+    }
+  ],
+  "courses": [
+    {
+      "entity_id": "E_CRS_PIANO",
+      "course_id": "CRS_PIANO",
+      "name_fa": "کلاس و آموزش پیانو",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/piano/",
+      "silo_id": "SILO_CRS_PIANO",
+      "status": "active",
+      "keyword_demand": 18,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "پیانو کلاسیک",
+        "پیانو پاپ",
+        "پیانو کودک"
+      ],
+      "tuition": {
+        "private_irr": 12000000,
+        "group_irr": 6000000,
+        "private_toman_fa": "۱٬۲۰۰٬۰۰۰",
+        "group_toman_fa": "۶۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر فنی و حرفه‌ای / ارشاد",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [
+          "INST_10"
+        ],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": true,
+      "fardis_high_demand": false,
+      "readiness_score_100": 64,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 4,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_GUITAR",
+      "course_id": "CRS_GUITAR",
+      "name_fa": "کلاس و آموزش گیتار (کلاسیک، پاپ و الکتریک)",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/guitar/",
+      "silo_id": "SILO_CRS_GUITAR",
+      "status": "active",
+      "keyword_demand": 16,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "گیتار کلاسیک",
+        "گیتار پاپ و آکوستیک",
+        "گیتار الکتریک و برقی",
+        "گیتار فلامنکو"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [
+          "INST_11",
+          "INST_12"
+        ],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": true,
+      "fardis_high_demand": false,
+      "readiness_score_100": 64,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 4,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_VIOLIN",
+      "course_id": "CRS_VIOLIN",
+      "name_fa": "کلاس و آموزش ویولن و ویولن سل",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/violin/",
+      "silo_id": "SILO_CRS_VIOLIN",
+      "status": "active",
+      "keyword_demand": 16,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "ویولن کلاسیک",
+        "ویولن ایرانی",
+        "ویولن سل (چلو)"
+      ],
+      "tuition": {
+        "private_irr": 11000000,
+        "group_irr": 5500000,
+        "private_toman_fa": "۱٬۱۰۰٬۰۰۰",
+        "group_toman_fa": "۵۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [
+          "INST_13"
+        ],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 64,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 4,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_VOCALS",
+      "course_id": "CRS_VOCALS",
+      "name_fa": "کلاس آموزش آواز و خوانندگی",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/vocals/",
+      "silo_id": "SILO_CRS_VOCALS",
+      "status": "active",
+      "keyword_demand": 21,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آواز سنتی ایرانی",
+        "آواز پاپ و کلاسیک",
+        "آواز ویژه بانوان",
+        "آواز کودکان",
+        "آواز گروهی (کر)"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 45,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [
+          "INST_14"
+        ],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": true,
+      "readiness_score_100": 64,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 4,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_TAR_SETAR",
+      "course_id": "CRS_TAR_SETAR",
+      "name_fa": "کلاس آموزش تار و سه‌تار",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/tar-setar/",
+      "silo_id": "SILO_CRS_TAR_SETAR",
+      "status": "active",
+      "keyword_demand": 13,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آموزش سه‌تار",
+        "آموزش تار ایرانی",
+        "ردیف‌نوازی"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [
+          "INST_15"
+        ],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": true,
+      "fardis_high_demand": false,
+      "readiness_score_100": 64,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 4,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_SANTOOR",
+      "course_id": "CRS_SANTOOR",
+      "name_fa": "کلاس و آموزش سنتور",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/santoor/",
+      "silo_id": "SILO_CRS_SANTOOR",
+      "status": "active",
+      "keyword_demand": 11,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "سنتورنوازی مقدماتی تا عالی",
+        "ردیف میرزاعبدالله"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [
+          "INST_16"
+        ],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": true,
+      "fardis_high_demand": false,
+      "readiness_score_100": 64,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 4,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_TONBAK",
+      "course_id": "CRS_TONBAK",
+      "name_fa": "کلاس و آموزش تنبک",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/tonbak/",
+      "silo_id": "SILO_CRS_TONBAK",
+      "status": "active",
+      "keyword_demand": 9,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "تنبک‌نوازی سنتی و مدرن",
+        "ریتم‌خوانی"
+      ],
+      "tuition": {
+        "private_irr": 8000000,
+        "group_irr": 4000000,
+        "private_toman_fa": "۸۰۰٬۰۰۰",
+        "group_toman_fa": "۴۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": false
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_DAF",
+      "course_id": "CRS_DAF",
+      "name_fa": "کلاس آموزش دف و دف‌زنی",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/daf/",
+      "silo_id": "SILO_CRS_DAF",
+      "status": "active",
+      "keyword_demand": 8,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "دف‌نوازی سنتی و خانقاهی",
+        "گروه‌نوازی دف"
+      ],
+      "tuition": {
+        "private_irr": 8000000,
+        "group_irr": 4000000,
+        "private_toman_fa": "۸۰۰٬۰۰۰",
+        "group_toman_fa": "۴۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 45,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_KAMANCHEH",
+      "course_id": "CRS_KAMANCHEH",
+      "name_fa": "کلاس و آموزش کمانچه",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/kamancheh/",
+      "silo_id": "SILO_CRS_KAMANCHEH",
+      "status": "active",
+      "keyword_demand": 6,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "کمانچه‌نوازی ایرانی و لری"
+      ],
+      "tuition": {
+        "private_irr": 11000000,
+        "group_irr": 5500000,
+        "private_toman_fa": "۱٬۱۰۰٬۰۰۰",
+        "group_toman_fa": "۵۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": false
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 47,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 7,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 0,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "sub_specialty_coverage_6",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_TANBOUR",
+      "course_id": "CRS_TANBOUR",
+      "name_fa": "کلاس و آموزش تنبور",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/tanbour/",
+      "silo_id": "SILO_CRS_TANBOUR",
+      "status": "active",
+      "keyword_demand": 3,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "تنبورنوازی مقامی و سنتی"
+      ],
+      "tuition": {
+        "private_irr": 11000000,
+        "group_irr": 5500000,
+        "private_toman_fa": "۱٬۱۰۰٬۰۰۰",
+        "group_toman_fa": "۵۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": false
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 47,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 7,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 0,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "sub_specialty_coverage_6",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_FLUTE",
+      "course_id": "CRS_FLUTE",
+      "name_fa": "کلاس آموزش فلوت، پن‌فلوت و فلوت لاکوتا",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/flute/",
+      "silo_id": "SILO_CRS_FLUTE",
+      "status": "active",
+      "keyword_demand": 5,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "فلوت کلیددار کلاسیک",
+        "فلوت ریکوردر",
+        "پن فلوت",
+        "فلوت لاکوتا (سرخپوستی)"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_HANGDRUM",
+      "course_id": "CRS_HANGDRUM",
+      "name_fa": "کلاس و آموزش هنگ‌درام",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/hang-drum/",
+      "silo_id": "SILO_CRS_HANGDRUM",
+      "status": "active",
+      "keyword_demand": 11,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "هنگ‌درام مقدماتی تا پیشرفته",
+        "بداهه‌نوازی"
+      ],
+      "tuition": {
+        "private_irr": 9000000,
+        "group_irr": 4500000,
+        "private_toman_fa": "۹۰۰٬۰۰۰",
+        "group_toman_fa": "۴۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 45,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_ORGAN",
+      "course_id": "CRS_ORGAN",
+      "name_fa": "کلاس آموزش ارگ و کیبورد",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/keyboard-organ/",
+      "silo_id": "SILO_CRS_ORGAN",
+      "status": "active",
+      "keyword_demand": 2,
+      "formats_offered": [
+        "private",
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آموزش ارگ مجلسی و پاپ",
+        "کیبورد و آکوردشناسی"
+      ],
+      "tuition": {
+        "private_irr": 9000000,
+        "group_irr": 4500000,
+        "private_toman_fa": "۹۰۰٬۰۰۰",
+        "group_toman_fa": "۴۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 30,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر پایان دوره",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": false
+      },
+      "performed_in_cafe": true,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_KIDS_MUSIC",
+      "course_id": "CRS_KIDS_MUSIC",
+      "name_fa": "آموزشگاه و کلاس موسیقی کودک (ارف)",
+      "department_id": "DEPT_MUSIC",
+      "url_slug": "/music/kids/",
+      "silo_id": "SILO_CRS_KIDS_MUSIC",
+      "status": "active",
+      "keyword_demand": 15,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "kids"
+      ],
+      "sub_specialties_fa": [
+        "موسیقی کودک ارف (بلز، فلوت ریکوردر، طبلک)",
+        "ریتم و بازی‌های موزیکال"
+      ],
+      "tuition": {
+        "private_irr": 7000000,
+        "group_irr": 3500000,
+        "private_toman_fa": "۷۰۰٬۰۰۰",
+        "group_toman_fa": "۳۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 45,
+        "verified": true
+      },
+      "certificate_type": "گواهی پایان دوره کودک",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": true,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_ACTING",
+      "course_id": "CRS_ACTING",
+      "name_fa": "کلاس و آموزش بازیگری سینما و تئاتر",
+      "department_id": "DEPT_PERFORMING",
+      "url_slug": "/performing-arts/acting/",
+      "silo_id": "SILO_CRS_ACTING",
+      "status": "active",
+      "keyword_demand": 12,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "بازیگری مقابل دوربین",
+        "بازیگری تئاتر و صحنه",
+        "بدن و بیان بازیگر"
+      ],
+      "tuition": {
+        "private_irr": 15000000,
+        "group_irr": 8000000,
+        "private_toman_fa": "۱٬۵۰۰٬۰۰۰",
+        "group_toman_fa": "۸۰۰٬۰۰۰",
+        "sessions_per_term": 12,
+        "session_duration_min": 120,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر سینمایی / ارشاد",
+      "instructors": {
+        "verified_ids": [
+          "INST_03",
+          "INST_04",
+          "INST_05"
+        ],
+        "pending_placeholder_ids": [],
+        "verified_count": 3,
+        "female_verified": true,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": true,
+      "readiness_score_100": 80,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 12,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 8,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_KIDS_ACTING",
+      "course_id": "CRS_KIDS_ACTING",
+      "name_fa": "کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان",
+      "department_id": "DEPT_PERFORMING",
+      "url_slug": "/performing-arts/kids-acting-drama/",
+      "silo_id": "SILO_CRS_KIDS_ACTING",
+      "status": "active",
+      "keyword_demand": 8,
+      "formats_offered": [
+        "group"
+      ],
+      "age_groups": [
+        "kids",
+        "teens"
+      ],
+      "sub_specialties_fa": [
+        "بازیگری کودک و نوجوان",
+        "نمایش خلاق برای کودکان",
+        "اعتمادبه‌نفس صحنه‌ای"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 10,
+        "session_duration_min": 90,
+        "verified": true
+      },
+      "certificate_type": "گواهی پایان دوره بازیگری کودک",
+      "instructors": {
+        "verified_ids": [
+          "INST_01",
+          "INST_03",
+          "INST_05",
+          "INST_07",
+          "INST_08"
+        ],
+        "pending_placeholder_ids": [],
+        "verified_count": 5,
+        "female_verified": true,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 80,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 12,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 8,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_SPEECH",
+      "course_id": "CRS_SPEECH",
+      "name_fa": "کلاس آموزش فن بیان، سخنوری و مجری‌گری",
+      "department_id": "DEPT_PERFORMING",
+      "url_slug": "/performing-arts/public-speaking/",
+      "silo_id": "SILO_CRS_SPEECH",
+      "status": "active",
+      "keyword_demand": 23,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "فن بیان و سخنوری بزرگسالان",
+        "فن بیان کودکان و نوجوانان",
+        "آموزش مجری‌گری استیج و تلویزیون"
+      ],
+      "tuition": {
+        "private_irr": 9000000,
+        "group_irr": 4500000,
+        "private_toman_fa": "۹۰۰٬۰۰۰",
+        "group_toman_fa": "۴۵۰٬۰۰۰",
+        "sessions_per_term": 10,
+        "session_duration_min": 90,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر فن بیان و سخنوری",
+      "instructors": {
+        "verified_ids": [
+          "INST_04",
+          "INST_05"
+        ],
+        "pending_placeholder_ids": [],
+        "verified_count": 2,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": true,
+      "readiness_score_100": 72,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 12,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_VOICE_DUBBING",
+      "course_id": "CRS_VOICE_DUBBING",
+      "name_fa": "کلاس آموزش گویندگی، دوبلاژ و دوبلوری",
+      "department_id": "DEPT_PERFORMING",
+      "url_slug": "/performing-arts/voice-acting-dubbing/",
+      "silo_id": "SILO_CRS_VOICE_DUBBING",
+      "status": "active",
+      "keyword_demand": 17,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آموزش گویندگی رادیو، پادکست و نریشن",
+        "آموزش دوبلاژ، دوبله و دوبلوری انیمیشن و فیلم",
+        "گویندگی کودکان"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 10,
+        "session_duration_min": 90,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر گویندگی و دوبله",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": true,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_PHOTOGRAPHY",
+      "course_id": "CRS_PHOTOGRAPHY",
+      "name_fa": "کلاس آموزش عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل",
+      "department_id": "DEPT_CINEMA",
+      "url_slug": "/cinema-media/photography/",
+      "silo_id": "SILO_CRS_PHOTOGRAPHY",
+      "status": "active",
+      "keyword_demand": 14,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "عکاسی حرفه‌ای دیجیتال و پرتره",
+        "آموزش عکاسی و فیلمبرداری",
+        "دوره عکاسی با موبایل"
+      ],
+      "tuition": {
+        "private_irr": 12000000,
+        "group_irr": 6000000,
+        "private_toman_fa": "۱٬۲۰۰٬۰۰۰",
+        "group_toman_fa": "۶۰۰٬۰۰۰",
+        "sessions_per_term": 10,
+        "session_duration_min": 90,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر عکاسی و تصویربرداری",
+      "instructors": {
+        "verified_ids": [
+          "INST_06",
+          "INST_09"
+        ],
+        "pending_placeholder_ids": [],
+        "verified_count": 2,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 72,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 12,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_FILM_EDITING",
+      "course_id": "CRS_FILM_EDITING",
+      "name_fa": "کلاس آموزش تدوین فیلم و ادیت حرفه‌ای",
+      "department_id": "DEPT_CINEMA",
+      "url_slug": "/cinema-media/film-editing/",
+      "silo_id": "SILO_CRS_FILM_EDITING",
+      "status": "active",
+      "keyword_demand": 7,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آموزش تدوین سینمایی (Premiere & DaVinci)",
+        "ادیت ویدیو و ریلز"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 10,
+        "session_duration_min": 90,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر تدوین فیلم",
+      "instructors": {
+        "verified_ids": [
+          "INST_09"
+        ],
+        "pending_placeholder_ids": [],
+        "verified_count": 1,
+        "female_verified": false,
+        "female_flag_in_courses_csv": false
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 72,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 12,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_DIRECTING_SCRIPT",
+      "course_id": "CRS_DIRECTING_SCRIPT",
+      "name_fa": "کلاس آموزش کارگردانی سینما و فیلمنامه‌نویسی",
+      "department_id": "DEPT_CINEMA",
+      "url_slug": "/cinema-media/directing-screenwriting/",
+      "silo_id": "SILO_CRS_DIRECTING_SCRIPT",
+      "status": "active",
+      "keyword_demand": 3,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آموزش کارگردانی فیلم کوتاه و سینما",
+        "کلاس فیلمنامه‌نویسی و دراماتورژی"
+      ],
+      "tuition": {
+        "private_irr": 15000000,
+        "group_irr": 8000000,
+        "private_toman_fa": "۱٬۵۰۰٬۰۰۰",
+        "group_toman_fa": "۸۰۰٬۰۰۰",
+        "sessions_per_term": 12,
+        "session_duration_min": 120,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر کارگردانی و فیلمنامه‌نویسی",
+      "instructors": {
+        "verified_ids": [
+          "INST_01",
+          "INST_02",
+          "INST_04",
+          "INST_09"
+        ],
+        "pending_placeholder_ids": [],
+        "verified_count": 4,
+        "female_verified": true,
+        "female_flag_in_courses_csv": false
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 80,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 12,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 8,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "primary_media_asset_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_MAKEUP",
+      "course_id": "CRS_MAKEUP",
+      "name_fa": "کلاس آموزش گریم سینمایی، میکاپ و گریم کودک",
+      "department_id": "DEPT_CINEMA",
+      "url_slug": "/cinema-media/cinematic-makeup/",
+      "silo_id": "SILO_CRS_MAKEUP",
+      "status": "active",
+      "keyword_demand": 8,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "آموزش گریم سینمایی و چهره‌پردازی سه‌بعدی",
+        "آموزش میکاپ و گریم تخصصی",
+        "آموزش گریم کودک"
+      ],
+      "tuition": {
+        "private_irr": 10000000,
+        "group_irr": 5000000,
+        "private_toman_fa": "۱٬۰۰۰٬۰۰۰",
+        "group_toman_fa": "۵۰۰٬۰۰۰",
+        "sessions_per_term": 10,
+        "session_duration_min": 120,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر چهره‌پردازی و گریم",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_PAINTING",
+      "course_id": "CRS_PAINTING",
+      "name_fa": "کلاس آموزش طراحی و نقاشی حرفه‌ای",
+      "department_id": "DEPT_VISUAL",
+      "url_slug": "/visual-arts/drawing-painting/",
+      "silo_id": "SILO_CRS_PAINTING",
+      "status": "active",
+      "keyword_demand": 5,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "طراحی پایه و سیاه‌قلم",
+        "نقاشی رنگ‌روغن، آبرنگ و اکریلیک"
+      ],
+      "tuition": {
+        "private_irr": 8000000,
+        "group_irr": 4000000,
+        "private_toman_fa": "۸۰۰٬۰۰۰",
+        "group_toman_fa": "۴۰۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 90,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر هنرهای تجسمی",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": false,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    },
+    {
+      "entity_id": "E_CRS_CALLIGRAPHY",
+      "course_id": "CRS_CALLIGRAPHY",
+      "name_fa": "کلاس آموزش خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان)",
+      "department_id": "DEPT_VISUAL",
+      "url_slug": "/visual-arts/calligraphy/",
+      "silo_id": "SILO_CRS_CALLIGRAPHY",
+      "status": "active",
+      "keyword_demand": 12,
+      "formats_offered": [
+        "group",
+        "private"
+      ],
+      "age_groups": [
+        "kids",
+        "teens",
+        "adults"
+      ],
+      "sub_specialties_fa": [
+        "خوشنویسی با قلم‌نی (نستعلیق و شکسته)",
+        "آموزش خوشنویسی با خودکار (خط تحریری)",
+        "خوشنویسی ویژه کودکان"
+      ],
+      "tuition": {
+        "private_irr": 7000000,
+        "group_irr": 3500000,
+        "private_toman_fa": "۷۰۰٬۰۰۰",
+        "group_toman_fa": "۳۵۰٬۰۰۰",
+        "sessions_per_term": 8,
+        "session_duration_min": 60,
+        "verified": true
+      },
+      "certificate_type": "مدرک معتبر انجمن خوشنویسان / آموزشگاه",
+      "instructors": {
+        "verified_ids": [],
+        "pending_placeholder_ids": [],
+        "verified_count": 0,
+        "female_verified": false,
+        "female_flag_in_courses_csv": true
+      },
+      "performed_in_cafe": false,
+      "fardis_high_demand": true,
+      "readiness_score_100": 60,
+      "readiness_breakdown": {
+        "canonical_title_and_department_12": 12,
+        "tuition_transparency_12": 12,
+        "formats_and_age_groups_10": 10,
+        "syllabus_levels_defined_14": 14,
+        "verified_instructor_mapped_12": 0,
+        "primary_media_asset_8": 0,
+        "verified_female_instructor_8": 0,
+        "sub_specialty_coverage_6": 6,
+        "student_work_sample_6": 0,
+        "verified_reviews_6": 0,
+        "certification_pathway_6": 6
+      },
+      "data_gaps": [
+        "verified_instructor_mapped_12",
+        "primary_media_asset_8",
+        "verified_female_instructor_8",
+        "student_work_sample_6",
+        "verified_reviews_6"
+      ]
+    }
+  ],
+  "catalog_readiness": {
+    "avg_course_readiness_score": 63.9,
+    "courses_above_70": 6,
+    "courses_below_50": 2,
+    "courses_without_verified_instructor": [
+      "CRS_PIANO",
+      "CRS_GUITAR",
+      "CRS_VIOLIN",
+      "CRS_VOCALS",
+      "CRS_TAR_SETAR",
+      "CRS_SANTOOR",
+      "CRS_TONBAK",
+      "CRS_DAF",
+      "CRS_KAMANCHEH",
+      "CRS_TANBOUR",
+      "CRS_FLUTE",
+      "CRS_HANGDRUM",
+      "CRS_ORGAN",
+      "CRS_KIDS_MUSIC",
+      "CRS_VOICE_DUBBING",
+      "CRS_MAKEUP",
+      "CRS_PAINTING",
+      "CRS_CALLIGRAPHY"
+    ]
+  },
+  "instructor_coverage": {
+    "total": 16,
+    "verified": 9,
+    "pending_client_input": [
+      "INST_10",
+      "INST_11",
+      "INST_12",
+      "INST_13",
+      "INST_14",
+      "INST_15",
+      "INST_16"
+    ],
+    "female_verified": 4,
+    "male_verified": 5
+  },
+  "female_instructor_gate": [
+    {
+      "silo_id": "SILO_CRS_VOCALS",
+      "course_id": "CRS_VOCALS",
+      "demand_keywords": [
+        "کلاس آواز بانوان در کرج",
+        "کلاس خوانندگی بانوان در کرج"
+      ],
+      "female_instructor_verified": false,
+      "verified_female_ids": [],
+      "pending_female_placeholder_ids": [
+        "INST_14"
+      ],
+      "action": "[INTERNAL_DATA_NEEDED] — نام/بیوگرافی استاد خانم باید از آموزشگاه دریافت شود"
+    },
+    {
+      "silo_id": "SILO_CRS_PIANO",
+      "course_id": "CRS_PIANO",
+      "demand_keywords": [
+        "مدرس پیانو خانم در کرج"
+      ],
+      "female_instructor_verified": false,
+      "verified_female_ids": [],
+      "pending_female_placeholder_ids": [
+        "INST_10"
+      ],
+      "action": "[INTERNAL_DATA_NEEDED] — نام/بیوگرافی استاد خانم باید از آموزشگاه دریافت شود"
+    },
+    {
+      "silo_id": "SILO_CRS_TAR_SETAR",
+      "course_id": "CRS_TAR_SETAR",
+      "demand_keywords": [
+        "استاد سه تار خانم در کرج"
+      ],
+      "female_instructor_verified": false,
+      "verified_female_ids": [],
+      "pending_female_placeholder_ids": [
+        "INST_15"
+      ],
+      "action": "[INTERNAL_DATA_NEEDED] — نام/بیوگرافی استاد خانم باید از آموزشگاه دریافت شود"
+    },
+    {
+      "silo_id": "SILO_CRS_SANTOOR",
+      "course_id": "CRS_SANTOOR",
+      "demand_keywords": [
+        "استاد سنتور خانم در کرج"
+      ],
+      "female_instructor_verified": false,
+      "verified_female_ids": [],
+      "pending_female_placeholder_ids": [
+        "INST_16"
+      ],
+      "action": "[INTERNAL_DATA_NEEDED] — نام/بیوگرافی استاد خانم باید از آموزشگاه دریافت شود"
+    },
+    {
+      "silo_id": "SILO_CRS_GUITAR",
+      "course_id": "CRS_GUITAR",
+      "demand_keywords": [
+        "آموزش گیتار در کرج خانم"
+      ],
+      "female_instructor_verified": false,
+      "verified_female_ids": [],
+      "pending_female_placeholder_ids": [
+        "INST_12"
+      ],
+      "action": "[INTERNAL_DATA_NEEDED] — نام/بیوگرافی استاد خانم باید از آموزشگاه دریافت شود"
+    }
+  ],
+  "cafe_readiness": {
+    "venue_verified_in_academy_data": true,
+    "events_verified": 5,
+    "instruments_with_verified_nights": [
+      "ارگ و کیبورد",
+      "سنتور",
+      "سه‌تار و تار",
+      "پیانو",
+      "گیتار"
+    ],
+    "menu_verified": false,
+    "blockers": [
+      "منوی کافه/رستوران در ورودی‌ها موجود نیست → [INTERNAL_DATA_NEEDED]"
+    ]
+  },
+  "fardis_readiness": {
+    "status": "SERVICE_AREA_COMMUTER_HUB",
+    "keyword_demand": 14,
+    "transit_routes_verified": 6,
+    "courses_flagged_fardis_high_demand": [
+      "CRS_VOCALS",
+      "CRS_KIDS_MUSIC",
+      "CRS_ACTING",
+      "CRS_SPEECH",
+      "CRS_VOICE_DUBBING",
+      "CRS_CALLIGRAPHY"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+ادرس کلاس بازیگری در کرج	آدرس کلاس بازیگری در کرج	LOCATION_DIRECTION	decision	KARAJ	E_CRS_ACTING	SEC_CAMPUS_MAP_DIRECTIONS	ORTHO_VARIANT_NO_MADDAH;DUAL_INTENT:SILO_00
+کلاس بازیگری در کرج کجاست	کلاس بازیگری در کرج کجاست	LOCATION_DIRECTION	decision	KARAJ	E_CRS_ACTING	SEC_CAMPUS_MAP_DIRECTIONS	DUAL_INTENT:SILO_00
+اموزشگاه بازیگری کرج	آموزشگاه بازیگری کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+بهترین کلاس بازیگری در کرج	بهترین کلاس بازیگری در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	NONE
+بهترین کلاس های بازیگری کرج	بهترین کلاس های بازیگری کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	NONE
+کلاس بازیگری خوب در کرج	کلاس بازیگری خوب در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	NONE
+کلاس بازیگری در کرج	کلاس بازیگری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	NONE
+کلاس بازیگری کرج	کلاس بازیگری کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	NONE
+کلاس های بازیگری کرج	کلاس های بازیگری کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_ACTING	SEC_HERO_OVERVIEW	NONE
+شهریه کلاس بازیگری در کرج	شهریه کلاس بازیگری در کرج	TUITION_COST	decision	KARAJ	E_CRS_ACTING	SEC_TUITION_TABLE	NONE
+قیمت کلاس بازیگری در کرج	قیمت کلاس بازیگری در کرج	TUITION_COST	decision	KARAJ	E_CRS_ACTING	SEC_TUITION_TABLE	NONE
+هزینه کلاس بازیگری در کرج	هزینه کلاس بازیگری در کرج	TUITION_COST	decision	KARAJ	E_CRS_ACTING	SEC_TUITION_TABLE	NONE

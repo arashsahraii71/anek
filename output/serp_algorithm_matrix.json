@@ -1,0 +1,1582 @@
+{
+  "generated_at": "2026-10-21T21:41:52Z",
+  "serp_evidence_mode": "NO_LIVE_SERP_EGRESS_BLOCKED",
+  "live_serp_queries_collected": 0,
+  "downstream_directive": "USE_DETERMINISTIC_PERSIAN_STEM_RULES",
+  "academy_brand": "آموزشگاه سینمایی، بازیگری و موسیقی آنک - کرج",
+  "primary_city": "کرج",
+  "total_keywords_analyzed": 296,
+  "total_unique_urls_xrayed": 0,
+  "clusters_decoded": [
+    {
+      "cluster_id": "CRS_SPEECH",
+      "main_seed_keyword": "کلاس فن بیان در کرج",
+      "total_keywords_in_cluster": 24,
+      "keywords_in_cluster": [
+        "آدرس کلاس فن بیان در کرج",
+        "آموزش فن بیان و سخنوری در کرج",
+        "آموزشگاه فن بیان در کرج",
+        "اموزش فن بیان در کرج",
+        "اموزشگاه فن بیان کرج",
+        "بهترین اموزشگاه فن بیان کرج",
+        "بهترین کلاس فن بیان کرج",
+        "دوره فن بیان در کرج",
+        "هزینه کلاس فن بیان در کرج",
+        "کلاس آموزش فن بیان در کرج",
+        "کلاس فن بیان برای نوجوانان در کرج",
+        "کلاس فن بیان برای کودکان در کرج",
+        "کلاس فن بیان حضوری در کرج",
+        "کلاس فن بیان در کرج",
+        "کلاس فن بیان در کرج کجاست",
+        "کلاس فن بیان و سخنوری در کرج",
+        "کلاس فن بیان و گویندگی کرج",
+        "کلاس فن بیان کودکان در کرج",
+        "کلاس مجری گری در کرج",
+        "کلاس های سخنوری و فن بیان در کرج",
+        "کلاس های فن بیان در کرج",
+        "کلاس های فن بیان کرج",
+        "کلاس های مجری گری در کرج",
+        "کلاسهای فن بیان در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آدرس کلاس فن بیان در کرج": 0.0,
+        "آموزش فن بیان و سخنوری در کرج": 0.0,
+        "آموزشگاه فن بیان در کرج": 0.0,
+        "اموزش فن بیان در کرج": 0.0,
+        "اموزشگاه فن بیان کرج": 0.0,
+        "بهترین اموزشگاه فن بیان کرج": 0.0,
+        "بهترین کلاس فن بیان کرج": 0.0,
+        "دوره فن بیان در کرج": 0.0,
+        "هزینه کلاس فن بیان در کرج": 0.0,
+        "کلاس آموزش فن بیان در کرج": 0.0,
+        "کلاس فن بیان برای نوجوانان در کرج": 0.0,
+        "کلاس فن بیان برای کودکان در کرج": 0.0,
+        "کلاس فن بیان حضوری در کرج": 0.0,
+        "کلاس فن بیان در کرج": 0.0,
+        "کلاس فن بیان در کرج کجاست": 0.0,
+        "کلاس فن بیان و سخنوری در کرج": 0.0,
+        "کلاس فن بیان و گویندگی کرج": 0.0,
+        "کلاس فن بیان کودکان در کرج": 0.0,
+        "کلاس مجری گری در کرج": 0.0,
+        "کلاس های سخنوری و فن بیان در کرج": 0.0,
+        "کلاس های فن بیان در کرج": 0.0,
+        "کلاس های فن بیان کرج": 0.0,
+        "کلاس های مجری گری در کرج": 0.0,
+        "کلاسهای فن بیان در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": true,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_VOCALS",
+      "main_seed_keyword": "کلاس آواز در کرج",
+      "total_keywords_in_cluster": 21,
+      "keywords_in_cluster": [
+        "آموزش آواز سنتی کرج",
+        "آموزشگاه آواز در کرج",
+        "اموزش اواز در کرج",
+        "بهترین کلاس آواز در کرج",
+        "هزینه کلاس آواز در کرج",
+        "کلاس آواز بانوان در کرج",
+        "کلاس آواز خوانی در کرج",
+        "کلاس آواز در کرج",
+        "کلاس آواز سنتی در کرج",
+        "کلاس آواز پاپ در کرج",
+        "کلاس آواز کودکان کرج",
+        "کلاس اواز گروهی در کرج",
+        "کلاس های آموزش آواز در کرج",
+        "کلاس های آواز کرج",
+        "کلاس خوانندگی کرج",
+        "هزینه کلاس خوانندگی در کرج",
+        "کلاس خوانندگی بانوان در کرج",
+        "کلاس خوانندگی کودکان در کرج",
+        "بهترین کلاس خوانندگی در کرج",
+        "اموزش خوانندگی کرج",
+        "کلاس خوانندگی در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش آواز سنتی کرج": 0.0,
+        "آموزشگاه آواز در کرج": 0.0,
+        "اموزش اواز در کرج": 0.0,
+        "بهترین کلاس آواز در کرج": 0.0,
+        "هزینه کلاس آواز در کرج": 0.0,
+        "کلاس آواز بانوان در کرج": 0.0,
+        "کلاس آواز خوانی در کرج": 0.0,
+        "کلاس آواز در کرج": 0.0,
+        "کلاس آواز سنتی در کرج": 0.0,
+        "کلاس آواز پاپ در کرج": 0.0,
+        "کلاس آواز کودکان کرج": 0.0,
+        "کلاس اواز گروهی در کرج": 0.0,
+        "کلاس های آموزش آواز در کرج": 0.0,
+        "کلاس های آواز کرج": 0.0,
+        "کلاس خوانندگی کرج": 0.0,
+        "هزینه کلاس خوانندگی در کرج": 0.0,
+        "کلاس خوانندگی بانوان در کرج": 0.0,
+        "کلاس خوانندگی کودکان در کرج": 0.0,
+        "بهترین کلاس خوانندگی در کرج": 0.0,
+        "اموزش خوانندگی کرج": 0.0,
+        "کلاس خوانندگی در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "DEPT_MUSIC",
+      "main_seed_keyword": "کلاس موسیقی در کرج",
+      "total_keywords_in_cluster": 12,
+      "keywords_in_cluster": [
+        "آموزش تئوری موسیقی در کرج",
+        "آموزش موسیقی در کرج",
+        "ادرس کلاس موسیقی در کرج",
+        "بهترین کلاس موسیقی در کرج",
+        "بهترین کلاس های موسیقی کرج",
+        "شهریه کلاس موسیقی در کرج",
+        "قیمت کلاس موسیقی کرج",
+        "هزینه کلاس موسیقی در کرج",
+        "کلاس موسیقی خوب در کرج",
+        "کلاس موسیقی در کرج",
+        "کلاس موسیقی در کرج برای کودکان",
+        "کلاس های موسیقی کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش تئوری موسیقی در کرج": 0.0,
+        "آموزش موسیقی در کرج": 0.0,
+        "ادرس کلاس موسیقی در کرج": 0.0,
+        "بهترین کلاس موسیقی در کرج": 0.0,
+        "بهترین کلاس های موسیقی کرج": 0.0,
+        "شهریه کلاس موسیقی در کرج": 0.0,
+        "قیمت کلاس موسیقی کرج": 0.0,
+        "هزینه کلاس موسیقی در کرج": 0.0,
+        "کلاس موسیقی خوب در کرج": 0.0,
+        "کلاس موسیقی در کرج": 0.0,
+        "کلاس موسیقی در کرج برای کودکان": 0.0,
+        "کلاس های موسیقی کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "department_page",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_FILM_EDITING",
+      "main_seed_keyword": "کلاس ادیت در کرج",
+      "total_keywords_in_cluster": 7,
+      "keywords_in_cluster": [
+        "آموزش تدوین در کرج",
+        "آموزش تدوین فیلم در کرج",
+        "آموزشگاه تدوین فیلم در کرج",
+        "اموزشگاه تدوین در کرج",
+        "کلاس آموزش تدوین در کرج",
+        "کلاس ادیت در کرج",
+        "کلاس تدوین در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش تدوین در کرج": 0.0,
+        "آموزش تدوین فیلم در کرج": 0.0,
+        "آموزشگاه تدوین فیلم در کرج": 0.0,
+        "اموزشگاه تدوین در کرج": 0.0,
+        "کلاس آموزش تدوین در کرج": 0.0,
+        "کلاس ادیت در کرج": 0.0,
+        "کلاس تدوین در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_CALLIGRAPHY",
+      "main_seed_keyword": "کلاس خط کرج",
+      "total_keywords_in_cluster": 12,
+      "keywords_in_cluster": [
+        "آموزش خوشنویسی با خودکار در کرج",
+        "آموزش خوشنویسی در کرج",
+        "آموزش خوشنویسی کرج",
+        "آموزشگاه خوشنویسی در کرج",
+        "آموزشگاه خوشنویسی کرج",
+        "ادرس کلاس خوشنویسی در کرج",
+        "کلاس خط کرج",
+        "کلاس خطاطی در کرج",
+        "کلاس خوشنویسی با خودکار در کرج",
+        "کلاس خوشنویسی در کرج",
+        "کلاس خوشنویسی کودکان در کرج",
+        "کلاس های خوشنویسی در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش خوشنویسی با خودکار در کرج": 0.0,
+        "آموزش خوشنویسی در کرج": 0.0,
+        "آموزش خوشنویسی کرج": 0.0,
+        "آموزشگاه خوشنویسی در کرج": 0.0,
+        "آموزشگاه خوشنویسی کرج": 0.0,
+        "ادرس کلاس خوشنویسی در کرج": 0.0,
+        "کلاس خط کرج": 0.0,
+        "کلاس خطاطی در کرج": 0.0,
+        "کلاس خوشنویسی با خودکار در کرج": 0.0,
+        "کلاس خوشنویسی در کرج": 0.0,
+        "کلاس خوشنویسی کودکان در کرج": 0.0,
+        "کلاس های خوشنویسی در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_VOICE_DUBBING",
+      "main_seed_keyword": "کلاس دوبله در کرج",
+      "total_keywords_in_cluster": 16,
+      "keywords_in_cluster": [
+        "آموزش دوبلوری در کرج",
+        "آموزش گویندگی در کرج",
+        "آموزشگاه دوبله در کرج",
+        "آموزشگاه گویندگی در کرج",
+        "اموزشگاه گویندگی کرج",
+        "بهترین آموزشگاه گویندگی در کرج",
+        "دوره گویندگی کرج",
+        "کلاس دوبلاژ در کرج",
+        "کلاس دوبله در کرج",
+        "کلاس دوبلوری در کرج",
+        "کلاس های دوبلوری کرج",
+        "کلاس های گویندگی در کرج",
+        "کلاس گویندگی در کرج",
+        "کلاس گویندگی و دوبله در کرج",
+        "کلاس گویندگی کودکان در کرج",
+        "کلاسهای گویندگی در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش دوبلوری در کرج": 0.0,
+        "آموزش گویندگی در کرج": 0.0,
+        "آموزشگاه دوبله در کرج": 0.0,
+        "آموزشگاه گویندگی در کرج": 0.0,
+        "اموزشگاه گویندگی کرج": 0.0,
+        "بهترین آموزشگاه گویندگی در کرج": 0.0,
+        "دوره گویندگی کرج": 0.0,
+        "کلاس دوبلاژ در کرج": 0.0,
+        "کلاس دوبله در کرج": 0.0,
+        "کلاس دوبلوری در کرج": 0.0,
+        "کلاس های دوبلوری کرج": 0.0,
+        "کلاس های گویندگی در کرج": 0.0,
+        "کلاس گویندگی در کرج": 0.0,
+        "کلاس گویندگی و دوبله در کرج": 0.0,
+        "کلاس گویندگی کودکان در کرج": 0.0,
+        "کلاسهای گویندگی در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_PHOTOGRAPHY",
+      "main_seed_keyword": "آموزش عکاسی کرج",
+      "total_keywords_in_cluster": 14,
+      "keywords_in_cluster": [
+        "آموزش عکاسی حرفه ای در کرج",
+        "آموزش عکاسی در کرج",
+        "آموزش عکاسی و فیلمبرداری در کرج",
+        "آموزش عکاسی کرج",
+        "آموزشگاه عکاسی در کرج",
+        "آموزشگاه عکاسی و فیلمبرداری در کرج",
+        "آموزشگاه عکاسی کرج",
+        "اموزشگاه های عکاسی در کرج",
+        "دوره عکاسی با موبایل کرج",
+        "دوره عکاسی در کرج",
+        "دوره های عکاسی کرج",
+        "کلاس آموزش عکاسی در کرج",
+        "کلاس عکاسی در کرج",
+        "کلاس های آموزش عکاسی در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش عکاسی حرفه ای در کرج": 0.0,
+        "آموزش عکاسی در کرج": 0.0,
+        "آموزش عکاسی و فیلمبرداری در کرج": 0.0,
+        "آموزش عکاسی کرج": 0.0,
+        "آموزشگاه عکاسی در کرج": 0.0,
+        "آموزشگاه عکاسی و فیلمبرداری در کرج": 0.0,
+        "آموزشگاه عکاسی کرج": 0.0,
+        "اموزشگاه های عکاسی در کرج": 0.0,
+        "دوره عکاسی با موبایل کرج": 0.0,
+        "دوره عکاسی در کرج": 0.0,
+        "دوره های عکاسی کرج": 0.0,
+        "کلاس آموزش عکاسی در کرج": 0.0,
+        "کلاس عکاسی در کرج": 0.0,
+        "کلاس های آموزش عکاسی در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_MAKEUP",
+      "main_seed_keyword": "کلاس گریم در کرج",
+      "total_keywords_in_cluster": 8,
+      "keywords_in_cluster": [
+        "آموزش میکاپ و گریم در کرج",
+        "آموزش گریم در کرج",
+        "آموزش گریم سینمایی در کرج",
+        "آموزش گریم کودک در کرج",
+        "آموزشگاه گریم در کرج",
+        "آموزشگاه گریم سینمایی در کرج",
+        "کلاس گریم در کرج",
+        "کلاس گریم سینمایی در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش میکاپ و گریم در کرج": 0.0,
+        "آموزش گریم در کرج": 0.0,
+        "آموزش گریم سینمایی در کرج": 0.0,
+        "آموزش گریم کودک در کرج": 0.0,
+        "آموزشگاه گریم در کرج": 0.0,
+        "آموزشگاه گریم سینمایی در کرج": 0.0,
+        "کلاس گریم در کرج": 0.0,
+        "کلاس گریم سینمایی در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_PAINTING",
+      "main_seed_keyword": "آموزشگاه طراحی در کرج",
+      "total_keywords_in_cluster": 5,
+      "keywords_in_cluster": [
+        "آموزش نقاشی حرفه ای در کرج",
+        "آموزشگاه طراحی در کرج",
+        "آموزشگاه طراحی و نقاشی کرج",
+        "کلاس طراحی و نقاشی در کرج",
+        "کلاس نقاشی و طراحی کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش نقاشی حرفه ای در کرج": 0.0,
+        "آموزشگاه طراحی در کرج": 0.0,
+        "آموزشگاه طراحی و نقاشی کرج": 0.0,
+        "کلاس طراحی و نقاشی در کرج": 0.0,
+        "کلاس نقاشی و طراحی کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_KIDS_ACTING",
+      "main_seed_keyword": "کلاس بازیگری کودک در کرج",
+      "total_keywords_in_cluster": 7,
+      "keywords_in_cluster": [
+        "آموزشگاه بازیگری و تئاتر کودک در کرج",
+        "کلاس بازیگری در کرج برای نوجوانان",
+        "کلاس بازیگری در کرج برای کودکان",
+        "کلاس بازیگری کودک در کرج",
+        "کلاس بازیگری کودکان در کرج",
+        "کلاس نمایش خلاق برای کودکان در کرج",
+        "کلاس های بازیگری کودکان در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزشگاه بازیگری و تئاتر کودک در کرج": 0.0,
+        "کلاس بازیگری در کرج برای نوجوانان": 0.0,
+        "کلاس بازیگری در کرج برای کودکان": 0.0,
+        "کلاس بازیگری کودک در کرج": 0.0,
+        "کلاس بازیگری کودکان در کرج": 0.0,
+        "کلاس نمایش خلاق برای کودکان در کرج": 0.0,
+        "کلاس های بازیگری کودکان در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_ACTING",
+      "main_seed_keyword": "کلاس بازیگری کرج",
+      "total_keywords_in_cluster": 13,
+      "keywords_in_cluster": [
+        "ادرس کلاس بازیگری در کرج",
+        "اموزشگاه بازیگری کرج",
+        "بهترین کلاس بازیگری در کرج",
+        "بهترین کلاس های بازیگری کرج",
+        "شهریه کلاس بازیگری در کرج",
+        "قیمت کلاس بازیگری در کرج",
+        "هزینه کلاس بازیگری در کرج",
+        "کلاس بازیگری خوب در کرج",
+        "کلاس بازیگری در کرج",
+        "کلاس بازیگری در کرج کجاست",
+        "کلاس بازیگری کرج",
+        "کلاس نمایش خلاق در کرج",
+        "کلاس های بازیگری کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "ادرس کلاس بازیگری در کرج": 0.0,
+        "اموزشگاه بازیگری کرج": 0.0,
+        "بهترین کلاس بازیگری در کرج": 0.0,
+        "بهترین کلاس های بازیگری کرج": 0.0,
+        "شهریه کلاس بازیگری در کرج": 0.0,
+        "قیمت کلاس بازیگری در کرج": 0.0,
+        "هزینه کلاس بازیگری در کرج": 0.0,
+        "کلاس بازیگری خوب در کرج": 0.0,
+        "کلاس بازیگری در کرج": 0.0,
+        "کلاس بازیگری در کرج کجاست": 0.0,
+        "کلاس بازیگری کرج": 0.0,
+        "کلاس نمایش خلاق در کرج": 0.0,
+        "کلاس های بازیگری کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": true,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "AUDITION_HUB",
+      "main_seed_keyword": "تست بازیگری در کرج",
+      "total_keywords_in_cluster": 2,
+      "keywords_in_cluster": [
+        "تست بازیگری در کرج",
+        "تست بازیگری در کرج کجاست"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "تست بازیگری در کرج": 0.0,
+        "تست بازیگری در کرج کجاست": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": true,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "GEO_FARDIS",
+      "main_seed_keyword": "کلاس موسیقی فردیس کرج",
+      "total_keywords_in_cluster": 14,
+      "keywords_in_cluster": [
+        "کلاس آواز در فردیس کرج",
+        "کلاس بازیگری در فردیس کرج",
+        "کلاس بازیگری در کرج فردیس",
+        "کلاس بازیگری فردیس کرج",
+        "کلاس خوشنویسی در فردیس کرج",
+        "کلاس فن بیان در فردیس کرج",
+        "کلاس موسیقی در فردیس کرج",
+        "کلاس موسیقی فردیس کرج",
+        "کلاس موسیقی کودکان در فردیس کرج",
+        "کلاس های فن بیان در فردیس",
+        "کلاس گویندگی در فردیس کرج",
+        "کلاس خوانندگی در فردیس کرج",
+        "آموزشگاه موسیقی کودک در فردیس کرج",
+        "آموزشگاه موسیقی کودکان فردیس کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس آواز در فردیس کرج": 0.0,
+        "کلاس بازیگری در فردیس کرج": 0.0,
+        "کلاس بازیگری در کرج فردیس": 0.0,
+        "کلاس بازیگری فردیس کرج": 0.0,
+        "کلاس خوشنویسی در فردیس کرج": 0.0,
+        "کلاس فن بیان در فردیس کرج": 0.0,
+        "کلاس موسیقی در فردیس کرج": 0.0,
+        "کلاس موسیقی فردیس کرج": 0.0,
+        "کلاس موسیقی کودکان در فردیس کرج": 0.0,
+        "کلاس های فن بیان در فردیس": 0.0,
+        "کلاس گویندگی در فردیس کرج": 0.0,
+        "کلاس خوانندگی در فردیس کرج": 0.0,
+        "آموزشگاه موسیقی کودک در فردیس کرج": 0.0,
+        "آموزشگاه موسیقی کودکان فردیس کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "location_page",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_DIRECTING_SCRIPT",
+      "main_seed_keyword": "کلاس کارگردانی در کرج",
+      "total_keywords_in_cluster": 3,
+      "keywords_in_cluster": [
+        "کلاس فیلمنامه نویسی در کرج",
+        "کلاس های فیلمنامه نویسی در کرج",
+        "کلاس کارگردانی در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس فیلمنامه نویسی در کرج": 0.0,
+        "کلاس های فیلمنامه نویسی در کرج": 0.0,
+        "کلاس کارگردانی در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_VIOLIN",
+      "main_seed_keyword": "کلاس ویولن کرج",
+      "total_keywords_in_cluster": 16,
+      "keywords_in_cluster": [
+        "کلاس موسیقی ویولن کرج",
+        "کلاس ویولن کرج",
+        "بهترین استاد ویولن کرج",
+        "اموزش ویولن کرج",
+        "استاد ویولن کرج",
+        "بهترین اساتید ویولن کرج",
+        "اموزشگاه ویولن کرج",
+        "اساتید ویولن کرج",
+        "استاد ویولن خوب در کرج",
+        "مدرس ویولن در کرج",
+        "قیمت کلاس ویولن در کرج",
+        "بهترین استاد ویولن در کرج",
+        "بهترین آموزشگاه ویولن در کرج",
+        "بهترین مدرس ویولن در کرج",
+        "کلاس ویولن سل کرج",
+        "مدرس ویولن کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس موسیقی ویولن کرج": 0.0,
+        "کلاس ویولن کرج": 0.0,
+        "بهترین استاد ویولن کرج": 0.0,
+        "اموزش ویولن کرج": 0.0,
+        "استاد ویولن کرج": 0.0,
+        "بهترین اساتید ویولن کرج": 0.0,
+        "اموزشگاه ویولن کرج": 0.0,
+        "اساتید ویولن کرج": 0.0,
+        "استاد ویولن خوب در کرج": 0.0,
+        "مدرس ویولن در کرج": 0.0,
+        "قیمت کلاس ویولن در کرج": 0.0,
+        "بهترین استاد ویولن در کرج": 0.0,
+        "بهترین آموزشگاه ویولن در کرج": 0.0,
+        "بهترین مدرس ویولن در کرج": 0.0,
+        "کلاس ویولن سل کرج": 0.0,
+        "مدرس ویولن کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_KIDS_MUSIC",
+      "main_seed_keyword": "کلاس موسیقی کودک کرج",
+      "total_keywords_in_cluster": 13,
+      "keywords_in_cluster": [
+        "کلاس موسیقی کودکان در کرج",
+        "آموزشگاه موسیقی کودک کرج",
+        "بهترین آموزشگاه موسیقی کودک کرج",
+        "کلاس موسیقی کودک کرج",
+        "اموزشگاه موسیقی کودک کرج",
+        "موسیقی کودک در کرج",
+        "موسیقی کودکان کرج",
+        "بهترین آموزشگاه موسیقی کودک در کرج",
+        "آموزشگاه موسیقی کودک در کرج",
+        "کلاس موسیقی کودک در کرج",
+        "آموزشگاه موسیقی کودکان در کرج",
+        "آموزشگاه موسیقی کودکان کرج",
+        "کلاس موسیقی کودکان کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس موسیقی کودکان در کرج": 0.0,
+        "آموزشگاه موسیقی کودک کرج": 0.0,
+        "بهترین آموزشگاه موسیقی کودک کرج": 0.0,
+        "کلاس موسیقی کودک کرج": 0.0,
+        "اموزشگاه موسیقی کودک کرج": 0.0,
+        "موسیقی کودک در کرج": 0.0,
+        "موسیقی کودکان کرج": 0.0,
+        "بهترین آموزشگاه موسیقی کودک در کرج": 0.0,
+        "آموزشگاه موسیقی کودک در کرج": 0.0,
+        "کلاس موسیقی کودک در کرج": 0.0,
+        "آموزشگاه موسیقی کودکان در کرج": 0.0,
+        "آموزشگاه موسیقی کودکان کرج": 0.0,
+        "کلاس موسیقی کودکان کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CAFE_VENUE",
+      "main_seed_keyword": "کافه ارگ کرج",
+      "total_keywords_in_cluster": 6,
+      "keywords_in_cluster": [
+        "کافه ارگ کرج",
+        "کافه پیانو کرج",
+        "رستوران سه تار کرج",
+        "کافه رستوران سه تار کرج",
+        "کافه سنتور کرج",
+        "کافه گیتار کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کافه ارگ کرج": 0.0,
+        "کافه پیانو کرج": 0.0,
+        "رستوران سه تار کرج": 0.0,
+        "کافه رستوران سه تار کرج": 0.0,
+        "کافه سنتور کرج": 0.0,
+        "کافه گیتار کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "venue_page",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_ORGAN",
+      "main_seed_keyword": "آموزش ارگ در کرج",
+      "total_keywords_in_cluster": 2,
+      "keywords_in_cluster": [
+        "اموزش ارگ کرج",
+        "آموزش ارگ در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "اموزش ارگ کرج": 0.0,
+        "آموزش ارگ در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_PIANO",
+      "main_seed_keyword": "کلاس پیانو کرج",
+      "total_keywords_in_cluster": 18,
+      "keywords_in_cluster": [
+        "آموزشگاه پیانو کرج",
+        "مدرسه پیانو کرج",
+        "آموزشگاه موسیقی پیانو کرج",
+        "آموزش پیانو کرج",
+        "اموزشگاه پیانو کرج",
+        "استاد پیانو کرج",
+        "اموزش پیانو کرج",
+        "اساتید پیانو کرج",
+        "اکادمی پیانو کرج",
+        "تدریس پیانو کرج",
+        "آموزش خصوصی پیانو در کرج",
+        "مدرس پیانو خانم در کرج",
+        "استاد پیانو خوب در کرج",
+        "معلم خصوصی پیانو در کرج",
+        "کلاس پیانو در کرج",
+        "کلاس پیانو کرج",
+        "کلاس پیانو کودکان کرج",
+        "مدرس پیانو کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزشگاه پیانو کرج": 0.0,
+        "مدرسه پیانو کرج": 0.0,
+        "آموزشگاه موسیقی پیانو کرج": 0.0,
+        "آموزش پیانو کرج": 0.0,
+        "اموزشگاه پیانو کرج": 0.0,
+        "استاد پیانو کرج": 0.0,
+        "اموزش پیانو کرج": 0.0,
+        "اساتید پیانو کرج": 0.0,
+        "اکادمی پیانو کرج": 0.0,
+        "تدریس پیانو کرج": 0.0,
+        "آموزش خصوصی پیانو در کرج": 0.0,
+        "مدرس پیانو خانم در کرج": 0.0,
+        "استاد پیانو خوب در کرج": 0.0,
+        "معلم خصوصی پیانو در کرج": 0.0,
+        "کلاس پیانو در کرج": 0.0,
+        "کلاس پیانو کرج": 0.0,
+        "کلاس پیانو کودکان کرج": 0.0,
+        "مدرس پیانو کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_TAR_SETAR",
+      "main_seed_keyword": "کلاس تار کرج",
+      "total_keywords_in_cluster": 13,
+      "keywords_in_cluster": [
+        "کلاس سه تار کرج",
+        "هزینه آموزش سه تار کرج",
+        "آموزش سه تار کرج",
+        "کلاس تار کرج",
+        "استاد سه تار کرج",
+        "آموزش تار کرج",
+        "اموزش تار کرج",
+        "استاد تار کرج",
+        "آموزش خصوصی تار در کرج",
+        "استاد سه تار خانم در کرج",
+        "استاد تار در کرج",
+        "بهترین استاد تار در کرج",
+        "کلاس سه تار در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس سه تار کرج": 0.0,
+        "هزینه آموزش سه تار کرج": 0.0,
+        "آموزش سه تار کرج": 0.0,
+        "کلاس تار کرج": 0.0,
+        "استاد سه تار کرج": 0.0,
+        "آموزش تار کرج": 0.0,
+        "اموزش تار کرج": 0.0,
+        "استاد تار کرج": 0.0,
+        "آموزش خصوصی تار در کرج": 0.0,
+        "استاد سه تار خانم در کرج": 0.0,
+        "استاد تار در کرج": 0.0,
+        "بهترین استاد تار در کرج": 0.0,
+        "کلاس سه تار در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_TONBAK",
+      "main_seed_keyword": "کلاس تنبک کرج",
+      "total_keywords_in_cluster": 9,
+      "keywords_in_cluster": [
+        "آموزش تنبک کرج",
+        "کلاس تنبک کرج",
+        "بهترین استاد تنبک کرج",
+        "استاد تنبک کرج",
+        "بهترین اساتید تنبک کرج",
+        "کلاس تنبک در کرج",
+        "استاد تنبک در کرج",
+        "بهترین استاد تنبک در کرج",
+        "هزینه کلاس تنبک در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش تنبک کرج": 0.0,
+        "کلاس تنبک کرج": 0.0,
+        "بهترین استاد تنبک کرج": 0.0,
+        "استاد تنبک کرج": 0.0,
+        "بهترین اساتید تنبک کرج": 0.0,
+        "کلاس تنبک در کرج": 0.0,
+        "استاد تنبک در کرج": 0.0,
+        "بهترین استاد تنبک در کرج": 0.0,
+        "هزینه کلاس تنبک در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_TANBOUR",
+      "main_seed_keyword": "کلاس تنبور کرج",
+      "total_keywords_in_cluster": 3,
+      "keywords_in_cluster": [
+        "کلاس تنبور کرج",
+        "استاد تنبور در کرج",
+        "اموزش تنبور در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس تنبور کرج": 0.0,
+        "استاد تنبور در کرج": 0.0,
+        "اموزش تنبور در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_DAF",
+      "main_seed_keyword": "کلاس دف کرج",
+      "total_keywords_in_cluster": 8,
+      "keywords_in_cluster": [
+        "کلاس دف کرج",
+        "آموزش دف کرج",
+        "کلاس دف زنی در کرج",
+        "بهترین استاد دف در کرج",
+        "اموزش دف کرج",
+        "کلاس دف در کرج",
+        "استاد دف در کرج",
+        "قیمت کلاس دف در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس دف کرج": 0.0,
+        "آموزش دف کرج": 0.0,
+        "کلاس دف زنی در کرج": 0.0,
+        "بهترین استاد دف در کرج": 0.0,
+        "اموزش دف کرج": 0.0,
+        "کلاس دف در کرج": 0.0,
+        "استاد دف در کرج": 0.0,
+        "قیمت کلاس دف در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_SANTOOR",
+      "main_seed_keyword": "کلاس سنتور کرج",
+      "total_keywords_in_cluster": 11,
+      "keywords_in_cluster": [
+        "کلاس سنتور کرج",
+        "استاد سنتور کرج",
+        "بهترین استاد سنتور کرج",
+        "اموزش سنتور کرج",
+        "اموزشگاه سنتور کرج",
+        "استاد سنتور خانم در کرج",
+        "استاد سنتور خوب در کرج",
+        "کلاس سنتور در کرج",
+        "استاد سنتور در کرج",
+        "قیمت کلاس سنتور در کرج",
+        "مدرس سنتور کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس سنتور کرج": 0.0,
+        "استاد سنتور کرج": 0.0,
+        "بهترین استاد سنتور کرج": 0.0,
+        "اموزش سنتور کرج": 0.0,
+        "اموزشگاه سنتور کرج": 0.0,
+        "استاد سنتور خانم در کرج": 0.0,
+        "استاد سنتور خوب در کرج": 0.0,
+        "کلاس سنتور در کرج": 0.0,
+        "استاد سنتور در کرج": 0.0,
+        "قیمت کلاس سنتور در کرج": 0.0,
+        "مدرس سنتور کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_FLUTE",
+      "main_seed_keyword": "کلاس فلوت کرج",
+      "total_keywords_in_cluster": 5,
+      "keywords_in_cluster": [
+        "کلاس فلوت کرج",
+        "آموزش پن فلوت در کرج",
+        "آموزش فلوت لاکوتا در کرج",
+        "آموزش فلوت در کرج",
+        "کلاس فلوت در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس فلوت کرج": 0.0,
+        "آموزش پن فلوت در کرج": 0.0,
+        "آموزش فلوت لاکوتا در کرج": 0.0,
+        "آموزش فلوت در کرج": 0.0,
+        "کلاس فلوت در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_KAMANCHEH",
+      "main_seed_keyword": "کلاس کمانچه کرج",
+      "total_keywords_in_cluster": 6,
+      "keywords_in_cluster": [
+        "آموزش کمانچه کرج",
+        "استاد کمانچه کرج",
+        "بهترین استاد کمانچه در کرج",
+        "اموزش کمانچه کرج",
+        "استاد کمانچه در کرج",
+        "کلاس کمانچه کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "آموزش کمانچه کرج": 0.0,
+        "استاد کمانچه کرج": 0.0,
+        "بهترین استاد کمانچه در کرج": 0.0,
+        "اموزش کمانچه کرج": 0.0,
+        "استاد کمانچه در کرج": 0.0,
+        "کلاس کمانچه کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": false,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_GUITAR",
+      "main_seed_keyword": "کلاس گیتار کرج",
+      "total_keywords_in_cluster": 16,
+      "keywords_in_cluster": [
+        "کلاس گیتار کرج",
+        "آموزش گیتار کرج",
+        "بهترین استاد گیتار کرج",
+        "استاد گیتار کرج",
+        "آموزش گیتار الکتریک کرج",
+        "مدرس گیتار الکتریک کرج",
+        "استاد گیتار الکتریک کرج",
+        "اموزش گیتار کرج",
+        "اموزشگاه گیتار کرج",
+        "کلاس گیتار برقی کرج",
+        "آموزش گیتار در کرج خانم",
+        "استاد گیتار خوب در کرج",
+        "آموزش خصوصی گیتار در کرج",
+        "کلاس گیتار خوب در کرج",
+        "استاد گیتار در کرج",
+        "کلاس گیتار کرج قیمت"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس گیتار کرج": 0.0,
+        "آموزش گیتار کرج": 0.0,
+        "بهترین استاد گیتار کرج": 0.0,
+        "استاد گیتار کرج": 0.0,
+        "آموزش گیتار الکتریک کرج": 0.0,
+        "مدرس گیتار الکتریک کرج": 0.0,
+        "استاد گیتار الکتریک کرج": 0.0,
+        "اموزش گیتار کرج": 0.0,
+        "اموزشگاه گیتار کرج": 0.0,
+        "کلاس گیتار برقی کرج": 0.0,
+        "آموزش گیتار در کرج خانم": 0.0,
+        "استاد گیتار خوب در کرج": 0.0,
+        "آموزش خصوصی گیتار در کرج": 0.0,
+        "کلاس گیتار خوب در کرج": 0.0,
+        "استاد گیتار در کرج": 0.0,
+        "کلاس گیتار کرج قیمت": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    },
+    {
+      "cluster_id": "CRS_HANGDRUM",
+      "main_seed_keyword": "کلاس هنگ درام کرج",
+      "total_keywords_in_cluster": 11,
+      "keywords_in_cluster": [
+        "کلاس هنگ درام کرج",
+        "آموزش هنگ درام کرج",
+        "آموزشگاه موسیقی هنگ درام کرج",
+        "استاد هنگ درام کرج",
+        "هزینه کلاس هنگ درام در کرج",
+        "اموزش هنگ درام کرج",
+        "اموزشگاه هنگ درام کرج",
+        "استاد هنگ درام در کرج",
+        "کلاس هنگ درام در کرج",
+        "بهترین استاد هنگ درام در کرج",
+        "قیمت کلاس هنگ درام در کرج"
+      ],
+      "live_serp_evidence_available": false,
+      "sub_keyword_top10_overlap_pct": {
+        "کلاس هنگ درام کرج": 0.0,
+        "آموزش هنگ درام کرج": 0.0,
+        "آموزشگاه موسیقی هنگ درام کرج": 0.0,
+        "استاد هنگ درام کرج": 0.0,
+        "هزینه کلاس هنگ درام در کرج": 0.0,
+        "اموزش هنگ درام کرج": 0.0,
+        "اموزشگاه هنگ درام کرج": 0.0,
+        "استاد هنگ درام در کرج": 0.0,
+        "کلاس هنگ درام در کرج": 0.0,
+        "بهترین استاد هنگ درام در کرج": 0.0,
+        "قیمت کلاس هنگ درام در کرج": 0.0
+      },
+      "serp_consensus_statistics": {
+        "pct_with_table": 0.0,
+        "pct_with_form": 0.0,
+        "pct_with_video": 0.0,
+        "pct_with_tel_link": 0.0,
+        "pct_with_whatsapp_link": 0.0,
+        "pct_with_schema": 0.0,
+        "avg_winner_word_count": 0
+      },
+      "top_5_omni_winner_urls": [],
+      "top_omni_winner_urls": [],
+      "intra_cluster_rank_variance_analysis": [],
+      "phase_1_and_2_silo_directives": {
+        "merge_evidence": [],
+        "borderline_keywords_30_to_59_pct": [],
+        "sub_keywords_merged_into_main_page": [],
+        "primary_page_archetype_required": "course_landing",
+        "recommended_word_count_target": 1600,
+        "competitor_schemas_detected": [],
+        "requires_comparison_or_tuition_table": true,
+        "requires_faq_module": false,
+        "competitor_blind_spots_information_gain": [
+          "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped (no Top-20 SERP data could be collected in this environment)."
+        ]
+      }
+    }
+  ]
+}

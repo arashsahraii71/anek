@@ -1,0 +1,8 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش تدوین در کرج	آموزش تدوین در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	NONE
+آموزش تدوین فیلم در کرج	آموزش تدوین فیلم در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	NONE
+آموزشگاه تدوین فیلم در کرج	آموزشگاه تدوین فیلم در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	NONE
+اموزشگاه تدوین در کرج	آموزشگاه تدوین در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس آموزش تدوین در کرج	کلاس آموزش تدوین در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	NONE
+کلاس ادیت در کرج	کلاس ادیت در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:VIDEO_EDITING_REELS
+کلاس تدوین در کرج	کلاس تدوین در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_FILM_EDITING	SEC_HERO_OVERVIEW	NONE

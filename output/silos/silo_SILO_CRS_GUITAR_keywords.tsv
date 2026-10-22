@@ -1,0 +1,17 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش گیتار در کرج خانم	آموزش گیتار در کرج خانم	FEMALE_SPECIFIC	decision	KARAJ	E_CRS_GUITAR	SEC_FEMALE_INSTRUCTORS	NONE
+آموزش گیتار الکتریک کرج	آموزش گیتار الکتریک کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	SUB_SPECIALTY:ELECTRIC_GUITAR
+آموزش گیتار کرج	آموزش گیتار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	NONE
+اموزش گیتار کرج	آموزش گیتار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزشگاه گیتار کرج	آموزشگاه گیتار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس گیتار برقی کرج	کلاس گیتار برقی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	SUB_SPECIALTY:ELECTRIC_GUITAR
+کلاس گیتار خوب در کرج	کلاس گیتار خوب در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	NONE
+کلاس گیتار کرج	کلاس گیتار کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_GUITAR	SEC_HERO_OVERVIEW	NONE
+استاد گیتار الکتریک کرج	استاد گیتار الکتریک کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_GUITAR	SEC_INSTRUCTOR_ROSTER	SUB_SPECIALTY:ELECTRIC_GUITAR
+استاد گیتار خوب در کرج	استاد گیتار خوب در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_GUITAR	SEC_INSTRUCTOR_ROSTER	NONE
+استاد گیتار در کرج	استاد گیتار در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_GUITAR	SEC_INSTRUCTOR_ROSTER	NONE
+استاد گیتار کرج	استاد گیتار کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_GUITAR	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد گیتار کرج	بهترین استاد گیتار کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_GUITAR	SEC_INSTRUCTOR_ROSTER	NONE
+مدرس گیتار الکتریک کرج	مدرس گیتار الکتریک کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_GUITAR	SEC_INSTRUCTOR_ROSTER	SUB_SPECIALTY:ELECTRIC_GUITAR
+آموزش خصوصی گیتار در کرج	آموزش خصوصی گیتار در کرج	COURSE_ENROLLMENT	decision	KARAJ	E_CRS_GUITAR	SEC_PRIVATE_VS_GROUP_FORMAT	NONE
+کلاس گیتار کرج قیمت	کلاس گیتار کرج قیمت	TUITION_COST	decision	KARAJ	E_CRS_GUITAR	SEC_TUITION_TABLE	NONE

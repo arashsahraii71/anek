@@ -1,0 +1,22 @@
+2026-10-21 21:41:52,361 [INFO] === STEP 1: INITIALIZING LIVE SERP & PURE HTML DOM INSPECTOR ===
+2026-10-21 21:41:52,362 [INFO] Loaded 296 keywords from input/keywords.txt
+2026-10-21 21:41:52,362 [INFO] Initialized SerperKeyManager with 4 total keys.
+2026-10-21 21:41:52,362 [INFO]   └ Key #1 [...1c8d35]: 0/2450
+2026-10-21 21:41:52,362 [INFO]   └ Key #2 [...089d11]: 0/2450
+2026-10-21 21:41:52,362 [INFO]   └ Key #3 [...98d6dd]: 0/2450
+2026-10-21 21:41:52,362 [INFO]   └ Key #4 [...1e0afe]: 0/2450
+2026-10-21 21:41:52,449 [ERROR] Serper probe FAILED (network egress blocked?): ConnectError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+2026-10-21 21:41:52,449 [WARNING] ==============================================================================
+2026-10-21 21:41:52,450 [WARNING] [!] LIVE SERP COLLECTION UNAVAILABLE IN THIS ENVIRONMENT.
+2026-10-21 21:41:52,450 [WARNING]     google.serper.dev is not reachable from this host.
+2026-10-21 21:41:52,450 [WARNING]     -> Skipping 296 Serper queries and competitor DOM X-ray.
+2026-10-21 21:41:52,450 [WARNING]     -> NO SERP data will be invented. The matrix will be emitted with
+2026-10-21 21:41:52,450 [WARNING]        serp_evidence_mode=NO_LIVE_SERP_EGRESS_BLOCKED so Phase 0-2 fall back
+2026-10-21 21:41:52,450 [WARNING]        to deterministic Persian-stem clustering rules.
+2026-10-21 21:41:52,450 [WARNING]     -> Re-run this script on a host with egress to google.serper.dev to
+2026-10-21 21:41:52,450 [WARNING]        populate real Top-20 evidence (caches are resumable).
+2026-10-21 21:41:52,450 [WARNING] ==============================================================================
+2026-10-21 21:41:52,459 [INFO] Discovered 0 unique competitor URLs across 28 clusters.
+2026-10-21 21:41:52,460 [INFO] Computing intra-cluster overlap, rank variance, and competitor blind-spots...
+2026-10-21 21:41:52,465 [INFO] [✓] Complete! Master HTML matrix saved to: output/serp_algorithm_matrix.json
+2026-10-21 21:41:52,465 [INFO] [✓] Key usage report saved to: output/serper_key_usage.json

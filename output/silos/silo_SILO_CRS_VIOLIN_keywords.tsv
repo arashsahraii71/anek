@@ -1,0 +1,17 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+اموزش ویولن کرج	آموزش ویولن کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VIOLIN	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+اموزشگاه ویولن کرج	آموزشگاه ویولن کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VIOLIN	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+بهترین آموزشگاه ویولن در کرج	بهترین آموزشگاه ویولن در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_VIOLIN	SEC_HERO_OVERVIEW	NONE
+کلاس موسیقی ویولن کرج	کلاس موسیقی ویولن کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VIOLIN	SEC_HERO_OVERVIEW	NONE
+کلاس ویولن سل کرج	کلاس ویولن سل کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VIOLIN	SEC_HERO_OVERVIEW	SUB_SPECIALTY:CELLO
+کلاس ویولن کرج	کلاس ویولن کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VIOLIN	SEC_HERO_OVERVIEW	NONE
+اساتید ویولن کرج	اساتید ویولن کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+استاد ویولن خوب در کرج	استاد ویولن خوب در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+استاد ویولن کرج	استاد ویولن کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین اساتید ویولن کرج	بهترین اساتید ویولن کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد ویولن در کرج	بهترین استاد ویولن در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد ویولن کرج	بهترین استاد ویولن کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین مدرس ویولن در کرج	بهترین مدرس ویولن در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+مدرس ویولن در کرج	مدرس ویولن در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+مدرس ویولن کرج	مدرس ویولن کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_VIOLIN	SEC_INSTRUCTOR_ROSTER	NONE
+قیمت کلاس ویولن در کرج	قیمت کلاس ویولن در کرج	TUITION_COST	decision	KARAJ	E_CRS_VIOLIN	SEC_TUITION_TABLE	NONE

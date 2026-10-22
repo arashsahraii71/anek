@@ -1,0 +1,18 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش دوبلوری در کرج	آموزش دوبلوری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+آموزش گویندگی در کرج	آموزش گویندگی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+آموزشگاه دوبله در کرج	آموزشگاه دوبله در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+آموزشگاه گویندگی در کرج	آموزشگاه گویندگی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+اموزشگاه گویندگی کرج	آموزشگاه گویندگی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+بهترین آموزشگاه گویندگی در کرج	بهترین آموزشگاه گویندگی در کرج	SUPERLATIVE_COMPARISON	consideration	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+دوره گویندگی کرج	دوره گویندگی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+کلاس دوبلاژ در کرج	کلاس دوبلاژ در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+کلاس دوبله در کرج	کلاس دوبله در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+کلاس دوبلوری در کرج	کلاس دوبلوری در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+کلاس فن بیان و گویندگی کرج	کلاس فن بیان و گویندگی کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+کلاس های دوبلوری کرج	کلاس های دوبلوری کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+کلاس های گویندگی در کرج	کلاس های گویندگی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+کلاس گویندگی در کرج	کلاس گویندگی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	NONE
+کلاس گویندگی و دوبله در کرج	کلاس گویندگی و دوبله در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	SUB_SPECIALTY:DUBBING
+کلاسهای گویندگی در کرج	کلاس های گویندگی در کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_VOICE_DUBBING	SEC_HERO_OVERVIEW	ORTHO_VARIANT_SPACING
+کلاس گویندگی کودکان در کرج	کلاس گویندگی کودکان در کرج	KIDS_TEENS_SPECIFIC	consideration	KARAJ	E_CRS_VOICE_DUBBING	SEC_KIDS_TEENS_TRACK	NONE

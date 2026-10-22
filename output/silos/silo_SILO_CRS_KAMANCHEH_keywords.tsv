@@ -1,0 +1,7 @@
+keyword	normalized_stem	intent_vector	funnel_stage	geo_modifier	mapped_entity_id	section_target	notes
+آموزش کمانچه کرج	آموزش کمانچه کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_KAMANCHEH	SEC_HERO_OVERVIEW	NONE
+اموزش کمانچه کرج	آموزش کمانچه کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_KAMANCHEH	SEC_HERO_OVERVIEW	ORTHO_VARIANT_NO_MADDAH
+کلاس کمانچه کرج	کلاس کمانچه کرج	COURSE_ENROLLMENT	awareness	KARAJ	E_CRS_KAMANCHEH	SEC_HERO_OVERVIEW	NONE
+استاد کمانچه در کرج	استاد کمانچه در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_KAMANCHEH	SEC_INSTRUCTOR_ROSTER	NONE
+استاد کمانچه کرج	استاد کمانچه کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_KAMANCHEH	SEC_INSTRUCTOR_ROSTER	NONE
+بهترین استاد کمانچه در کرج	بهترین استاد کمانچه در کرج	INSTRUCTOR_SEEKING	consideration	KARAJ	E_CRS_KAMANCHEH	SEC_INSTRUCTOR_ROSTER	NONE

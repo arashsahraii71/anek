@@ -1,0 +1,607 @@
+{
+  "generated_at": "2026-10-21T22:18:40Z",
+  "phase": "PHASE_4_PART_A",
+  "direction": "rtl",
+  "language": "fa",
+  "skip_link_fa": "پرش به محتوای اصلی",
+  "desktop_mega_menu": [
+    {
+      "pillar_id": "NAV_MUSIC",
+      "label_fa": "دانشکده موسیقی",
+      "href": "/music/",
+      "type": "mega_dropdown_3_columns",
+      "columns": [
+        {
+          "title_fa": "سازهای کلاسیک و جهانی",
+          "items": [
+            {
+              "label_fa": "کلاس پیانو",
+              "href": "/music/piano/"
+            },
+            {
+              "label_fa": "کلاس گیتار (کلاسیک، پاپ و الکتریک)",
+              "href": "/music/guitar/"
+            },
+            {
+              "label_fa": "کلاس ویولن و ویولن سل",
+              "href": "/music/violin/"
+            },
+            {
+              "label_fa": "کلاس آموزش فلوت، پن‌فلوت و فلوت لاکوتا",
+              "href": "/music/flute/"
+            },
+            {
+              "label_fa": "کلاس آموزش ارگ و کیبورد",
+              "href": "/music/keyboard-organ/"
+            }
+          ]
+        },
+        {
+          "title_fa": "سازهای اصیل ایرانی و کوبه‌ای",
+          "items": [
+            {
+              "label_fa": "کلاس آموزش تار و سه‌تار",
+              "href": "/music/tar-setar/"
+            },
+            {
+              "label_fa": "کلاس سنتور",
+              "href": "/music/santoor/"
+            },
+            {
+              "label_fa": "کلاس کمانچه",
+              "href": "/music/kamancheh/"
+            },
+            {
+              "label_fa": "کلاس تنبور",
+              "href": "/music/tanbour/"
+            },
+            {
+              "label_fa": "کلاس تنبک",
+              "href": "/music/tonbak/"
+            },
+            {
+              "label_fa": "کلاس آموزش دف و دف‌زنی",
+              "href": "/music/daf/"
+            },
+            {
+              "label_fa": "کلاس هنگ‌درام",
+              "href": "/music/hang-drum/"
+            }
+          ]
+        },
+        {
+          "title_fa": "آواز، موسیقی کودک و تئوری",
+          "items": [
+            {
+              "label_fa": "کلاس آموزش آواز و خوانندگی",
+              "href": "/music/vocals/"
+            },
+            {
+              "label_fa": "آموزشگاه و کلاس موسیقی کودک (ارف)",
+              "href": "/music/kids/"
+            },
+            {
+              "label_fa": "تئوری موسیقی و سلفژ",
+              "href": "/music/#music-theory"
+            }
+          ]
+        }
+      ],
+      "footer_cta": {
+        "label_fa": "مقایسه شهریه همه سازها",
+        "href": "/music/#tuition"
+      }
+    },
+    {
+      "pillar_id": "NAV_PERFORMING",
+      "label_fa": "بازیگری، فن بیان و گویندگی",
+      "href": "/performing-arts/",
+      "type": "dropdown",
+      "items": [
+        {
+          "label_fa": "کلاس بازیگری سینما و تئاتر",
+          "href": "/performing-arts/acting/"
+        },
+        {
+          "label_fa": "کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان",
+          "href": "/performing-arts/kids-acting-drama/"
+        },
+        {
+          "label_fa": "کلاس آموزش فن بیان، سخنوری و مجری‌گری",
+          "href": "/performing-arts/public-speaking/"
+        },
+        {
+          "label_fa": "کلاس آموزش گویندگی، دوبلاژ و دوبلوری",
+          "href": "/performing-arts/voice-acting-dubbing/"
+        }
+      ],
+      "cta_pill": {
+        "label_fa": "ثبت‌نام تست بازیگری در کرج",
+        "href": "/acting-audition/",
+        "badge_fa": "تعیین سطح رایگان"
+      }
+    },
+    {
+      "pillar_id": "NAV_CINEMA",
+      "label_fa": "سینما، عکاسی، تدوین و گریم",
+      "href": "/cinema-media/",
+      "type": "dropdown",
+      "items": [
+        {
+          "label_fa": "کلاس آموزش عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل",
+          "href": "/cinema-media/photography/"
+        },
+        {
+          "label_fa": "کلاس آموزش تدوین فیلم و ادیت حرفه‌ای",
+          "href": "/cinema-media/film-editing/"
+        },
+        {
+          "label_fa": "کلاس آموزش کارگردانی سینما و فیلمنامه‌نویسی",
+          "href": "/cinema-media/directing-screenwriting/"
+        },
+        {
+          "label_fa": "کلاس آموزش گریم سینمایی، میکاپ و گریم کودک",
+          "href": "/cinema-media/cinematic-makeup/"
+        }
+      ]
+    },
+    {
+      "pillar_id": "NAV_VISUAL",
+      "label_fa": "نقاشی و خوشنویسی",
+      "href": "/visual-arts/",
+      "type": "dropdown",
+      "items": [
+        {
+          "label_fa": "کلاس آموزش طراحی و نقاشی حرفه‌ای",
+          "href": "/visual-arts/drawing-painting/"
+        },
+        {
+          "label_fa": "کلاس آموزش خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان)",
+          "href": "/visual-arts/calligraphy/"
+        }
+      ]
+    },
+    {
+      "pillar_id": "NAV_CAFE",
+      "label_fa": "کافه هنر و موسیقی زنده",
+      "href": "/art-cafe/",
+      "type": "highlighted_badge_link",
+      "badge_fa": "اجرای زنده",
+      "icon": "live-music",
+      "highlight_theme": "art_cafe_dark",
+      "description_fa": "کافه پیانو، گیتار، سنتور، سه‌تار و ارگ در کرج"
+    },
+    {
+      "pillar_id": "NAV_INSTRUCTORS_TUITION",
+      "label_fa": "اساتید و شهریه",
+      "href": "/instructors/",
+      "type": "dropdown",
+      "items": [
+        {
+          "label_fa": "اساتید آموزشگاه",
+          "href": "/instructors/"
+        },
+        {
+          "label_fa": "اساتید خانم",
+          "href": "/instructors/#female-teachers"
+        },
+        {
+          "label_fa": "شهریه دوره‌های موسیقی",
+          "href": "/music/#tuition"
+        },
+        {
+          "label_fa": "شهریه بازیگری و فن بیان",
+          "href": "/performing-arts/#tuition"
+        },
+        {
+          "label_fa": "شهریه سینما، عکاسی و گریم",
+          "href": "/cinema-media/#tuition"
+        },
+        {
+          "label_fa": "شهریه نقاشی و خوشنویسی",
+          "href": "/visual-arts/#tuition"
+        }
+      ]
+    },
+    {
+      "pillar_id": "NAV_FARDIS_CONTACT",
+      "label_fa": "فردیس و تماس",
+      "href": "/contact/",
+      "type": "dropdown",
+      "items": [
+        {
+          "label_fa": "هنرجویان فردیس کرج",
+          "href": "/fardis-branch/"
+        },
+        {
+          "label_fa": "آدرس و مسیر دسترسی",
+          "href": "/contact/#campus-map"
+        },
+        {
+          "label_fa": "ساعات کاری",
+          "href": "/contact/#hours"
+        },
+        {
+          "label_fa": "تماس و واتساپ",
+          "href": "/contact/#channels"
+        }
+      ]
+    }
+  ],
+  "mobile_sticky_conversion_bar": {
+    "breakpoint": "max-width: 768px",
+    "position": "fixed bottom, inset-inline: 0, safe-area-inset-bottom aware",
+    "actions": [
+      {
+        "id": "MB_CONSULT",
+        "label_fa": "مشاوره و تعیین سطح",
+        "icon": "calendar-check",
+        "action": "open_dialog",
+        "target": "#consult-dialog",
+        "style": "primary"
+      },
+      {
+        "id": "MB_CALL",
+        "label_fa": "تماس فوری",
+        "icon": "phone",
+        "action": "tel",
+        "href": "tel:+982632205016"
+      },
+      {
+        "id": "MB_WHATSAPP",
+        "label_fa": "واتساپ آموزشگاه",
+        "icon": "whatsapp",
+        "action": "external",
+        "href": "https://wa.me/989125728170",
+        "rel": "noopener"
+      },
+      {
+        "id": "MB_CONTEXT",
+        "label_fa": "متغیر بر اساس صفحه",
+        "icon": "context",
+        "action": "context_aware",
+        "rules": [
+          {
+            "when_url_matches": [
+              "/art-cafe/",
+              "/music/*"
+            ],
+            "label_fa": "رزرو میز کافه موسیقی",
+            "href": "/art-cafe/#reservation"
+          },
+          {
+            "when_url_matches": [
+              "/performing-arts/*",
+              "/acting-audition/"
+            ],
+            "label_fa": "ثبت‌نام تست بازیگری",
+            "href": "/acting-audition/#booking"
+          },
+          {
+            "when_url_matches": [
+              "*"
+            ],
+            "label_fa": "رزرو جلسه رایگان",
+            "href": "/contact/#channels"
+          }
+        ],
+        "implementation_note": "قانون‌ها به‌صورت data-attribute در HTML هر صفحه نوشته می‌شوند؛ هیچ تشخیص سمت کلاینت پرهزینه‌ای لازم نیست."
+      }
+    ]
+  },
+  "mobile_drawer": {
+    "type": "accordion_rtl",
+    "trigger_aria_label_fa": "باز کردن منوی اصلی",
+    "close_aria_label_fa": "بستن منو",
+    "mirrors": "desktop_mega_menu"
+  },
+  "breadcrumbs": {
+    "enabled": true,
+    "separator": "›",
+    "direction": "rtl",
+    "home_label_fa": "خانه",
+    "schema": "BreadcrumbList"
+  },
+  "contextual_cross_silo_bridges": [
+    {
+      "bridge_id": "BRIDGE_CAFE_CRS_PIANO",
+      "type": "COURSE_TO_CAFE",
+      "from": "/music/piano/",
+      "to": "/art-cafe/#cafe-piano",
+      "anchor_text_fa": "شب‌های اجرای زنده پیانو در کافه هنر آنک",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "یادگیری پیانو از صفر تا اجرای صحنه"
+    },
+    {
+      "bridge_id": "BRIDGE_CAFE_CRS_GUITAR",
+      "type": "COURSE_TO_CAFE",
+      "from": "/music/guitar/",
+      "to": "/art-cafe/#cafe-guitar",
+      "anchor_text_fa": "شب‌های اجرای زنده گیتار در کافه هنر آنک",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "یادگیری گیتار از صفر تا اجرای صحنه"
+    },
+    {
+      "bridge_id": "BRIDGE_CAFE_CRS_SANTOOR",
+      "type": "COURSE_TO_CAFE",
+      "from": "/music/santoor/",
+      "to": "/art-cafe/#cafe-santoor",
+      "anchor_text_fa": "شب‌های اجرای زنده سنتور در کافه هنر آنک",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "یادگیری سنتور از صفر تا اجرای صحنه"
+    },
+    {
+      "bridge_id": "BRIDGE_CAFE_CRS_TAR_SETAR",
+      "type": "COURSE_TO_CAFE",
+      "from": "/music/tar-setar/",
+      "to": "/art-cafe/#cafe-setar",
+      "anchor_text_fa": "شب‌های اجرای زنده سه تار در کافه هنر آنک",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "یادگیری سه تار از صفر تا اجرای صحنه"
+    },
+    {
+      "bridge_id": "BRIDGE_CAFE_CRS_ORGAN",
+      "type": "COURSE_TO_CAFE",
+      "from": "/music/keyboard-organ/",
+      "to": "/art-cafe/#cafe-organ",
+      "anchor_text_fa": "شب‌های اجرای زنده ارگ در کافه هنر آنک",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "یادگیری ارگ از صفر تا اجرای صحنه"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_music",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/music/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس موسیقی در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_music_kids",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/music/kids/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "آموزشگاه موسیقی کودک کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_music_vocals",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/music/vocals/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس آواز در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_performing-arts_acting",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/performing-arts/acting/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس بازیگری در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_performing-arts_public-speaking",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/performing-arts/public-speaking/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس فن بیان در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_performing-arts_voice-acting-dubbing",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/performing-arts/voice-acting-dubbing/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس گویندگی در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_FARDIS_visual-arts_calligraphy",
+      "type": "COURSE_TO_FARDIS",
+      "from": "/visual-arts/calligraphy/",
+      "to": "/fardis-branch/",
+      "anchor_text_fa": "دسترسی هنرجویان فردیس کرج",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس خوشنویسی در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_AUDITION_performing-arts_acting",
+      "type": "COURSE_TO_AUDITION",
+      "from": "/performing-arts/acting/",
+      "to": "/acting-audition/",
+      "anchor_text_fa": "تست بازیگری و تعیین سطح رایگان",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس بازیگری در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_AUDITION_performing-arts_kids-acting-drama",
+      "type": "COURSE_TO_AUDITION",
+      "from": "/performing-arts/kids-acting-drama/",
+      "to": "/acting-audition/",
+      "anchor_text_fa": "تست بازیگری و تعیین سطح رایگان",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "کلاس بازیگری کودکان در کرج"
+    },
+    {
+      "bridge_id": "BRIDGE_AUDITION_performing-arts",
+      "type": "COURSE_TO_AUDITION",
+      "from": "/performing-arts/",
+      "to": "/acting-audition/",
+      "anchor_text_fa": "تست بازیگری و تعیین سطح رایگان",
+      "bidirectional": true,
+      "reverse_anchor_text_fa": "آموزشگاه بازیگری، فن بیان و گویندگی در کرج"
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title_fa": "دانشکده موسیقی",
+        "items": [
+          {
+            "label_fa": "پیانو",
+            "href": "/music/piano/"
+          },
+          {
+            "label_fa": "گیتار (کلاسیک، پاپ و الکتریک)",
+            "href": "/music/guitar/"
+          },
+          {
+            "label_fa": "ویولن و ویولن سل",
+            "href": "/music/violin/"
+          },
+          {
+            "label_fa": "کلاس آموزش آواز و خوانندگی",
+            "href": "/music/vocals/"
+          },
+          {
+            "label_fa": "کلاس آموزش تار و سه‌تار",
+            "href": "/music/tar-setar/"
+          },
+          {
+            "label_fa": "سنتور",
+            "href": "/music/santoor/"
+          },
+          {
+            "label_fa": "تنبک",
+            "href": "/music/tonbak/"
+          },
+          {
+            "label_fa": "کلاس آموزش دف و دف‌زنی",
+            "href": "/music/daf/"
+          },
+          {
+            "label_fa": "کمانچه",
+            "href": "/music/kamancheh/"
+          },
+          {
+            "label_fa": "تنبور",
+            "href": "/music/tanbour/"
+          },
+          {
+            "label_fa": "کلاس آموزش فلوت، پن‌فلوت و فلوت لاکوتا",
+            "href": "/music/flute/"
+          },
+          {
+            "label_fa": "هنگ‌درام",
+            "href": "/music/hang-drum/"
+          },
+          {
+            "label_fa": "کلاس آموزش ارگ و کیبورد",
+            "href": "/music/keyboard-organ/"
+          },
+          {
+            "label_fa": "آموزشگاه و کلاس موسیقی کودک (ارف)",
+            "href": "/music/kids/"
+          }
+        ]
+      },
+      {
+        "title_fa": "بازیگری و سینما",
+        "items": [
+          {
+            "label_fa": "بازیگری سینما و تئاتر",
+            "href": "/performing-arts/acting/"
+          },
+          {
+            "label_fa": "کلاس بازیگری، تئاتر و نمایش خلاق کودکان و نوجوانان",
+            "href": "/performing-arts/kids-acting-drama/"
+          },
+          {
+            "label_fa": "کلاس آموزش فن بیان، سخنوری و مجری‌گری",
+            "href": "/performing-arts/public-speaking/"
+          },
+          {
+            "label_fa": "کلاس آموزش گویندگی، دوبلاژ و دوبلوری",
+            "href": "/performing-arts/voice-acting-dubbing/"
+          },
+          {
+            "label_fa": "کلاس آموزش عکاسی حرفه‌ای، فیلمبرداری و عکاسی با موبایل",
+            "href": "/cinema-media/photography/"
+          },
+          {
+            "label_fa": "کلاس آموزش تدوین فیلم و ادیت حرفه‌ای",
+            "href": "/cinema-media/film-editing/"
+          },
+          {
+            "label_fa": "کلاس آموزش کارگردانی سینما و فیلمنامه‌نویسی",
+            "href": "/cinema-media/directing-screenwriting/"
+          },
+          {
+            "label_fa": "کلاس آموزش گریم سینمایی، میکاپ و گریم کودک",
+            "href": "/cinema-media/cinematic-makeup/"
+          }
+        ]
+      },
+      {
+        "title_fa": "هنرهای تجسمی و کافه",
+        "items": [
+          {
+            "label_fa": "کلاس آموزش طراحی و نقاشی حرفه‌ای",
+            "href": "/visual-arts/drawing-painting/"
+          },
+          {
+            "label_fa": "کلاس آموزش خوشنویسی (نستعلیق، خط تحریری با خودکار و کودکان)",
+            "href": "/visual-arts/calligraphy/"
+          },
+          {
+            "label_fa": "کافه هنر و موسیقی زنده",
+            "href": "/art-cafe/"
+          },
+          {
+            "label_fa": "تست بازیگری",
+            "href": "/acting-audition/"
+          }
+        ]
+      },
+      {
+        "title_fa": "آموزشگاه",
+        "items": [
+          {
+            "label_fa": "اساتید",
+            "href": "/instructors/"
+          },
+          {
+            "label_fa": "هنرجویان فردیس",
+            "href": "/fardis-branch/"
+          },
+          {
+            "label_fa": "آدرس و تماس",
+            "href": "/contact/"
+          },
+          {
+            "label_fa": "ساعات کاری",
+            "href": "/contact/#hours"
+          }
+        ]
+      }
+    ],
+    "nap_block": {
+      "brand_fa": "آموزشگاه سینمایی و بازیگری آنک",
+      "address_fa": "کرج، شاه عباسی، خیابان دانشکده جنوبی، روبروی کتابخانه امیرکبیر، بن‌بست کیهان، آموزشگاه سینمایی آنک",
+      "phone_display": "026-32205016",
+      "phone_e164": "+982632205016",
+      "opening_hours": "همه‌روزه از ساعت ۱۰:۰۰ صبح تا ۲۰:۰۰ شب (پاسخگویی روزهای تعطیل در واتساپ و تلگرام)",
+      "postal_code": "31417",
+      "license_fa": "دارای مجوز رسمی از وزارت فرهنگ و ارشاد اسلامی و ثبت در اداره آموزش فنی و حرفه‌ای",
+      "instagram": "https://instagram.com/aanak.94",
+      "whatsapp": "https://wa.me/989125728170",
+      "email": "arashsahraii71@gmail.com"
+    },
+    "service_area_fa": "خدمات‌دهی به کرج، فردیس، تهران، قم، ملارد",
+    "copyright_fa": "© آموزشگاه سینمایی و بازیگری آنک — همه حقوق محفوظ است."
+  },
+  "reachability": {
+    "total_pages": 34,
+    "pages_within_2_clicks": 34,
+    "max_click_depth": 1,
+    "all_pages_in_nav_or_footer": true,
+    "unreachable_from_nav": []
+  }
+}

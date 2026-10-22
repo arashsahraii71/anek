@@ -68,6 +68,51 @@ MAX_QUOTA_PER_KEY = 2450
 
 SERPER_API_KEYS = []
 
+# ------------------------------------------------------------------------------
+# NETWORK EGRESS GUARD (added for restricted/offline execution environments)
+# ------------------------------------------------------------------------------
+# When the host running this collector cannot reach google.serper.dev (corporate
+# proxy, air-gapped CI, sandbox egress allow-list), we MUST NOT silently burn
+# 3 retries x N keywords, and we MUST NOT invent SERP data.
+# Instead we probe once, flip to NO_LIVE_SERP mode, and emit a matrix that is
+# explicitly flagged as "no empirical SERP evidence" so that Phase 0/1/2
+# fall back to deterministic Persian-stem rules instead of trusting empty data.
+PROBE_TIMEOUT = 8.0
+SERP_EVIDENCE_MODE = "LIVE_SERP"  # or "NO_LIVE_SERP_EGRESS_BLOCKED"
+
+
+async def probe_serper_reachable(client: httpx.AsyncClient, key_mgr: "SerperKeyManager") -> bool:
+    """Single cheap probe to decide between LIVE and NO_LIVE_SERP mode."""
+    if os.getenv("FORCE_OFFLINE_SERP", "").strip() == "1":
+        logger.warning("FORCE_OFFLINE_SERP=1 set -> skipping live Serper calls.")
+        return False
+    try:
+        key = await key_mgr.get_active_key()
+    except RuntimeError as e:
+        logger.critical(str(e))
+        return False
+    try:
+        resp = await client.post(
+            "https://google.serper.dev/search",
+            headers={"X-API-KEY": key, "Content-Type": "application/json"},
+            json={"q": "تست اتصال", "gl": "ir", "hl": "fa", "num": 10},
+            timeout=PROBE_TIMEOUT,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            await key_mgr.record_usage(key, data.get("credits", 1))
+            logger.info("Serper reachability probe: OK (live SERP mode).")
+            return True
+        if resp.status_code in (401, 403):
+            await key_mgr.mark_exhausted(key, reason=f"probe HTTP {resp.status_code}")
+            logger.warning(f"Serper probe rejected key (HTTP {resp.status_code}).")
+            return False
+        logger.warning(f"Serper probe returned HTTP {resp.status_code}.")
+        return False
+    except Exception as e:
+        logger.error(f"Serper probe FAILED (network egress blocked?): {type(e).__name__}: {e}")
+        return False
+
 # ==============================================================================
 # 1. SERPER API KEY ROTATION MANAGER (2450 QUOTA PERSISTENCE)
 # ==============================================================================
@@ -698,14 +743,22 @@ def analyze_cluster_overlap(cluster_id: str, kw_serps: dict, dom_cache: dict) ->
     }
 
     # Discover Competitor Blind Spots
+    # (Only meaningful when we actually scraped live winners; with zero evidence
+    #  an "absence" is not a blind spot, it is simply unknown.)
     blind_spots = []
-    if consensus_stats["pct_with_table"] < 40:
+    has_evidence = len(valid_top5) > 0
+    if not has_evidence:
+        blind_spots.append(
+            "NO_LIVE_SERP_EVIDENCE: competitor blind-spot detection skipped "
+            "(no Top-20 SERP data could be collected in this environment)."
+        )
+    if has_evidence and consensus_stats["pct_with_table"] < 40:
         blind_spots.append("Competitors omit structured <table> elements. Adding an HTML table provides an immediate Information Gain signal.")
-    if consensus_stats["pct_with_tel_link"] < 50:
+    if has_evidence and consensus_stats["pct_with_tel_link"] < 50:
         blind_spots.append("Fewer than half of top competitors have direct tel: action links above the fold.")
-    if consensus_stats["pct_with_whatsapp_link"] < 40:
+    if has_evidence and consensus_stats["pct_with_whatsapp_link"] < 40:
         blind_spots.append("Competitors lack direct WhatsApp conversion triggers.")
-    if consensus_stats["pct_with_video"] < 30:
+    if has_evidence and consensus_stats["pct_with_video"] < 30:
         blind_spots.append("Zero or few top competitors embed real <video> elements.")
 
     merge_evidence = []
@@ -776,6 +829,8 @@ def analyze_cluster_overlap(cluster_id: str, kw_serps: dict, dom_cache: dict) ->
         "cluster_id": cluster_id,
         "main_seed_keyword": seed_kw,
         "total_keywords_in_cluster": len(keywords),
+        "keywords_in_cluster": keywords,
+        "live_serp_evidence_available": has_evidence,
         "sub_keyword_top10_overlap_pct": sub_kw_overlap,
         "serp_consensus_statistics": consensus_stats,
         "top_5_omni_winner_urls": top_records[:5],
@@ -819,8 +874,26 @@ async def main():
         except Exception as e:
             logger.warning(f"Error reading SERP cache: {e}. Starting fresh.")
 
+    global SERP_EVIDENCE_MODE
     async with httpx.AsyncClient(verify=False, limits=httpx.Limits(max_keepalive_connections=20, max_connections=50)) as client:
         pending_kws = [k for k in raw_keywords if k not in serp_cache]
+
+        live_ok = True
+        if pending_kws:
+            live_ok = await probe_serper_reachable(client, key_mgr)
+            if not live_ok:
+                SERP_EVIDENCE_MODE = "NO_LIVE_SERP_EGRESS_BLOCKED"
+                logger.warning("=" * 78)
+                logger.warning("[!] LIVE SERP COLLECTION UNAVAILABLE IN THIS ENVIRONMENT.")
+                logger.warning("    google.serper.dev is not reachable from this host.")
+                logger.warning("    -> Skipping %d Serper queries and competitor DOM X-ray.", len(pending_kws))
+                logger.warning("    -> NO SERP data will be invented. The matrix will be emitted with")
+                logger.warning("       serp_evidence_mode=NO_LIVE_SERP_EGRESS_BLOCKED so Phase 0-2 fall back")
+                logger.warning("       to deterministic Persian-stem clustering rules.")
+                logger.warning("    -> Re-run this script on a host with egress to google.serper.dev to")
+                logger.warning("       populate real Top-20 evidence (caches are resumable).")
+                logger.warning("=" * 78)
+                pending_kws = []
 
         if pending_kws:
             logger.info(f"Fetching SERP Top-20 for {len(pending_kws)} pending queries...")
@@ -867,7 +940,7 @@ async def main():
             except Exception as e:
                 logger.warning(f"Error reading DOM cache: {e}.")
 
-        urls_to_scrape = [u for u in unique_urls if u not in dom_cache]
+        urls_to_scrape = [u for u in unique_urls if u not in dom_cache] if live_ok else []
         if urls_to_scrape:
             logger.info(f"Starting Pure HTML DOM Inspection on {len(urls_to_scrape)} URLs (Concurrency: {CONCURRENT_DOM_SCRAPERS})...")
             sem = asyncio.Semaphore(CONCURRENT_DOM_SCRAPERS)
@@ -905,6 +978,13 @@ async def main():
 
     final_matrix = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "serp_evidence_mode": SERP_EVIDENCE_MODE,
+        "live_serp_queries_collected": sum(1 for k in raw_keywords if serp_cache.get(k)),
+        "downstream_directive": (
+            "USE_DETERMINISTIC_PERSIAN_STEM_RULES"
+            if SERP_EVIDENCE_MODE != "LIVE_SERP"
+            else "USE_EMPIRICAL_SERP_OVERLAP"
+        ),
         "academy_brand": "آموزشگاه سینمایی، بازیگری و موسیقی آنک - کرج",
         "primary_city": "کرج",
         "total_keywords_analyzed": len(raw_keywords),
